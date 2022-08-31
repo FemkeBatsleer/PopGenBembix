@@ -1,0 +1,283 @@
+---
+title: "Isolation By Distance"
+author: "Femke Batsleer"
+date: "15-2-2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Loading packages and data
+
+```{r packages, message=FALSE, warning=FALSE}
+library("dplyr")
+library("tidyr")
+library("tidyverse")
+library("adegenet")
+library("adespatial")
+library("spdep")
+library("poppr")
+library("hierfstat")
+library("diveRsity")
+library("graph4lg")
+library("miscTools")
+library("stringr")
+library("RColorBrewer")
+library("MASS")
+library("reshape2")
+library("foreign")
+library("scales")
+library("car")
+```
+
+## Loading data
+
+data from France and Wallonia is left out, as these more distant pops are not sampled on a level of whole landscape-coverage. IBD says less when not most of in-between pops are representatively sampled.
+
+```{r data}
+data_genind <- readRDS("../data/genind/genind_pop.RDS") %>%
+  popsub(exclude=c("Sangatte", "Slack", "Mt St Frieux", "Harchies","Lagland"))
+metadatapop <- read.dbf("../data/GIS/Population_centroids_selection_collapsedyear.dbf") %>%
+  filter(!Population %in% c("Sangatte", "Slack", "Mt St Frieux", "Harchies","Lagland"))
+```
+
+
+## Plots for isolation by distance (IBD)
+
+good to read through: https://adegenet.r-forge.r-project.org/files/tutorial-basics.pdf  
+
+
+```{r}
+#with adegenet
+#make sure Dgen and Dgeo are in the same order
+metadatapop_order <- data.frame(genorder = popNames(data_genind)) %>%
+  left_join(metadatapop, by=c("genorder"="Population")) %>%
+  mutate(genorder = gsub('\\ ', "", genorder))
+
+nrow(metadatapop_order) == length(popNames(data_genind))
+
+#coordinates populations and distance calculations
+coords_df <- dplyr::select(metadatapop_order, genorder, MEAN_X, MEAN_Y) %>%
+  column_to_rownames("genorder")
+Dgeo <- dist(coords_df, method="euclidian") #distances in matrix format
+# 
+# distances in dataframe format
+Dgeo_df <- melt(as.matrix(Dgeo, labels=T), varnames = c("row", "col")) %>%
+  rename('value_geo' = 'value') %>%
+  mutate(row= as.character(row), col = as.character(col))  %>%
+  mutate(row = gsub('\\ ', "", row), col = gsub('\\ ', "", col))
+
+##Neis genetic distance
+Nei_df <- read.csv("../3 - Pop stats and gen dist/Neisgeneticdistance_hierfstat.csv") %>%
+  mutate(pop1 = gsub("\\ ", "", pop1), pop2 = gsub("\\ ", "", pop2))
+
+Dnei_df <- Dgeo_df %>% left_join(Nei_df %>% dplyr::select(-X_1, -X_2, -X), by=c("row"= "pop1", "col"="pop2")) %>%
+  filter(value_geo >0)#delete diagonal values
+
+# add/join regions etc to be able to plot separately
+Dfst_numbers <- Dnei_df %>% left_join(metadatapop_order, by=c("row"="genorder")) %>% #add and rename first of pairwise region
+  rename("row_npop" = "Number_pop") %>%
+  left_join(metadatapop_order, by=c("col"="genorder")) %>% #add and rename second of pairwise region
+  rename("col_npop" = "Number_pop") %>%
+  #give names to pairwise values (inland=pairwise within inland region, coastal=pairwise within coast & between=pairwise between coast and inland)
+  mutate(region = ifelse(row_npop > 40 & col_npop > 40, "inland",
+                                              ifelse(row_npop <= 40 & col_npop <= 40, "coastal", "between")))
+
+#rearrange order of region to get inland (less points) on top of coastal
+coastalinland_df <- Dfst_numbers[order(as.numeric(factor(Dfst_numbers$region))),] %>%
+  dplyr::filter(region!="between")
+
+ibd_coastalinland <- ggplot(coastalinland_df,
+                            aes(x=value_geo/1000, y=actual, col=region)) +
+  geom_point() +
+  ylab(expression(D[S])) + xlab("pairwise dist (km)") +
+  geom_smooth(method = "lm", se = F) +
+  scale_color_manual(values = c("coastal" = "#dfc27d", "inland" = "#80cdc1")) +
+  theme_bw()
+ibd_coastalinland
+```
+
+
+## Permutation tests to check if slopes and intercepts are different
+
+```{r}
+library(lmPerm)
+#dataset to be used
+permdata <- coastalinland_df %>% dplyr::select(value_geo, actual, Region2.x, Region.x, Region2.y, Region.y) %>%
+  mutate(dist = value_geo/1000) #%>% #distance in m
+  #mutate(dist_resc = rescale(dist, to=c(0,1)), actual_resc = rescale(actual, to=c(0,1)))
+
+perm.model <- lmp(formula = actual~dist*Region2.x, data=permdata, perm="Prob", maxIter=10000, check_contrasts=F)
+summary(perm.model)
+Anova(perm.model, type=3)
+```
+
+
+## RDA analysis
+
+Ideas from following:
+https://www.scielo.br/j/gmb/a/kRQX63dHrC9m7xVnSxCfVqd/?format=pdf&lang=en : here they select PCA-axes according to broken-stick criterion. We use all axes. With selection, there would be inflation of R2 compared to real R2 & then you are only able to use relatively.  
+
+Other ideas/options:  
+** https://popgen.nescent.org/2018-03-27_RDA_GEA.html #not for distance (environmental variables only)
+
+** https://bio-protocol.org/bio101/r10202477 : links pairwise Fst to geographical distances: PCNM to transform matrix of geographical distance into vectors
+
+** slightly different option: supporting info in Meirmans (2015) https://onlinelibrary.wiley.com/doi/10.1111/mec.13243 for r-script: links allele frequencies to polynomials of spatial coordinates.  
+
+### RDA on complete dataset
+
+```{r}
+library(vegan)
+
+#first, get distances (geographic/euclidian distances and genetic distances) into matrix-format
+##geographic distances
+geodist.df <-  Dgeo_df %>% left_join(Nei_df %>% dplyr::select(-X_1, -X_2, -X), by=c("row"= "pop1", "col"="pop2")) %>%
+  mutate(value_geo = value_geo/1000) %>%
+  dplyr::select(row, col, value_geo) %>% arrange(row, col) %>%
+  pivot_wider(names_from = col, values_from = value_geo) %>%
+  column_to_rownames(var = "row")
+geodist.m <- as.dist(geodist.df, diag=T)
+##genetic distances
+gendist.df <- Dgeo_df %>% left_join(Nei_df %>% dplyr::select(-X_1, -X_2, -X), by=c("row"= "pop1", "col"="pop2")) %>%
+  dplyr::select(row, col, actual) %>% arrange(row, col) %>%
+  pivot_wider(names_from = col, values_from = actual) %>%
+  column_to_rownames(var = "row")
+gendist.m <- as.dist(gendist.df, diag=T)
+
+###RDA on full dataset####
+#dbRDA: PCoA on genetic distances, link this with spatial coordinates in rda
+pcoa_nei <- wcmdscale(gendist.m, eig=T)
+
+#retain all axes
+eig_resp <- pcoa_nei$points
+
+#put them in dataframe together to get focal coordinates correct
+coords_df_pop <- coords_df %>% rownames_to_column(var = "Population")
+data_rda <- data.frame(eig_resp) %>% rownames_to_column(var = "Population") %>% full_join(coords_df_pop, by="Population")
+nrow(data_rda) == nrow(coords_df_pop)
+eig_resp <- dplyr::select(data_rda, Dim1:Dim9)
+coords_var <- dplyr::select(data_rda, MEAN_X, MEAN_Y)
+
+#perform RDA with response eigenvectors from PCoA on Nei's genetic distance and explanatory variables coordinates
+nei_rda <- rda(eig_resp ~ ., data= coords_var)
+nei_rda$tot.chi
+nei_test <- anova.cca(nei_rda, step=1000)
+nei_test
+
+RsquareAdj(nei_rda)
+```
+
+
+### RDA on coast and inland separately
+
+
+```{r}
+#get nei-matrix for coast and inland
+##coast
+coast_pop <- metadatapop_order %>% filter(Region == 'Flanders-coast') %>% dplyr::select(genorder)
+coast_pop.v <- as.vector(coast_pop$genorder)
+
+geodist_coast.df <- Dgeo_df %>% left_join(Nei_df %>% dplyr::select(-X_1, -X_2), by=c("row"= "pop1", "col"="pop2")) %>%
+  mutate(value_geo = value_geo/1000) %>%
+  filter(row %in% coast_pop.v) %>% filter(col %in% coast_pop.v) %>%
+  dplyr::select(row, col, value_geo) %>% arrange(row, col) %>%
+  pivot_wider(names_from = col, values_from = value_geo) %>%
+  column_to_rownames(var = "row")
+geodist_coast.m <- as.dist(geodist_coast.df, diag=T)
+
+gendist_coast.df <- Dgeo_df %>% left_join(Nei_df %>% dplyr::select(-X_1, -X_2), by=c("row"= "pop1", "col"="pop2")) %>%
+  filter(row %in% coast_pop.v) %>% filter(col %in% coast_pop.v) %>%
+  dplyr::select(row, col, actual) %>% arrange(row, col) %>%
+  pivot_wider(names_from = col, values_from = actual) %>%
+  column_to_rownames(var = "row")
+gendist_coast.m <- as.dist(gendist_coast.df, diag=T)
+
+##inland
+inland_pop <- metadatapop_order %>% filter(Region == 'Flanders-inland') %>% dplyr::select(genorder)
+inland_pop.v <- as.vector(inland_pop$genorder)
+
+geodist_inland.df <- Dgeo_df %>% left_join(Nei_df %>% dplyr::select(-X_1, -X_2), by=c("row"= "pop1", "col"="pop2")) %>%
+  mutate(value_geo = value_geo/1000) %>%
+  filter(row %in% inland_pop.v) %>% filter(col %in% inland_pop.v) %>%
+  dplyr::select(row, col, value_geo) %>% arrange(row, col) %>%
+  pivot_wider(names_from = col, values_from = value_geo) %>%
+  column_to_rownames(var = "row")
+geodist_inland.m <- as.dist(geodist_inland.df, diag=T)
+
+gendist_inland.df <- Dgeo_df %>% left_join(Nei_df %>% dplyr::select(-X_1, -X_2), by=c("row"= "pop1", "col"="pop2")) %>%
+  filter(row %in% inland_pop.v) %>% filter(col %in% inland_pop.v) %>%
+  dplyr::select(row, col, actual) %>% arrange(row, col) %>%
+  pivot_wider(names_from = col, values_from = actual) %>%
+  column_to_rownames(var = "row")
+gendist_inland.m <- as.dist(gendist_inland.df, diag=T)
+
+#consistency checks
+colnames(geodist_coast.df) == colnames(gendist_coast.df)
+rownames(geodist_coast.df) == rownames(gendist_coast.df)
+colnames(geodist_coast.df) == rownames(geodist_coast.df)
+
+#PCoA
+pcoa_nei_coast <- wcmdscale(gendist_coast.m, eig=T)
+pcoa_nei_inland <- wcmdscale(gendist_inland.m, eig=T)
+
+#retain all axes
+eig_resp_coast <- pcoa_nei_coast$points
+eig_resp_inland <- pcoa_nei_inland$points
+
+#put them in dataframe together to get focal coordinates correct
+data_rda_coast <- data.frame(eig_resp_coast) %>% rownames_to_column(var = "Population") %>% left_join(coords_df_pop, by="Population")
+eig_resp_coast <- dplyr::select(data_rda_coast, Dim1:Dim6)
+coords_var_coast <- dplyr::select(data_rda_coast, MEAN_X, MEAN_Y)
+
+data_rda_inland <- data.frame(eig_resp_inland) %>% rownames_to_column(var = "Population") %>% left_join(coords_df_pop, by="Population")
+eig_resp_inland <- dplyr::select(data_rda_inland, Dim1:Dim3)
+coords_var_inland <- dplyr::select(data_rda_inland, MEAN_X, MEAN_Y)
+
+#perform RDA with response eigenvectors from PCoA on nei and explanatory variables coordinates
+nei_rda_coast <- rda(eig_resp_coast ~ ., data= coords_var_coast)
+nei_rda_coast
+nei_rda_coast$tot.chi
+nei_test_coast <- anova.cca(nei_rda_coast, step=1000)
+nei_test_coast
+
+nei_rda_inland <- rda(eig_resp_inland ~ ., data= coords_var_inland)
+nei_rda_inland
+nei_rda_inland$tot.chi
+nei_test_inland <- anova.cca(nei_rda_inland, step=1000)
+nei_test_inland
+
+RsquareAdj(nei_rda_coast)
+RsquareAdj(nei_rda_inland)
+
+plot(nei_rda_coast)
+plot(nei_rda_inland)
+```
+
+
+
+## Mantel tests
+
+Just to check (see main manuscript and references therein for comments on Mantel tests).  
+Results are similar as with RDA.  
+
+```{r}
+#All populations
+all_mantel <- mantel.randtest(geodist.m, gendist.m, nrepet = 9999)
+all_mantel
+plot(all_mantel)
+
+#Coastal populations
+#mantel test
+coast_mantel <- mantel.randtest(geodist_coast.m, gendist_coast.m, nrepet = 9999)
+coast_mantel
+plot(coast_mantel)
+
+#Inland populations
+#mantel test
+inland_mantel <- mantel.randtest(geodist_inland.m, gendist_inland.m, nrepet = 9999)
+inland_mantel
+plot(inland_mantel)
+```

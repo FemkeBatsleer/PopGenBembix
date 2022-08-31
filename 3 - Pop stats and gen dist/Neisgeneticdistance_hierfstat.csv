@@ -1,0 +1,2810 @@
+"","pop1","pop2","actual","X_1","X_2"
+"1","Simliduinen","Simliduinen",0,25,25
+"2","Simliduinen","Cabour",0.0480793968294499,25,5
+"3","Simliduinen","Tropiflora",0.0383182980964305,25,7
+"4","Simliduinen","Westhoek vissersdorp",0.0435604963729653,25,8
+"5","Simliduinen","Geel-Bel",0.149053912433643,25,46
+"6","Simliduinen","Karthuizerduinen",0.0418787571765162,25,24
+"7","Simliduinen","Oostvoordduinen",0.0325402728023425,25,21
+"8","Simliduinen","Astridlaan",0.0268936014651288,25,19
+"9","Simliduinen","Wetteren",0.174615659668325,25,41
+"10","Simliduinen","Mt St Frieux",0.0998773926714744,25,1
+"11","Simliduinen","Sangatte",0.0665438145128733,25,3
+"12","Simliduinen","HB-Pylyserlaan",0.0487793013783417,25,16
+"13","Simliduinen","HB-Doornpanne",0.0357579192135156,25,14
+"14","Simliduinen","Witte Burg",0.0332800610236582,25,18
+"15","Simliduinen","Ter Yde IWVA",0.0316138390173711,25,23
+"16","Simliduinen","Veurne",0.046574388416946,25,6
+"17","Simliduinen","Slack",0.104422926218942,25,2
+"18","Simliduinen","HB-Noord",0.0476128783916755,25,13
+"19","Simliduinen","Belvedere",0.0484346896827757,25,12
+"20","Simliduinen","Westhoek NO",0.0428035156581648,25,9
+"21","Simliduinen","Westhoek Oost",0.0441747626713723,25,10
+"22","Simliduinen","Oosthoekduinen",0.0337944385136064,25,11
+"23","Simliduinen","Schipgatduinen",0.055965343850058,25,17
+"24","Simliduinen","HB-Oost",0.0555845105101972,25,15
+"25","Simliduinen","Zwinbosjes",0.11211172569844,25,38
+"26","Simliduinen","Ter Yde West",0.031807152399753,25,22
+"27","Simliduinen","Plaatsduinen",0.0344136836108533,25,20
+"28","Simliduinen","Westhoek Zuid",0.0476462001545038,25,4
+"29","Simliduinen","Kopberg",0.133338843910476,25,47
+"30","Simliduinen","Keiheuvel",0.22153131683896,25,48
+"31","Simliduinen","Kortenhoeff-NL",0.203528042098818,25,42
+"32","Simliduinen","Arendschot",0.206130318259632,25,45
+"33","Simliduinen","Kalmthout",0.15790878062085,25,43
+"34","Simliduinen","Hamont-Achel3",0.180483135453843,25,50
+"35","Simliduinen","Hamont-Achel2",0.249005995573932,25,49
+"36","Simliduinen","Hamont-Achel1",0.174201677012207,25,51
+"37","Simliduinen","Vloethemveld-Zuid",0.120489629480709,25,40
+"38","Simliduinen","Raversijde2",0.0669279834291452,25,30
+"39","Simliduinen","Vloethemveld-Noord",0.168226432153249,25,39
+"40","Simliduinen","DuinbossenDeHaan",0.0788530722911273,25,36
+"41","Simliduinen","Raversijde1",0.0896815975831605,25,29
+"42","Simliduinen","Raversijde3",0.0987827629197024,25,31
+"43","Simliduinen","Bredene",0.0874523898713718,25,35
+"44","Simliduinen","Fort Napoleon",0.057963291987993,25,33
+"45","Simliduinen","Averbode",0.103751313486567,25,44
+"46","Simliduinen","Sint-Laureins2",0.0678928286200116,25,27
+"47","Simliduinen","Sint-Laureins1",0.0720236333707624,25,26
+"48","Simliduinen","WarandeduinenMiddelkerke",0.0655428785047199,25,28
+"49","Simliduinen","Raversijde4",0.116336363527012,25,32
+"50","Simliduinen","SpanjaardduinenOostende",0.0752082263417726,25,34
+"51","Simliduinen","Zwinbosjes-grazed",0.139229793030427,25,37
+"52","Simliduinen","Harchies",0.233860311616729,25,52
+"53","Simliduinen","Lagland",0.208127441501717,25,53
+"54","Cabour","Simliduinen",0.0480793968294499,5,25
+"55","Cabour","Cabour",0,5,5
+"56","Cabour","Tropiflora",0.0569073720265681,5,7
+"57","Cabour","Westhoek vissersdorp",0.0407367888348926,5,8
+"58","Cabour","Geel-Bel",0.167102973370793,5,46
+"59","Cabour","Karthuizerduinen",0.0569801638858056,5,24
+"60","Cabour","Oostvoordduinen",0.0336294611643203,5,21
+"61","Cabour","Astridlaan",0.0353287754612256,5,19
+"62","Cabour","Wetteren",0.180502933253934,5,41
+"63","Cabour","Mt St Frieux",0.110073183188503,5,1
+"64","Cabour","Sangatte",0.0560079747660748,5,3
+"65","Cabour","HB-Pylyserlaan",0.0431588562730218,5,16
+"66","Cabour","HB-Doornpanne",0.0654712127486916,5,14
+"67","Cabour","Witte Burg",0.038930084448409,5,18
+"68","Cabour","Ter Yde IWVA",0.0519941587765012,5,23
+"69","Cabour","Veurne",0.0518201191248166,5,6
+"70","Cabour","Slack",0.100418733047565,5,2
+"71","Cabour","HB-Noord",0.0481191836280819,5,13
+"72","Cabour","Belvedere",0.0457203895012473,5,12
+"73","Cabour","Westhoek NO",0.0331411815642039,5,9
+"74","Cabour","Westhoek Oost",0.0440204933179312,5,10
+"75","Cabour","Oosthoekduinen",0.0334587279129011,5,11
+"76","Cabour","Schipgatduinen",0.0899350867982873,5,17
+"77","Cabour","HB-Oost",0.0510372049741857,5,15
+"78","Cabour","Zwinbosjes",0.127072522394418,5,38
+"79","Cabour","Ter Yde West",0.0449879027257005,5,22
+"80","Cabour","Plaatsduinen",0.0444497486837601,5,20
+"81","Cabour","Westhoek Zuid",0.0635336555313641,5,4
+"82","Cabour","Kopberg",0.147323123871884,5,47
+"83","Cabour","Keiheuvel",0.282574576997652,5,48
+"84","Cabour","Kortenhoeff-NL",0.261623632547761,5,42
+"85","Cabour","Arendschot",0.154127813431435,5,45
+"86","Cabour","Kalmthout",0.206710478791466,5,43
+"87","Cabour","Hamont-Achel3",0.200937518301883,5,50
+"88","Cabour","Hamont-Achel2",0.241168746635847,5,49
+"89","Cabour","Hamont-Achel1",0.218390662210162,5,51
+"90","Cabour","Vloethemveld-Zuid",0.107514457499433,5,40
+"91","Cabour","Raversijde2",0.0954353603255954,5,30
+"92","Cabour","Vloethemveld-Noord",0.151670194308034,5,39
+"93","Cabour","DuinbossenDeHaan",0.101522196133937,5,36
+"94","Cabour","Raversijde1",0.113918460750205,5,29
+"95","Cabour","Raversijde3",0.125144588962742,5,31
+"96","Cabour","Bredene",0.0805015720625163,5,35
+"97","Cabour","Fort Napoleon",0.0872260343251258,5,33
+"98","Cabour","Averbode",0.135186614802277,5,44
+"99","Cabour","Sint-Laureins2",0.0846000905596209,5,27
+"100","Cabour","Sint-Laureins1",0.0800730803822771,5,26
+"101","Cabour","WarandeduinenMiddelkerke",0.096059324161015,5,28
+"102","Cabour","Raversijde4",0.115084072287454,5,32
+"103","Cabour","SpanjaardduinenOostende",0.0945978604415949,5,34
+"104","Cabour","Zwinbosjes-grazed",0.140701750313299,5,37
+"105","Cabour","Harchies",0.305416489635286,5,52
+"106","Cabour","Lagland",0.206107165897174,5,53
+"107","Tropiflora","Simliduinen",0.0383182980964305,7,25
+"108","Tropiflora","Cabour",0.0569073720265681,7,5
+"109","Tropiflora","Tropiflora",0,7,7
+"110","Tropiflora","Westhoek vissersdorp",0.0335790456585401,7,8
+"111","Tropiflora","Geel-Bel",0.124034301763455,7,46
+"112","Tropiflora","Karthuizerduinen",0.0337719951058448,7,24
+"113","Tropiflora","Oostvoordduinen",0.0350842962198806,7,21
+"114","Tropiflora","Astridlaan",0.0304691046049393,7,19
+"115","Tropiflora","Wetteren",0.165623767233335,7,41
+"116","Tropiflora","Mt St Frieux",0.0667883013017456,7,1
+"117","Tropiflora","Sangatte",0.0452523103705759,7,3
+"118","Tropiflora","HB-Pylyserlaan",0.0359890250195325,7,16
+"119","Tropiflora","HB-Doornpanne",0.0456604320261694,7,14
+"120","Tropiflora","Witte Burg",0.0446496978478195,7,18
+"121","Tropiflora","Ter Yde IWVA",0.0335965059724128,7,23
+"122","Tropiflora","Veurne",0.0391596955041737,7,6
+"123","Tropiflora","Slack",0.0592731947813156,7,2
+"124","Tropiflora","HB-Noord",0.0449957236137788,7,13
+"125","Tropiflora","Belvedere",0.0369730142757512,7,12
+"126","Tropiflora","Westhoek NO",0.0287993731288236,7,9
+"127","Tropiflora","Westhoek Oost",0.0367792532223384,7,10
+"128","Tropiflora","Oosthoekduinen",0.0323804784149275,7,11
+"129","Tropiflora","Schipgatduinen",0.0643721844403473,7,17
+"130","Tropiflora","HB-Oost",0.0535532170627875,7,15
+"131","Tropiflora","Zwinbosjes",0.120582897215701,7,38
+"132","Tropiflora","Ter Yde West",0.0334756366779264,7,22
+"133","Tropiflora","Plaatsduinen",0.0368689152087861,7,20
+"134","Tropiflora","Westhoek Zuid",0.0296719064810768,7,4
+"135","Tropiflora","Kopberg",0.117775120525997,7,47
+"136","Tropiflora","Keiheuvel",0.194752485567653,7,48
+"137","Tropiflora","Kortenhoeff-NL",0.272174039538855,7,42
+"138","Tropiflora","Arendschot",0.171646511840069,7,45
+"139","Tropiflora","Kalmthout",0.166307554194402,7,43
+"140","Tropiflora","Hamont-Achel3",0.153790559248975,7,50
+"141","Tropiflora","Hamont-Achel2",0.228674585995495,7,49
+"142","Tropiflora","Hamont-Achel1",0.166499227266355,7,51
+"143","Tropiflora","Vloethemveld-Zuid",0.0627952136398692,7,40
+"144","Tropiflora","Raversijde2",0.0728556751631051,7,30
+"145","Tropiflora","Vloethemveld-Noord",0.108894021655831,7,39
+"146","Tropiflora","DuinbossenDeHaan",0.0792706152748721,7,36
+"147","Tropiflora","Raversijde1",0.0900657405095816,7,29
+"148","Tropiflora","Raversijde3",0.0899047634362965,7,31
+"149","Tropiflora","Bredene",0.0821207982201774,7,35
+"150","Tropiflora","Fort Napoleon",0.0779446581302618,7,33
+"151","Tropiflora","Averbode",0.067920837453659,7,44
+"152","Tropiflora","Sint-Laureins2",0.0720999517132019,7,27
+"153","Tropiflora","Sint-Laureins1",0.0777680832604379,7,26
+"154","Tropiflora","WarandeduinenMiddelkerke",0.0768283972824975,7,28
+"155","Tropiflora","Raversijde4",0.110563458895787,7,32
+"156","Tropiflora","SpanjaardduinenOostende",0.0674328654009838,7,34
+"157","Tropiflora","Zwinbosjes-grazed",0.124977246314237,7,37
+"158","Tropiflora","Harchies",0.23750525909365,7,52
+"159","Tropiflora","Lagland",0.175783482696545,7,53
+"160","Westhoek vissersdorp","Simliduinen",0.0435604963729653,8,25
+"161","Westhoek vissersdorp","Cabour",0.0407367888348926,8,5
+"162","Westhoek vissersdorp","Tropiflora",0.0335790456585401,8,7
+"163","Westhoek vissersdorp","Westhoek vissersdorp",0,8,8
+"164","Westhoek vissersdorp","Geel-Bel",0.169398413007856,8,46
+"165","Westhoek vissersdorp","Karthuizerduinen",0.0463067457491669,8,24
+"166","Westhoek vissersdorp","Oostvoordduinen",0.0312517366342287,8,21
+"167","Westhoek vissersdorp","Astridlaan",0.0392448420425237,8,19
+"168","Westhoek vissersdorp","Wetteren",0.167323690578392,8,41
+"169","Westhoek vissersdorp","Mt St Frieux",0.093892055763934,8,1
+"170","Westhoek vissersdorp","Sangatte",0.0501725136111205,8,3
+"171","Westhoek vissersdorp","HB-Pylyserlaan",0.0528090196732715,8,16
+"172","Westhoek vissersdorp","HB-Doornpanne",0.0426600654876559,8,14
+"173","Westhoek vissersdorp","Witte Burg",0.0443915096114455,8,18
+"174","Westhoek vissersdorp","Ter Yde IWVA",0.0294650812664687,8,23
+"175","Westhoek vissersdorp","Veurne",0.0432135903131113,8,6
+"176","Westhoek vissersdorp","Slack",0.0908159999865137,8,2
+"177","Westhoek vissersdorp","HB-Noord",0.0581785177859669,8,13
+"178","Westhoek vissersdorp","Belvedere",0.0501689121006627,8,12
+"179","Westhoek vissersdorp","Westhoek NO",0.0356047371340185,8,9
+"180","Westhoek vissersdorp","Westhoek Oost",0.0380623978406073,8,10
+"181","Westhoek vissersdorp","Oosthoekduinen",0.0372008487981501,8,11
+"182","Westhoek vissersdorp","Schipgatduinen",0.066890577032129,8,17
+"183","Westhoek vissersdorp","HB-Oost",0.0520337880290002,8,15
+"184","Westhoek vissersdorp","Zwinbosjes",0.116975810938594,8,38
+"185","Westhoek vissersdorp","Ter Yde West",0.0338316275295508,8,22
+"186","Westhoek vissersdorp","Plaatsduinen",0.0307598388156742,8,20
+"187","Westhoek vissersdorp","Westhoek Zuid",0.0417533535273425,8,4
+"188","Westhoek vissersdorp","Kopberg",0.149433153393387,8,47
+"189","Westhoek vissersdorp","Keiheuvel",0.262866651948497,8,48
+"190","Westhoek vissersdorp","Kortenhoeff-NL",0.278509159843049,8,42
+"191","Westhoek vissersdorp","Arendschot",0.179781379967487,8,45
+"192","Westhoek vissersdorp","Kalmthout",0.201995306133631,8,43
+"193","Westhoek vissersdorp","Hamont-Achel3",0.203949361554034,8,50
+"194","Westhoek vissersdorp","Hamont-Achel2",0.262909867851664,8,49
+"195","Westhoek vissersdorp","Hamont-Achel1",0.216805344715651,8,51
+"196","Westhoek vissersdorp","Vloethemveld-Zuid",0.0937297983737842,8,40
+"197","Westhoek vissersdorp","Raversijde2",0.0684986223500188,8,30
+"198","Westhoek vissersdorp","Vloethemveld-Noord",0.165623606693778,8,39
+"199","Westhoek vissersdorp","DuinbossenDeHaan",0.0748736590306961,8,36
+"200","Westhoek vissersdorp","Raversijde1",0.10670494704482,8,29
+"201","Westhoek vissersdorp","Raversijde3",0.112246794543469,8,31
+"202","Westhoek vissersdorp","Bredene",0.0788552312069183,8,35
+"203","Westhoek vissersdorp","Fort Napoleon",0.084271738799725,8,33
+"204","Westhoek vissersdorp","Averbode",0.121281613822785,8,44
+"205","Westhoek vissersdorp","Sint-Laureins2",0.0908345328171292,8,27
+"206","Westhoek vissersdorp","Sint-Laureins1",0.0634595606949511,8,26
+"207","Westhoek vissersdorp","WarandeduinenMiddelkerke",0.0764871546266526,8,28
+"208","Westhoek vissersdorp","Raversijde4",0.131408890214254,8,32
+"209","Westhoek vissersdorp","SpanjaardduinenOostende",0.0844324505930339,8,34
+"210","Westhoek vissersdorp","Zwinbosjes-grazed",0.117450508110831,8,37
+"211","Westhoek vissersdorp","Harchies",0.291969331182074,8,52
+"212","Westhoek vissersdorp","Lagland",0.167551470803801,8,53
+"213","Geel-Bel","Simliduinen",0.149053912433643,46,25
+"214","Geel-Bel","Cabour",0.167102973370793,46,5
+"215","Geel-Bel","Tropiflora",0.124034301763455,46,7
+"216","Geel-Bel","Westhoek vissersdorp",0.169398413007856,46,8
+"217","Geel-Bel","Geel-Bel",0,46,46
+"218","Geel-Bel","Karthuizerduinen",0.127645961688906,46,24
+"219","Geel-Bel","Oostvoordduinen",0.133440352898402,46,21
+"220","Geel-Bel","Astridlaan",0.124243722003929,46,19
+"221","Geel-Bel","Wetteren",0.311767693556809,46,41
+"222","Geel-Bel","Mt St Frieux",0.136964284304069,46,1
+"223","Geel-Bel","Sangatte",0.139236439397834,46,3
+"224","Geel-Bel","HB-Pylyserlaan",0.127470723269007,46,16
+"225","Geel-Bel","HB-Doornpanne",0.148897054795944,46,14
+"226","Geel-Bel","Witte Burg",0.13308383586087,46,18
+"227","Geel-Bel","Ter Yde IWVA",0.160565070121769,46,23
+"228","Geel-Bel","Veurne",0.12476340404365,46,6
+"229","Geel-Bel","Slack",0.103029059547559,46,2
+"230","Geel-Bel","HB-Noord",0.131436905574685,46,13
+"231","Geel-Bel","Belvedere",0.158071483551308,46,12
+"232","Geel-Bel","Westhoek NO",0.15082096595719,46,9
+"233","Geel-Bel","Westhoek Oost",0.164282833414026,46,10
+"234","Geel-Bel","Oosthoekduinen",0.139823876438067,46,11
+"235","Geel-Bel","Schipgatduinen",0.14823640913531,46,17
+"236","Geel-Bel","HB-Oost",0.10323129556536,46,15
+"237","Geel-Bel","Zwinbosjes",0.172402792617013,46,38
+"238","Geel-Bel","Ter Yde West",0.126503176515618,46,22
+"239","Geel-Bel","Plaatsduinen",0.141638753572153,46,20
+"240","Geel-Bel","Westhoek Zuid",0.115747061625673,46,4
+"241","Geel-Bel","Kopberg",0.0434463859251876,46,47
+"242","Geel-Bel","Keiheuvel",0.109729755010382,46,48
+"243","Geel-Bel","Kortenhoeff-NL",0.265701363089737,46,42
+"244","Geel-Bel","Arendschot",0.128026158339273,46,45
+"245","Geel-Bel","Kalmthout",0.211379690661252,46,43
+"246","Geel-Bel","Hamont-Achel3",0.184656569043934,46,50
+"247","Geel-Bel","Hamont-Achel2",0.292476122757454,46,49
+"248","Geel-Bel","Hamont-Achel1",0.200962411372432,46,51
+"249","Geel-Bel","Vloethemveld-Zuid",0.169577355364279,46,40
+"250","Geel-Bel","Raversijde2",0.131819861770171,46,30
+"251","Geel-Bel","Vloethemveld-Noord",0.196117063181776,46,39
+"252","Geel-Bel","DuinbossenDeHaan",0.124878387313815,46,36
+"253","Geel-Bel","Raversijde1",0.189975775032582,46,29
+"254","Geel-Bel","Raversijde3",0.190965609494688,46,31
+"255","Geel-Bel","Bredene",0.198401123315918,46,35
+"256","Geel-Bel","Fort Napoleon",0.188788698594894,46,33
+"257","Geel-Bel","Averbode",0.0616992127908515,46,44
+"258","Geel-Bel","Sint-Laureins2",0.158138079470352,46,27
+"259","Geel-Bel","Sint-Laureins1",0.186459675972215,46,26
+"260","Geel-Bel","WarandeduinenMiddelkerke",0.211107012591934,46,28
+"261","Geel-Bel","Raversijde4",0.207807262617892,46,32
+"262","Geel-Bel","SpanjaardduinenOostende",0.164478297869149,46,34
+"263","Geel-Bel","Zwinbosjes-grazed",0.186773991147437,46,37
+"264","Geel-Bel","Harchies",0.218866453955197,46,52
+"265","Geel-Bel","Lagland",0.186352721949241,46,53
+"266","Karthuizerduinen","Simliduinen",0.0418787571765162,24,25
+"267","Karthuizerduinen","Cabour",0.0569801638858056,24,5
+"268","Karthuizerduinen","Tropiflora",0.0337719951058448,24,7
+"269","Karthuizerduinen","Westhoek vissersdorp",0.0463067457491669,24,8
+"270","Karthuizerduinen","Geel-Bel",0.127645961688906,24,46
+"271","Karthuizerduinen","Karthuizerduinen",0,24,24
+"272","Karthuizerduinen","Oostvoordduinen",0.0443646862177012,24,21
+"273","Karthuizerduinen","Astridlaan",0.0511861393949927,24,19
+"274","Karthuizerduinen","Wetteren",0.18274802038233,24,41
+"275","Karthuizerduinen","Mt St Frieux",0.092399242900992,24,1
+"276","Karthuizerduinen","Sangatte",0.0492950886156173,24,3
+"277","Karthuizerduinen","HB-Pylyserlaan",0.0343378611289711,24,16
+"278","Karthuizerduinen","HB-Doornpanne",0.0514903138429005,24,14
+"279","Karthuizerduinen","Witte Burg",0.0608604481168761,24,18
+"280","Karthuizerduinen","Ter Yde IWVA",0.0437527565038087,24,23
+"281","Karthuizerduinen","Veurne",0.0489151786659493,24,6
+"282","Karthuizerduinen","Slack",0.0845769020221087,24,2
+"283","Karthuizerduinen","HB-Noord",0.0413246435139512,24,13
+"284","Karthuizerduinen","Belvedere",0.0395974319035031,24,12
+"285","Karthuizerduinen","Westhoek NO",0.0459647753618914,24,9
+"286","Karthuizerduinen","Westhoek Oost",0.0493520364130441,24,10
+"287","Karthuizerduinen","Oosthoekduinen",0.0350144842008146,24,11
+"288","Karthuizerduinen","Schipgatduinen",0.0737337672952988,24,17
+"289","Karthuizerduinen","HB-Oost",0.0479185558448656,24,15
+"290","Karthuizerduinen","Zwinbosjes",0.110460150803101,24,38
+"291","Karthuizerduinen","Ter Yde West",0.03666472936375,24,22
+"292","Karthuizerduinen","Plaatsduinen",0.0558305062640174,24,20
+"293","Karthuizerduinen","Westhoek Zuid",0.0391037112176178,24,4
+"294","Karthuizerduinen","Kopberg",0.104222973650235,24,47
+"295","Karthuizerduinen","Keiheuvel",0.211271419041717,24,48
+"296","Karthuizerduinen","Kortenhoeff-NL",0.284006268403266,24,42
+"297","Karthuizerduinen","Arendschot",0.191778549726081,24,45
+"298","Karthuizerduinen","Kalmthout",0.167437978634108,24,43
+"299","Karthuizerduinen","Hamont-Achel3",0.177129700828461,24,50
+"300","Karthuizerduinen","Hamont-Achel2",0.231672421539669,24,49
+"301","Karthuizerduinen","Hamont-Achel1",0.161439692480594,24,51
+"302","Karthuizerduinen","Vloethemveld-Zuid",0.0911153481792196,24,40
+"303","Karthuizerduinen","Raversijde2",0.0773345977106629,24,30
+"304","Karthuizerduinen","Vloethemveld-Noord",0.131191853974382,24,39
+"305","Karthuizerduinen","DuinbossenDeHaan",0.0696386541358096,24,36
+"306","Karthuizerduinen","Raversijde1",0.100401709225489,24,29
+"307","Karthuizerduinen","Raversijde3",0.106438239420408,24,31
+"308","Karthuizerduinen","Bredene",0.0965761023239141,24,35
+"309","Karthuizerduinen","Fort Napoleon",0.0878091119772463,24,33
+"310","Karthuizerduinen","Averbode",0.0902571369893269,24,44
+"311","Karthuizerduinen","Sint-Laureins2",0.0795678531499965,24,27
+"312","Karthuizerduinen","Sint-Laureins1",0.0725430335310278,24,26
+"313","Karthuizerduinen","WarandeduinenMiddelkerke",0.105694487238318,24,28
+"314","Karthuizerduinen","Raversijde4",0.0810155759870037,24,32
+"315","Karthuizerduinen","SpanjaardduinenOostende",0.0739724701683157,24,34
+"316","Karthuizerduinen","Zwinbosjes-grazed",0.125409404123772,24,37
+"317","Karthuizerduinen","Harchies",0.229206171672636,24,52
+"318","Karthuizerduinen","Lagland",0.189346041516187,24,53
+"319","Oostvoordduinen","Simliduinen",0.0325402728023425,21,25
+"320","Oostvoordduinen","Cabour",0.0336294611643203,21,5
+"321","Oostvoordduinen","Tropiflora",0.0350842962198806,21,7
+"322","Oostvoordduinen","Westhoek vissersdorp",0.0312517366342287,21,8
+"323","Oostvoordduinen","Geel-Bel",0.133440352898402,21,46
+"324","Oostvoordduinen","Karthuizerduinen",0.0443646862177012,21,24
+"325","Oostvoordduinen","Oostvoordduinen",0,21,21
+"326","Oostvoordduinen","Astridlaan",0.0258035436627043,21,19
+"327","Oostvoordduinen","Wetteren",0.198567198896772,21,41
+"328","Oostvoordduinen","Mt St Frieux",0.0901513269117193,21,1
+"329","Oostvoordduinen","Sangatte",0.0527953072308348,21,3
+"330","Oostvoordduinen","HB-Pylyserlaan",0.0435738522377077,21,16
+"331","Oostvoordduinen","HB-Doornpanne",0.0449861797457635,21,14
+"332","Oostvoordduinen","Witte Burg",0.0307977051725847,21,18
+"333","Oostvoordduinen","Ter Yde IWVA",0.0331862962272951,21,23
+"334","Oostvoordduinen","Veurne",0.0443392165871131,21,6
+"335","Oostvoordduinen","Slack",0.0873893566392241,21,2
+"336","Oostvoordduinen","HB-Noord",0.0423804537341372,21,13
+"337","Oostvoordduinen","Belvedere",0.0551741939412326,21,12
+"338","Oostvoordduinen","Westhoek NO",0.0382928688993321,21,9
+"339","Oostvoordduinen","Westhoek Oost",0.0452178933277492,21,10
+"340","Oostvoordduinen","Oosthoekduinen",0.0251172788968229,21,11
+"341","Oostvoordduinen","Schipgatduinen",0.0435858513394984,21,17
+"342","Oostvoordduinen","HB-Oost",0.0296254503704441,21,15
+"343","Oostvoordduinen","Zwinbosjes",0.105820522662465,21,38
+"344","Oostvoordduinen","Ter Yde West",0.0229692350875583,21,22
+"345","Oostvoordduinen","Plaatsduinen",0.0280370257782179,21,20
+"346","Oostvoordduinen","Westhoek Zuid",0.0386955826542124,21,4
+"347","Oostvoordduinen","Kopberg",0.131944707861554,21,47
+"348","Oostvoordduinen","Keiheuvel",0.225045169824267,21,48
+"349","Oostvoordduinen","Kortenhoeff-NL",0.257070808910544,21,42
+"350","Oostvoordduinen","Arendschot",0.145018364908095,21,45
+"351","Oostvoordduinen","Kalmthout",0.187648429804254,21,43
+"352","Oostvoordduinen","Hamont-Achel3",0.177667987723553,21,50
+"353","Oostvoordduinen","Hamont-Achel2",0.227956661797483,21,49
+"354","Oostvoordduinen","Hamont-Achel1",0.191446956151507,21,51
+"355","Oostvoordduinen","Vloethemveld-Zuid",0.0840423742747197,21,40
+"356","Oostvoordduinen","Raversijde2",0.0635657518361548,21,30
+"357","Oostvoordduinen","Vloethemveld-Noord",0.140592869428358,21,39
+"358","Oostvoordduinen","DuinbossenDeHaan",0.0727448119046286,21,36
+"359","Oostvoordduinen","Raversijde1",0.094642667126764,21,29
+"360","Oostvoordduinen","Raversijde3",0.0938160504377787,21,31
+"361","Oostvoordduinen","Bredene",0.079394887005664,21,35
+"362","Oostvoordduinen","Fort Napoleon",0.0778034354847179,21,33
+"363","Oostvoordduinen","Averbode",0.111850600997647,21,44
+"364","Oostvoordduinen","Sint-Laureins2",0.0775009726079116,21,27
+"365","Oostvoordduinen","Sint-Laureins1",0.0619249578616662,21,26
+"366","Oostvoordduinen","WarandeduinenMiddelkerke",0.0811916271961967,21,28
+"367","Oostvoordduinen","Raversijde4",0.11084277049994,21,32
+"368","Oostvoordduinen","SpanjaardduinenOostende",0.0647313121297787,21,34
+"369","Oostvoordduinen","Zwinbosjes-grazed",0.117557718207262,21,37
+"370","Oostvoordduinen","Harchies",0.249491630985332,21,52
+"371","Oostvoordduinen","Lagland",0.163921480574924,21,53
+"372","Astridlaan","Simliduinen",0.0268936014651288,19,25
+"373","Astridlaan","Cabour",0.0353287754612256,19,5
+"374","Astridlaan","Tropiflora",0.0304691046049393,19,7
+"375","Astridlaan","Westhoek vissersdorp",0.0392448420425237,19,8
+"376","Astridlaan","Geel-Bel",0.124243722003929,19,46
+"377","Astridlaan","Karthuizerduinen",0.0511861393949927,19,24
+"378","Astridlaan","Oostvoordduinen",0.0258035436627043,19,21
+"379","Astridlaan","Astridlaan",0,19,19
+"380","Astridlaan","Wetteren",0.185961449233926,19,41
+"381","Astridlaan","Mt St Frieux",0.0927011826237336,19,1
+"382","Astridlaan","Sangatte",0.0549348252639222,19,3
+"383","Astridlaan","HB-Pylyserlaan",0.0290553843929296,19,16
+"384","Astridlaan","HB-Doornpanne",0.0452123152712385,19,14
+"385","Astridlaan","Witte Burg",0.0448569148209157,19,18
+"386","Astridlaan","Ter Yde IWVA",0.0376511172954638,19,23
+"387","Astridlaan","Veurne",0.0549220538681827,19,6
+"388","Astridlaan","Slack",0.0807793023245012,19,2
+"389","Astridlaan","HB-Noord",0.0315839673668908,19,13
+"390","Astridlaan","Belvedere",0.0486074020358881,19,12
+"391","Astridlaan","Westhoek NO",0.0377923658620263,19,9
+"392","Astridlaan","Westhoek Oost",0.0422714029289735,19,10
+"393","Astridlaan","Oosthoekduinen",0.0298526036202381,19,11
+"394","Astridlaan","Schipgatduinen",0.0619611163682231,19,17
+"395","Astridlaan","HB-Oost",0.0519618289503346,19,15
+"396","Astridlaan","Zwinbosjes",0.111684038139534,19,38
+"397","Astridlaan","Ter Yde West",0.0338668145927247,19,22
+"398","Astridlaan","Plaatsduinen",0.0293367236881366,19,20
+"399","Astridlaan","Westhoek Zuid",0.0370026294760523,19,4
+"400","Astridlaan","Kopberg",0.122885733707961,19,47
+"401","Astridlaan","Keiheuvel",0.204357148703622,19,48
+"402","Astridlaan","Kortenhoeff-NL",0.239026911145349,19,42
+"403","Astridlaan","Arendschot",0.172518714635879,19,45
+"404","Astridlaan","Kalmthout",0.182365639959102,19,43
+"405","Astridlaan","Hamont-Achel3",0.152156091762085,19,50
+"406","Astridlaan","Hamont-Achel2",0.204161776834023,19,49
+"407","Astridlaan","Hamont-Achel1",0.1500260282286,19,51
+"408","Astridlaan","Vloethemveld-Zuid",0.09382499649918,19,40
+"409","Astridlaan","Raversijde2",0.0715832106695345,19,30
+"410","Astridlaan","Vloethemveld-Noord",0.152082778370069,19,39
+"411","Astridlaan","DuinbossenDeHaan",0.0824739357207791,19,36
+"412","Astridlaan","Raversijde1",0.115253307626647,19,29
+"413","Astridlaan","Raversijde3",0.0929840963654459,19,31
+"414","Astridlaan","Bredene",0.0806798956731279,19,35
+"415","Astridlaan","Fort Napoleon",0.0753728395603133,19,33
+"416","Astridlaan","Averbode",0.0862721152481557,19,44
+"417","Astridlaan","Sint-Laureins2",0.0680285137821186,19,27
+"418","Astridlaan","Sint-Laureins1",0.0647211642763552,19,26
+"419","Astridlaan","WarandeduinenMiddelkerke",0.0770354549162214,19,28
+"420","Astridlaan","Raversijde4",0.113920052606068,19,32
+"421","Astridlaan","SpanjaardduinenOostende",0.0766918721268321,19,34
+"422","Astridlaan","Zwinbosjes-grazed",0.133838090462706,19,37
+"423","Astridlaan","Harchies",0.247143385052748,19,52
+"424","Astridlaan","Lagland",0.201485175092545,19,53
+"425","Wetteren","Simliduinen",0.174615659668325,41,25
+"426","Wetteren","Cabour",0.180502933253934,41,5
+"427","Wetteren","Tropiflora",0.165623767233335,41,7
+"428","Wetteren","Westhoek vissersdorp",0.167323690578392,41,8
+"429","Wetteren","Geel-Bel",0.311767693556809,41,46
+"430","Wetteren","Karthuizerduinen",0.18274802038233,41,24
+"431","Wetteren","Oostvoordduinen",0.198567198896772,41,21
+"432","Wetteren","Astridlaan",0.185961449233926,41,19
+"433","Wetteren","Wetteren",0,41,41
+"434","Wetteren","Mt St Frieux",0.196347113369909,41,1
+"435","Wetteren","Sangatte",0.195422828708749,41,3
+"436","Wetteren","HB-Pylyserlaan",0.152452834230809,41,16
+"437","Wetteren","HB-Doornpanne",0.168490359986817,41,14
+"438","Wetteren","Witte Burg",0.190247391934847,41,18
+"439","Wetteren","Ter Yde IWVA",0.167589700987201,41,23
+"440","Wetteren","Veurne",0.161296263789815,41,6
+"441","Wetteren","Slack",0.223339590953914,41,2
+"442","Wetteren","HB-Noord",0.211545508228608,41,13
+"443","Wetteren","Belvedere",0.150092860479914,41,12
+"444","Wetteren","Westhoek NO",0.164004843632366,41,9
+"445","Wetteren","Westhoek Oost",0.168721809991623,41,10
+"446","Wetteren","Oosthoekduinen",0.166042067546488,41,11
+"447","Wetteren","Schipgatduinen",0.24047570403937,41,17
+"448","Wetteren","HB-Oost",0.21149110030181,41,15
+"449","Wetteren","Zwinbosjes",0.236453443451565,41,38
+"450","Wetteren","Ter Yde West",0.17209104899487,41,22
+"451","Wetteren","Plaatsduinen",0.163397525866157,41,20
+"452","Wetteren","Westhoek Zuid",0.181975539971112,41,4
+"453","Wetteren","Kopberg",0.29557988633467,41,47
+"454","Wetteren","Keiheuvel",0.374068977127533,41,48
+"455","Wetteren","Kortenhoeff-NL",0.444771313372176,41,42
+"456","Wetteren","Arendschot",0.354980693357461,41,45
+"457","Wetteren","Kalmthout",0.250977632747768,41,43
+"458","Wetteren","Hamont-Achel3",0.380053122629054,41,50
+"459","Wetteren","Hamont-Achel2",0.418002227789515,41,49
+"460","Wetteren","Hamont-Achel1",0.341903496320306,41,51
+"461","Wetteren","Vloethemveld-Zuid",0.206529593945314,41,40
+"462","Wetteren","Raversijde2",0.197711699376956,41,30
+"463","Wetteren","Vloethemveld-Noord",0.227802319025778,41,39
+"464","Wetteren","DuinbossenDeHaan",0.246415664369231,41,36
+"465","Wetteren","Raversijde1",0.228092904253602,41,29
+"466","Wetteren","Raversijde3",0.239398809309294,41,31
+"467","Wetteren","Bredene",0.216688337186821,41,35
+"468","Wetteren","Fort Napoleon",0.286444682492998,41,33
+"469","Wetteren","Averbode",0.234601552515033,41,44
+"470","Wetteren","Sint-Laureins2",0.20372573526785,41,27
+"471","Wetteren","Sint-Laureins1",0.207468380020791,41,26
+"472","Wetteren","WarandeduinenMiddelkerke",0.245282832120247,41,28
+"473","Wetteren","Raversijde4",0.235834318679491,41,32
+"474","Wetteren","SpanjaardduinenOostende",0.199736690070363,41,34
+"475","Wetteren","Zwinbosjes-grazed",0.22238592471879,41,37
+"476","Wetteren","Harchies",0.356651098604311,41,52
+"477","Wetteren","Lagland",0.427538893756755,41,53
+"478","Mt St Frieux","Simliduinen",0.0998773926714744,1,25
+"479","Mt St Frieux","Cabour",0.110073183188503,1,5
+"480","Mt St Frieux","Tropiflora",0.0667883013017456,1,7
+"481","Mt St Frieux","Westhoek vissersdorp",0.093892055763934,1,8
+"482","Mt St Frieux","Geel-Bel",0.136964284304069,1,46
+"483","Mt St Frieux","Karthuizerduinen",0.092399242900992,1,24
+"484","Mt St Frieux","Oostvoordduinen",0.0901513269117193,1,21
+"485","Mt St Frieux","Astridlaan",0.0927011826237336,1,19
+"486","Mt St Frieux","Wetteren",0.196347113369909,1,41
+"487","Mt St Frieux","Mt St Frieux",0,1,1
+"488","Mt St Frieux","Sangatte",0.0521911305458328,1,3
+"489","Mt St Frieux","HB-Pylyserlaan",0.0823385610555212,1,16
+"490","Mt St Frieux","HB-Doornpanne",0.0807992275272211,1,14
+"491","Mt St Frieux","Witte Burg",0.0925778674031285,1,18
+"492","Mt St Frieux","Ter Yde IWVA",0.0772309955352184,1,23
+"493","Mt St Frieux","Veurne",0.0680929428971414,1,6
+"494","Mt St Frieux","Slack",0.0428674348153512,1,2
+"495","Mt St Frieux","HB-Noord",0.107401353164019,1,13
+"496","Mt St Frieux","Belvedere",0.0936256358406493,1,12
+"497","Mt St Frieux","Westhoek NO",0.0645183594371112,1,9
+"498","Mt St Frieux","Westhoek Oost",0.0969862719057843,1,10
+"499","Mt St Frieux","Oosthoekduinen",0.0665107419642866,1,11
+"500","Mt St Frieux","Schipgatduinen",0.10331222755824,1,17
+"501","Mt St Frieux","HB-Oost",0.0768000261077251,1,15
+"502","Mt St Frieux","Zwinbosjes",0.120235743788336,1,38
+"503","Mt St Frieux","Ter Yde West",0.0894152056265019,1,22
+"504","Mt St Frieux","Plaatsduinen",0.0693650355428785,1,20
+"505","Mt St Frieux","Westhoek Zuid",0.0603404008159627,1,4
+"506","Mt St Frieux","Kopberg",0.135168990138174,1,47
+"507","Mt St Frieux","Keiheuvel",0.187891185033369,1,48
+"508","Mt St Frieux","Kortenhoeff-NL",0.306419956126815,1,42
+"509","Mt St Frieux","Arendschot",0.172214590387229,1,45
+"510","Mt St Frieux","Kalmthout",0.185009636799872,1,43
+"511","Mt St Frieux","Hamont-Achel3",0.200879560630362,1,50
+"512","Mt St Frieux","Hamont-Achel2",0.291687369618415,1,49
+"513","Mt St Frieux","Hamont-Achel1",0.209514846545345,1,51
+"514","Mt St Frieux","Vloethemveld-Zuid",0.0994158105860653,1,40
+"515","Mt St Frieux","Raversijde2",0.0971948066384752,1,30
+"516","Mt St Frieux","Vloethemveld-Noord",0.141992981402162,1,39
+"517","Mt St Frieux","DuinbossenDeHaan",0.0908940519607664,1,36
+"518","Mt St Frieux","Raversijde1",0.125121009896477,1,29
+"519","Mt St Frieux","Raversijde3",0.13782535648994,1,31
+"520","Mt St Frieux","Bredene",0.116589584365591,1,35
+"521","Mt St Frieux","Fort Napoleon",0.177606673467519,1,33
+"522","Mt St Frieux","Averbode",0.0989038892658023,1,44
+"523","Mt St Frieux","Sint-Laureins2",0.101184552314597,1,27
+"524","Mt St Frieux","Sint-Laureins1",0.137366361272054,1,26
+"525","Mt St Frieux","WarandeduinenMiddelkerke",0.143949333890007,1,28
+"526","Mt St Frieux","Raversijde4",0.170081956669809,1,32
+"527","Mt St Frieux","SpanjaardduinenOostende",0.123608795540908,1,34
+"528","Mt St Frieux","Zwinbosjes-grazed",0.0955446219994876,1,37
+"529","Mt St Frieux","Harchies",0.19064863166843,1,52
+"530","Mt St Frieux","Lagland",0.206079357071385,1,53
+"531","Sangatte","Simliduinen",0.0665438145128733,3,25
+"532","Sangatte","Cabour",0.0560079747660748,3,5
+"533","Sangatte","Tropiflora",0.0452523103705759,3,7
+"534","Sangatte","Westhoek vissersdorp",0.0501725136111205,3,8
+"535","Sangatte","Geel-Bel",0.139236439397834,3,46
+"536","Sangatte","Karthuizerduinen",0.0492950886156173,3,24
+"537","Sangatte","Oostvoordduinen",0.0527953072308348,3,21
+"538","Sangatte","Astridlaan",0.0549348252639222,3,19
+"539","Sangatte","Wetteren",0.195422828708749,3,41
+"540","Sangatte","Mt St Frieux",0.0521911305458328,3,1
+"541","Sangatte","Sangatte",0,3,3
+"542","Sangatte","HB-Pylyserlaan",0.0492636696560124,3,16
+"543","Sangatte","HB-Doornpanne",0.0668276862321775,3,14
+"544","Sangatte","Witte Burg",0.0560480988981875,3,18
+"545","Sangatte","Ter Yde IWVA",0.0356500653474833,3,23
+"546","Sangatte","Veurne",0.0580850596244312,3,6
+"547","Sangatte","Slack",0.0568425775604746,3,2
+"548","Sangatte","HB-Noord",0.0684063735410198,3,13
+"549","Sangatte","Belvedere",0.0459738325979382,3,12
+"550","Sangatte","Westhoek NO",0.0351989765019307,3,9
+"551","Sangatte","Westhoek Oost",0.0572531275968174,3,10
+"552","Sangatte","Oosthoekduinen",0.044788674983681,3,11
+"553","Sangatte","Schipgatduinen",0.0807705084839538,3,17
+"554","Sangatte","HB-Oost",0.0564333141016277,3,15
+"555","Sangatte","Zwinbosjes",0.102431313809893,3,38
+"556","Sangatte","Ter Yde West",0.0539896231647806,3,22
+"557","Sangatte","Plaatsduinen",0.0532744518535632,3,20
+"558","Sangatte","Westhoek Zuid",0.0396222556711736,3,4
+"559","Sangatte","Kopberg",0.128185481037014,3,47
+"560","Sangatte","Keiheuvel",0.223831224555694,3,48
+"561","Sangatte","Kortenhoeff-NL",0.308416788218452,3,42
+"562","Sangatte","Arendschot",0.169297729936838,3,45
+"563","Sangatte","Kalmthout",0.204918430961612,3,43
+"564","Sangatte","Hamont-Achel3",0.189791136579176,3,50
+"565","Sangatte","Hamont-Achel2",0.242967485179598,3,49
+"566","Sangatte","Hamont-Achel1",0.186249976754226,3,51
+"567","Sangatte","Vloethemveld-Zuid",0.10146975530105,3,40
+"568","Sangatte","Raversijde2",0.0792368140867153,3,30
+"569","Sangatte","Vloethemveld-Noord",0.158951123244632,3,39
+"570","Sangatte","DuinbossenDeHaan",0.0636979569252616,3,36
+"571","Sangatte","Raversijde1",0.103023827143541,3,29
+"572","Sangatte","Raversijde3",0.13328141258669,3,31
+"573","Sangatte","Bredene",0.0898914919092581,3,35
+"574","Sangatte","Fort Napoleon",0.102757334839877,3,33
+"575","Sangatte","Averbode",0.0978550823548082,3,44
+"576","Sangatte","Sint-Laureins2",0.0808640522003958,3,27
+"577","Sangatte","Sint-Laureins1",0.098313043173092,3,26
+"578","Sangatte","WarandeduinenMiddelkerke",0.111224217603466,3,28
+"579","Sangatte","Raversijde4",0.126391133757043,3,32
+"580","Sangatte","SpanjaardduinenOostende",0.0790988490849683,3,34
+"581","Sangatte","Zwinbosjes-grazed",0.0872183127535558,3,37
+"582","Sangatte","Harchies",0.240611835364173,3,52
+"583","Sangatte","Lagland",0.191007373653628,3,53
+"584","HB-Pylyserlaan","Simliduinen",0.0487793013783417,16,25
+"585","HB-Pylyserlaan","Cabour",0.0431588562730218,16,5
+"586","HB-Pylyserlaan","Tropiflora",0.0359890250195325,16,7
+"587","HB-Pylyserlaan","Westhoek vissersdorp",0.0528090196732715,16,8
+"588","HB-Pylyserlaan","Geel-Bel",0.127470723269007,16,46
+"589","HB-Pylyserlaan","Karthuizerduinen",0.0343378611289711,16,24
+"590","HB-Pylyserlaan","Oostvoordduinen",0.0435738522377077,16,21
+"591","HB-Pylyserlaan","Astridlaan",0.0290553843929296,16,19
+"592","HB-Pylyserlaan","Wetteren",0.152452834230809,16,41
+"593","HB-Pylyserlaan","Mt St Frieux",0.0823385610555212,16,1
+"594","HB-Pylyserlaan","Sangatte",0.0492636696560124,16,3
+"595","HB-Pylyserlaan","HB-Pylyserlaan",0,16,16
+"596","HB-Pylyserlaan","HB-Doornpanne",0.0429661776424687,16,14
+"597","HB-Pylyserlaan","Witte Burg",0.0516934924749506,16,18
+"598","HB-Pylyserlaan","Ter Yde IWVA",0.0532192597947676,16,23
+"599","HB-Pylyserlaan","Veurne",0.0531071356538013,16,6
+"600","HB-Pylyserlaan","Slack",0.082073213040097,16,2
+"601","HB-Pylyserlaan","HB-Noord",0.0405675575696138,16,13
+"602","HB-Pylyserlaan","Belvedere",0.0406587066998262,16,12
+"603","HB-Pylyserlaan","Westhoek NO",0.0380989923636643,16,9
+"604","HB-Pylyserlaan","Westhoek Oost",0.0462478546498802,16,10
+"605","HB-Pylyserlaan","Oosthoekduinen",0.0397076675105796,16,11
+"606","HB-Pylyserlaan","Schipgatduinen",0.0713123912550802,16,17
+"607","HB-Pylyserlaan","HB-Oost",0.0529753887631849,16,15
+"608","HB-Pylyserlaan","Zwinbosjes",0.107597844841059,16,38
+"609","HB-Pylyserlaan","Ter Yde West",0.0440135744301959,16,22
+"610","HB-Pylyserlaan","Plaatsduinen",0.0376301831581929,16,20
+"611","HB-Pylyserlaan","Westhoek Zuid",0.0367977245474672,16,4
+"612","HB-Pylyserlaan","Kopberg",0.114145984876828,16,47
+"613","HB-Pylyserlaan","Keiheuvel",0.200477002175918,16,48
+"614","HB-Pylyserlaan","Kortenhoeff-NL",0.259211031493394,16,42
+"615","HB-Pylyserlaan","Arendschot",0.171192354507429,16,45
+"616","HB-Pylyserlaan","Kalmthout",0.173480385649385,16,43
+"617","HB-Pylyserlaan","Hamont-Achel3",0.152489507729988,16,50
+"618","HB-Pylyserlaan","Hamont-Achel2",0.203119378469728,16,49
+"619","HB-Pylyserlaan","Hamont-Achel1",0.138923088699228,16,51
+"620","HB-Pylyserlaan","Vloethemveld-Zuid",0.0949746446848061,16,40
+"621","HB-Pylyserlaan","Raversijde2",0.0770128888302893,16,30
+"622","HB-Pylyserlaan","Vloethemveld-Noord",0.132537733283916,16,39
+"623","HB-Pylyserlaan","DuinbossenDeHaan",0.0902133020166298,16,36
+"624","HB-Pylyserlaan","Raversijde1",0.115274663994048,16,29
+"625","HB-Pylyserlaan","Raversijde3",0.101457360091362,16,31
+"626","HB-Pylyserlaan","Bredene",0.0828107363144655,16,35
+"627","HB-Pylyserlaan","Fort Napoleon",0.116907386694921,16,33
+"628","HB-Pylyserlaan","Averbode",0.085688884091742,16,44
+"629","HB-Pylyserlaan","Sint-Laureins2",0.0701684823230307,16,27
+"630","HB-Pylyserlaan","Sint-Laureins1",0.078800742228605,16,26
+"631","HB-Pylyserlaan","WarandeduinenMiddelkerke",0.104467034581161,16,28
+"632","HB-Pylyserlaan","Raversijde4",0.106013294883086,16,32
+"633","HB-Pylyserlaan","SpanjaardduinenOostende",0.073807839700673,16,34
+"634","HB-Pylyserlaan","Zwinbosjes-grazed",0.111941725281408,16,37
+"635","HB-Pylyserlaan","Harchies",0.226335017016291,16,52
+"636","HB-Pylyserlaan","Lagland",0.236128377994424,16,53
+"637","HB-Doornpanne","Simliduinen",0.0357579192135156,14,25
+"638","HB-Doornpanne","Cabour",0.0654712127486916,14,5
+"639","HB-Doornpanne","Tropiflora",0.0456604320261694,14,7
+"640","HB-Doornpanne","Westhoek vissersdorp",0.0426600654876559,14,8
+"641","HB-Doornpanne","Geel-Bel",0.148897054795944,14,46
+"642","HB-Doornpanne","Karthuizerduinen",0.0514903138429005,14,24
+"643","HB-Doornpanne","Oostvoordduinen",0.0449861797457635,14,21
+"644","HB-Doornpanne","Astridlaan",0.0452123152712385,14,19
+"645","HB-Doornpanne","Wetteren",0.168490359986817,14,41
+"646","HB-Doornpanne","Mt St Frieux",0.0807992275272211,14,1
+"647","HB-Doornpanne","Sangatte",0.0668276862321775,14,3
+"648","HB-Doornpanne","HB-Pylyserlaan",0.0429661776424687,14,16
+"649","HB-Doornpanne","HB-Doornpanne",0,14,14
+"650","HB-Doornpanne","Witte Burg",0.0418504440457309,14,18
+"651","HB-Doornpanne","Ter Yde IWVA",0.0471005457889942,14,23
+"652","HB-Doornpanne","Veurne",0.0578232112275696,14,6
+"653","HB-Doornpanne","Slack",0.0748174709619279,14,2
+"654","HB-Doornpanne","HB-Noord",0.0565091762116717,14,13
+"655","HB-Doornpanne","Belvedere",0.0608045845199941,14,12
+"656","HB-Doornpanne","Westhoek NO",0.0441666348693926,14,9
+"657","HB-Doornpanne","Westhoek Oost",0.0448461720914201,14,10
+"658","HB-Doornpanne","Oosthoekduinen",0.0510029175269743,14,11
+"659","HB-Doornpanne","Schipgatduinen",0.0581618007924966,14,17
+"660","HB-Doornpanne","HB-Oost",0.0595366427638055,14,15
+"661","HB-Doornpanne","Zwinbosjes",0.11247370049339,14,38
+"662","HB-Doornpanne","Ter Yde West",0.0525779430755457,14,22
+"663","HB-Doornpanne","Plaatsduinen",0.0312958981465166,14,20
+"664","HB-Doornpanne","Westhoek Zuid",0.0422430321415948,14,4
+"665","HB-Doornpanne","Kopberg",0.126653220631986,14,47
+"666","HB-Doornpanne","Keiheuvel",0.212650825303652,14,48
+"667","HB-Doornpanne","Kortenhoeff-NL",0.213764233599429,14,42
+"668","HB-Doornpanne","Arendschot",0.199865537781398,14,45
+"669","HB-Doornpanne","Kalmthout",0.184119992711497,14,43
+"670","HB-Doornpanne","Hamont-Achel3",0.194146372319099,14,50
+"671","HB-Doornpanne","Hamont-Achel2",0.253763099148484,14,49
+"672","HB-Doornpanne","Hamont-Achel1",0.173577502199343,14,51
+"673","HB-Doornpanne","Vloethemveld-Zuid",0.0986873598394808,14,40
+"674","HB-Doornpanne","Raversijde2",0.0714355336451575,14,30
+"675","HB-Doornpanne","Vloethemveld-Noord",0.182374513289371,14,39
+"676","HB-Doornpanne","DuinbossenDeHaan",0.0866483631560371,14,36
+"677","HB-Doornpanne","Raversijde1",0.11729276750199,14,29
+"678","HB-Doornpanne","Raversijde3",0.0668597385678729,14,31
+"679","HB-Doornpanne","Bredene",0.0958253993800611,14,35
+"680","HB-Doornpanne","Fort Napoleon",0.107934474948744,14,33
+"681","HB-Doornpanne","Averbode",0.110509600821449,14,44
+"682","HB-Doornpanne","Sint-Laureins2",0.0837292469644397,14,27
+"683","HB-Doornpanne","Sint-Laureins1",0.0769459095279627,14,26
+"684","HB-Doornpanne","WarandeduinenMiddelkerke",0.0706947953157825,14,28
+"685","HB-Doornpanne","Raversijde4",0.147488307891294,14,32
+"686","HB-Doornpanne","SpanjaardduinenOostende",0.0774860436051424,14,34
+"687","HB-Doornpanne","Zwinbosjes-grazed",0.117054715816871,14,37
+"688","HB-Doornpanne","Harchies",0.209516913331397,14,52
+"689","HB-Doornpanne","Lagland",0.189189983464935,14,53
+"690","Witte Burg","Simliduinen",0.0332800610236582,18,25
+"691","Witte Burg","Cabour",0.038930084448409,18,5
+"692","Witte Burg","Tropiflora",0.0446496978478195,18,7
+"693","Witte Burg","Westhoek vissersdorp",0.0443915096114455,18,8
+"694","Witte Burg","Geel-Bel",0.13308383586087,18,46
+"695","Witte Burg","Karthuizerduinen",0.0608604481168761,18,24
+"696","Witte Burg","Oostvoordduinen",0.0307977051725847,18,21
+"697","Witte Burg","Astridlaan",0.0448569148209157,18,19
+"698","Witte Burg","Wetteren",0.190247391934847,18,41
+"699","Witte Burg","Mt St Frieux",0.0925778674031285,18,1
+"700","Witte Burg","Sangatte",0.0560480988981875,18,3
+"701","Witte Burg","HB-Pylyserlaan",0.0516934924749506,18,16
+"702","Witte Burg","HB-Doornpanne",0.0418504440457309,18,14
+"703","Witte Burg","Witte Burg",0,18,18
+"704","Witte Burg","Ter Yde IWVA",0.0388801885672599,18,23
+"705","Witte Burg","Veurne",0.0470183024491668,18,6
+"706","Witte Burg","Slack",0.075875959208659,18,2
+"707","Witte Burg","HB-Noord",0.0662691348197739,18,13
+"708","Witte Burg","Belvedere",0.052069482859759,18,12
+"709","Witte Burg","Westhoek NO",0.0462509723471068,18,9
+"710","Witte Burg","Westhoek Oost",0.0508605172799309,18,10
+"711","Witte Burg","Oosthoekduinen",0.0434480373575099,18,11
+"712","Witte Burg","Schipgatduinen",0.052228556780272,18,17
+"713","Witte Burg","HB-Oost",0.0417838710828124,18,15
+"714","Witte Burg","Zwinbosjes",0.119044662244504,18,38
+"715","Witte Burg","Ter Yde West",0.0384710886580886,18,22
+"716","Witte Burg","Plaatsduinen",0.0347541282370528,18,20
+"717","Witte Burg","Westhoek Zuid",0.0535578998900014,18,4
+"718","Witte Burg","Kopberg",0.125551527511166,18,47
+"719","Witte Burg","Keiheuvel",0.227464057984059,18,48
+"720","Witte Burg","Kortenhoeff-NL",0.226557431186997,18,42
+"721","Witte Burg","Arendschot",0.156470365445399,18,45
+"722","Witte Burg","Kalmthout",0.183978912364879,18,43
+"723","Witte Burg","Hamont-Achel3",0.178690351549813,18,50
+"724","Witte Burg","Hamont-Achel2",0.228806789622421,18,49
+"725","Witte Burg","Hamont-Achel1",0.189684912602993,18,51
+"726","Witte Burg","Vloethemveld-Zuid",0.117663075712317,18,40
+"727","Witte Burg","Raversijde2",0.0710192825223689,18,30
+"728","Witte Burg","Vloethemveld-Noord",0.159159046243959,18,39
+"729","Witte Burg","DuinbossenDeHaan",0.0799857159260985,18,36
+"730","Witte Burg","Raversijde1",0.100863848593212,18,29
+"731","Witte Burg","Raversijde3",0.116189844911869,18,31
+"732","Witte Burg","Bredene",0.0692543785985277,18,35
+"733","Witte Burg","Fort Napoleon",0.0901881026354076,18,33
+"734","Witte Burg","Averbode",0.109429254800243,18,44
+"735","Witte Burg","Sint-Laureins2",0.0781545765805212,18,27
+"736","Witte Burg","Sint-Laureins1",0.09956295701814,18,26
+"737","Witte Burg","WarandeduinenMiddelkerke",0.075570985942051,18,28
+"738","Witte Burg","Raversijde4",0.138763486171273,18,32
+"739","Witte Burg","SpanjaardduinenOostende",0.0692764501620294,18,34
+"740","Witte Burg","Zwinbosjes-grazed",0.117935277322886,18,37
+"741","Witte Burg","Harchies",0.23667989495825,18,52
+"742","Witte Burg","Lagland",0.182001331346808,18,53
+"743","Ter Yde IWVA","Simliduinen",0.0316138390173711,23,25
+"744","Ter Yde IWVA","Cabour",0.0519941587765012,23,5
+"745","Ter Yde IWVA","Tropiflora",0.0335965059724128,23,7
+"746","Ter Yde IWVA","Westhoek vissersdorp",0.0294650812664687,23,8
+"747","Ter Yde IWVA","Geel-Bel",0.160565070121769,23,46
+"748","Ter Yde IWVA","Karthuizerduinen",0.0437527565038087,23,24
+"749","Ter Yde IWVA","Oostvoordduinen",0.0331862962272951,23,21
+"750","Ter Yde IWVA","Astridlaan",0.0376511172954638,23,19
+"751","Ter Yde IWVA","Wetteren",0.167589700987201,23,41
+"752","Ter Yde IWVA","Mt St Frieux",0.0772309955352184,23,1
+"753","Ter Yde IWVA","Sangatte",0.0356500653474833,23,3
+"754","Ter Yde IWVA","HB-Pylyserlaan",0.0532192597947676,23,16
+"755","Ter Yde IWVA","HB-Doornpanne",0.0471005457889942,23,14
+"756","Ter Yde IWVA","Witte Burg",0.0388801885672599,23,18
+"757","Ter Yde IWVA","Ter Yde IWVA",0,23,23
+"758","Ter Yde IWVA","Veurne",0.0601071375716052,23,6
+"759","Ter Yde IWVA","Slack",0.0761097259088879,23,2
+"760","Ter Yde IWVA","HB-Noord",0.0629601783087109,23,13
+"761","Ter Yde IWVA","Belvedere",0.0392688449356448,23,12
+"762","Ter Yde IWVA","Westhoek NO",0.0368322449733785,23,9
+"763","Ter Yde IWVA","Westhoek Oost",0.050648111948272,23,10
+"764","Ter Yde IWVA","Oosthoekduinen",0.0354024254822481,23,11
+"765","Ter Yde IWVA","Schipgatduinen",0.0517521463568758,23,17
+"766","Ter Yde IWVA","HB-Oost",0.0545075715617552,23,15
+"767","Ter Yde IWVA","Zwinbosjes",0.103332826437682,23,38
+"768","Ter Yde IWVA","Ter Yde West",0.0426209635285291,23,22
+"769","Ter Yde IWVA","Plaatsduinen",0.0341357400222013,23,20
+"770","Ter Yde IWVA","Westhoek Zuid",0.0333307907599566,23,4
+"771","Ter Yde IWVA","Kopberg",0.15349978854108,23,47
+"772","Ter Yde IWVA","Keiheuvel",0.242324663907841,23,48
+"773","Ter Yde IWVA","Kortenhoeff-NL",0.307652059494612,23,42
+"774","Ter Yde IWVA","Arendschot",0.192654968784814,23,45
+"775","Ter Yde IWVA","Kalmthout",0.181083773937778,23,43
+"776","Ter Yde IWVA","Hamont-Achel3",0.199353762945076,23,50
+"777","Ter Yde IWVA","Hamont-Achel2",0.237627579340594,23,49
+"778","Ter Yde IWVA","Hamont-Achel1",0.198819838681068,23,51
+"779","Ter Yde IWVA","Vloethemveld-Zuid",0.0946192242955046,23,40
+"780","Ter Yde IWVA","Raversijde2",0.0506116939460074,23,30
+"781","Ter Yde IWVA","Vloethemveld-Noord",0.154027610762174,23,39
+"782","Ter Yde IWVA","DuinbossenDeHaan",0.0699915252568293,23,36
+"783","Ter Yde IWVA","Raversijde1",0.0871488003604817,23,29
+"784","Ter Yde IWVA","Raversijde3",0.129017881039296,23,31
+"785","Ter Yde IWVA","Bredene",0.0697935987969399,23,35
+"786","Ter Yde IWVA","Fort Napoleon",0.0877131379790354,23,33
+"787","Ter Yde IWVA","Averbode",0.120546180639799,23,44
+"788","Ter Yde IWVA","Sint-Laureins2",0.0826109575936078,23,27
+"789","Ter Yde IWVA","Sint-Laureins1",0.0833016929819021,23,26
+"790","Ter Yde IWVA","WarandeduinenMiddelkerke",0.0703370123356083,23,28
+"791","Ter Yde IWVA","Raversijde4",0.122918253257568,23,32
+"792","Ter Yde IWVA","SpanjaardduinenOostende",0.0723110679330046,23,34
+"793","Ter Yde IWVA","Zwinbosjes-grazed",0.0964175209403117,23,37
+"794","Ter Yde IWVA","Harchies",0.261904734913188,23,52
+"795","Ter Yde IWVA","Lagland",0.171659105343762,23,53
+"796","Veurne","Simliduinen",0.046574388416946,6,25
+"797","Veurne","Cabour",0.0518201191248166,6,5
+"798","Veurne","Tropiflora",0.0391596955041737,6,7
+"799","Veurne","Westhoek vissersdorp",0.0432135903131113,6,8
+"800","Veurne","Geel-Bel",0.12476340404365,6,46
+"801","Veurne","Karthuizerduinen",0.0489151786659493,6,24
+"802","Veurne","Oostvoordduinen",0.0443392165871131,6,21
+"803","Veurne","Astridlaan",0.0549220538681827,6,19
+"804","Veurne","Wetteren",0.161296263789815,6,41
+"805","Veurne","Mt St Frieux",0.0680929428971414,6,1
+"806","Veurne","Sangatte",0.0580850596244312,6,3
+"807","Veurne","HB-Pylyserlaan",0.0531071356538013,6,16
+"808","Veurne","HB-Doornpanne",0.0578232112275696,6,14
+"809","Veurne","Witte Burg",0.0470183024491668,6,18
+"810","Veurne","Ter Yde IWVA",0.0601071375716052,6,23
+"811","Veurne","Veurne",0,6,6
+"812","Veurne","Slack",0.0709438710591445,6,2
+"813","Veurne","HB-Noord",0.0660673753553346,6,13
+"814","Veurne","Belvedere",0.0486236567717336,6,12
+"815","Veurne","Westhoek NO",0.0394647277940189,6,9
+"816","Veurne","Westhoek Oost",0.0443262563185252,6,10
+"817","Veurne","Oosthoekduinen",0.0262107435052232,6,11
+"818","Veurne","Schipgatduinen",0.0793168294280546,6,17
+"819","Veurne","HB-Oost",0.0415121776054674,6,15
+"820","Veurne","Zwinbosjes",0.11426768714167,6,38
+"821","Veurne","Ter Yde West",0.0421316309395593,6,22
+"822","Veurne","Plaatsduinen",0.0406686184634228,6,20
+"823","Veurne","Westhoek Zuid",0.042672601975428,6,4
+"824","Veurne","Kopberg",0.111005686543223,6,47
+"825","Veurne","Keiheuvel",0.201129881418687,6,48
+"826","Veurne","Kortenhoeff-NL",0.251314139590119,6,42
+"827","Veurne","Arendschot",0.164604241860071,6,45
+"828","Veurne","Kalmthout",0.157104671495147,6,43
+"829","Veurne","Hamont-Achel3",0.163698425390955,6,50
+"830","Veurne","Hamont-Achel2",0.238341809657238,6,49
+"831","Veurne","Hamont-Achel1",0.187793330243972,6,51
+"832","Veurne","Vloethemveld-Zuid",0.0977666544301587,6,40
+"833","Veurne","Raversijde2",0.0721389281747375,6,30
+"834","Veurne","Vloethemveld-Noord",0.126907853554465,6,39
+"835","Veurne","DuinbossenDeHaan",0.0676486116700916,6,36
+"836","Veurne","Raversijde1",0.0877393230023414,6,29
+"837","Veurne","Raversijde3",0.123868497923363,6,31
+"838","Veurne","Bredene",0.0794689588846307,6,35
+"839","Veurne","Fort Napoleon",0.0933321364207926,6,33
+"840","Veurne","Averbode",0.0829821780277767,6,44
+"841","Veurne","Sint-Laureins2",0.0734184017987846,6,27
+"842","Veurne","Sint-Laureins1",0.0705772638431261,6,26
+"843","Veurne","WarandeduinenMiddelkerke",0.105422353467807,6,28
+"844","Veurne","Raversijde4",0.121597045537221,6,32
+"845","Veurne","SpanjaardduinenOostende",0.0898395597026752,6,34
+"846","Veurne","Zwinbosjes-grazed",0.136937089211803,6,37
+"847","Veurne","Harchies",0.234072427072805,6,52
+"848","Veurne","Lagland",0.183900087064455,6,53
+"849","Slack","Simliduinen",0.104422926218942,2,25
+"850","Slack","Cabour",0.100418733047565,2,5
+"851","Slack","Tropiflora",0.0592731947813156,2,7
+"852","Slack","Westhoek vissersdorp",0.0908159999865137,2,8
+"853","Slack","Geel-Bel",0.103029059547559,2,46
+"854","Slack","Karthuizerduinen",0.0845769020221087,2,24
+"855","Slack","Oostvoordduinen",0.0873893566392241,2,21
+"856","Slack","Astridlaan",0.0807793023245012,2,19
+"857","Slack","Wetteren",0.223339590953914,2,41
+"858","Slack","Mt St Frieux",0.0428674348153512,2,1
+"859","Slack","Sangatte",0.0568425775604746,2,3
+"860","Slack","HB-Pylyserlaan",0.082073213040097,2,16
+"861","Slack","HB-Doornpanne",0.0748174709619279,2,14
+"862","Slack","Witte Burg",0.075875959208659,2,18
+"863","Slack","Ter Yde IWVA",0.0761097259088879,2,23
+"864","Slack","Veurne",0.0709438710591445,2,6
+"865","Slack","Slack",0,2,2
+"866","Slack","HB-Noord",0.0950408317647051,2,13
+"867","Slack","Belvedere",0.0828412767358554,2,12
+"868","Slack","Westhoek NO",0.0647313358260868,2,9
+"869","Slack","Westhoek Oost",0.099589825979358,2,10
+"870","Slack","Oosthoekduinen",0.0732599470106202,2,11
+"871","Slack","Schipgatduinen",0.102224309245581,2,17
+"872","Slack","HB-Oost",0.0790131773818821,2,15
+"873","Slack","Zwinbosjes",0.107791270741041,2,38
+"874","Slack","Ter Yde West",0.0920391589653983,2,22
+"875","Slack","Plaatsduinen",0.0696043977345149,2,20
+"876","Slack","Westhoek Zuid",0.0602997885373748,2,4
+"877","Slack","Kopberg",0.101964347629342,2,47
+"878","Slack","Keiheuvel",0.174455685948828,2,48
+"879","Slack","Kortenhoeff-NL",0.262409503285581,2,42
+"880","Slack","Arendschot",0.146232225595931,2,45
+"881","Slack","Kalmthout",0.175220849874373,2,43
+"882","Slack","Hamont-Achel3",0.162502563888598,2,50
+"883","Slack","Hamont-Achel2",0.22340710530994,2,49
+"884","Slack","Hamont-Achel1",0.164774726486773,2,51
+"885","Slack","Vloethemveld-Zuid",0.0977942191069206,2,40
+"886","Slack","Raversijde2",0.108150056925212,2,30
+"887","Slack","Vloethemveld-Noord",0.143306550813253,2,39
+"888","Slack","DuinbossenDeHaan",0.0728094878661833,2,36
+"889","Slack","Raversijde1",0.131864121045378,2,29
+"890","Slack","Raversijde3",0.150030230184533,2,31
+"891","Slack","Bredene",0.11582998306676,2,35
+"892","Slack","Fort Napoleon",0.167329550889473,2,33
+"893","Slack","Averbode",0.0828589574021707,2,44
+"894","Slack","Sint-Laureins2",0.109619536573208,2,27
+"895","Slack","Sint-Laureins1",0.130405704767255,2,26
+"896","Slack","WarandeduinenMiddelkerke",0.142756507078209,2,28
+"897","Slack","Raversijde4",0.16627152186782,2,32
+"898","Slack","SpanjaardduinenOostende",0.108963823471869,2,34
+"899","Slack","Zwinbosjes-grazed",0.100472466668064,2,37
+"900","Slack","Harchies",0.178889175306294,2,52
+"901","Slack","Lagland",0.145835054190839,2,53
+"902","HB-Noord","Simliduinen",0.0476128783916755,13,25
+"903","HB-Noord","Cabour",0.0481191836280819,13,5
+"904","HB-Noord","Tropiflora",0.0449957236137788,13,7
+"905","HB-Noord","Westhoek vissersdorp",0.0581785177859669,13,8
+"906","HB-Noord","Geel-Bel",0.131436905574685,13,46
+"907","HB-Noord","Karthuizerduinen",0.0413246435139512,13,24
+"908","HB-Noord","Oostvoordduinen",0.0423804537341372,13,21
+"909","HB-Noord","Astridlaan",0.0315839673668908,13,19
+"910","HB-Noord","Wetteren",0.211545508228608,13,41
+"911","HB-Noord","Mt St Frieux",0.107401353164019,13,1
+"912","HB-Noord","Sangatte",0.0684063735410198,13,3
+"913","HB-Noord","HB-Pylyserlaan",0.0405675575696138,13,16
+"914","HB-Noord","HB-Doornpanne",0.0565091762116717,13,14
+"915","HB-Noord","Witte Burg",0.0662691348197739,13,18
+"916","HB-Noord","Ter Yde IWVA",0.0629601783087109,13,23
+"917","HB-Noord","Veurne",0.0660673753553346,13,6
+"918","HB-Noord","Slack",0.0950408317647051,13,2
+"919","HB-Noord","HB-Noord",0,13,13
+"920","HB-Noord","Belvedere",0.0680782310355828,13,12
+"921","HB-Noord","Westhoek NO",0.0619844326071139,13,9
+"922","HB-Noord","Westhoek Oost",0.0463693976339264,13,10
+"923","HB-Noord","Oosthoekduinen",0.0425463327100996,13,11
+"924","HB-Noord","Schipgatduinen",0.0903776172687924,13,17
+"925","HB-Noord","HB-Oost",0.053221117812639,13,15
+"926","HB-Noord","Zwinbosjes",0.133195694160536,13,38
+"927","HB-Noord","Ter Yde West",0.0496470342599536,13,22
+"928","HB-Noord","Plaatsduinen",0.0467884176817619,13,20
+"929","HB-Noord","Westhoek Zuid",0.0413693332234081,13,4
+"930","HB-Noord","Kopberg",0.103797449215535,13,47
+"931","HB-Noord","Keiheuvel",0.217040812337765,13,48
+"932","HB-Noord","Kortenhoeff-NL",0.277340342922063,13,42
+"933","HB-Noord","Arendschot",0.166412217199288,13,45
+"934","HB-Noord","Kalmthout",0.193016388028388,13,43
+"935","HB-Noord","Hamont-Achel3",0.184151181744596,13,50
+"936","HB-Noord","Hamont-Achel2",0.277342095767398,13,49
+"937","HB-Noord","Hamont-Achel1",0.194504011445958,13,51
+"938","HB-Noord","Vloethemveld-Zuid",0.0839177589754179,13,40
+"939","HB-Noord","Raversijde2",0.0876715570894707,13,30
+"940","HB-Noord","Vloethemveld-Noord",0.15450572231378,13,39
+"941","HB-Noord","DuinbossenDeHaan",0.101170254975267,13,36
+"942","HB-Noord","Raversijde1",0.120144858256715,13,29
+"943","HB-Noord","Raversijde3",0.0994539280952094,13,31
+"944","HB-Noord","Bredene",0.109088895127034,13,35
+"945","HB-Noord","Fort Napoleon",0.093278072172969,13,33
+"946","HB-Noord","Averbode",0.108391849839814,13,44
+"947","HB-Noord","Sint-Laureins2",0.0704264925243429,13,27
+"948","HB-Noord","Sint-Laureins1",0.0837278053371281,13,26
+"949","HB-Noord","WarandeduinenMiddelkerke",0.085180744715847,13,28
+"950","HB-Noord","Raversijde4",0.114882873844099,13,32
+"951","HB-Noord","SpanjaardduinenOostende",0.096967491344596,13,34
+"952","HB-Noord","Zwinbosjes-grazed",0.162316868198034,13,37
+"953","HB-Noord","Harchies",0.240459664771515,13,52
+"954","HB-Noord","Lagland",0.192914490249831,13,53
+"955","Belvedere","Simliduinen",0.0484346896827757,12,25
+"956","Belvedere","Cabour",0.0457203895012473,12,5
+"957","Belvedere","Tropiflora",0.0369730142757512,12,7
+"958","Belvedere","Westhoek vissersdorp",0.0501689121006627,12,8
+"959","Belvedere","Geel-Bel",0.158071483551308,12,46
+"960","Belvedere","Karthuizerduinen",0.0395974319035031,12,24
+"961","Belvedere","Oostvoordduinen",0.0551741939412326,12,21
+"962","Belvedere","Astridlaan",0.0486074020358881,12,19
+"963","Belvedere","Wetteren",0.150092860479914,12,41
+"964","Belvedere","Mt St Frieux",0.0936256358406493,12,1
+"965","Belvedere","Sangatte",0.0459738325979382,12,3
+"966","Belvedere","HB-Pylyserlaan",0.0406587066998262,12,16
+"967","Belvedere","HB-Doornpanne",0.0608045845199941,12,14
+"968","Belvedere","Witte Burg",0.052069482859759,12,18
+"969","Belvedere","Ter Yde IWVA",0.0392688449356448,12,23
+"970","Belvedere","Veurne",0.0486236567717336,12,6
+"971","Belvedere","Slack",0.0828412767358554,12,2
+"972","Belvedere","HB-Noord",0.0680782310355828,12,13
+"973","Belvedere","Belvedere",0,12,12
+"974","Belvedere","Westhoek NO",0.0334773549521999,12,9
+"975","Belvedere","Westhoek Oost",0.0472403057905965,12,10
+"976","Belvedere","Oosthoekduinen",0.044265442660821,12,11
+"977","Belvedere","Schipgatduinen",0.0949352317262982,12,17
+"978","Belvedere","HB-Oost",0.0658956087922019,12,15
+"979","Belvedere","Zwinbosjes",0.110525384876984,12,38
+"980","Belvedere","Ter Yde West",0.0471119897167049,12,22
+"981","Belvedere","Plaatsduinen",0.0486453705131326,12,20
+"982","Belvedere","Westhoek Zuid",0.0537455681931772,12,4
+"983","Belvedere","Kopberg",0.134505890152809,12,47
+"984","Belvedere","Keiheuvel",0.252787650907767,12,48
+"985","Belvedere","Kortenhoeff-NL",0.301121315172258,12,42
+"986","Belvedere","Arendschot",0.202520925581311,12,45
+"987","Belvedere","Kalmthout",0.188420011017892,12,43
+"988","Belvedere","Hamont-Achel3",0.205540840331559,12,50
+"989","Belvedere","Hamont-Achel2",0.250569644924951,12,49
+"990","Belvedere","Hamont-Achel1",0.191390316906837,12,51
+"991","Belvedere","Vloethemveld-Zuid",0.109209722628346,12,40
+"992","Belvedere","Raversijde2",0.0560926246947515,12,30
+"993","Belvedere","Vloethemveld-Noord",0.150171617758026,12,39
+"994","Belvedere","DuinbossenDeHaan",0.0915846665361393,12,36
+"995","Belvedere","Raversijde1",0.0872023148482424,12,29
+"996","Belvedere","Raversijde3",0.148179160059333,12,31
+"997","Belvedere","Bredene",0.0932623618789262,12,35
+"998","Belvedere","Fort Napoleon",0.0915529401413715,12,33
+"999","Belvedere","Averbode",0.109263744765727,12,44
+"1000","Belvedere","Sint-Laureins2",0.0911313111657206,12,27
+"1001","Belvedere","Sint-Laureins1",0.0821454829000623,12,26
+"1002","Belvedere","WarandeduinenMiddelkerke",0.100801353514985,12,28
+"1003","Belvedere","Raversijde4",0.109628550764273,12,32
+"1004","Belvedere","SpanjaardduinenOostende",0.0905735291963743,12,34
+"1005","Belvedere","Zwinbosjes-grazed",0.128991222764842,12,37
+"1006","Belvedere","Harchies",0.283311698652714,12,52
+"1007","Belvedere","Lagland",0.210320627122993,12,53
+"1008","Westhoek NO","Simliduinen",0.0428035156581648,9,25
+"1009","Westhoek NO","Cabour",0.0331411815642039,9,5
+"1010","Westhoek NO","Tropiflora",0.0287993731288236,9,7
+"1011","Westhoek NO","Westhoek vissersdorp",0.0356047371340185,9,8
+"1012","Westhoek NO","Geel-Bel",0.15082096595719,9,46
+"1013","Westhoek NO","Karthuizerduinen",0.0459647753618914,9,24
+"1014","Westhoek NO","Oostvoordduinen",0.0382928688993321,9,21
+"1015","Westhoek NO","Astridlaan",0.0377923658620263,9,19
+"1016","Westhoek NO","Wetteren",0.164004843632366,9,41
+"1017","Westhoek NO","Mt St Frieux",0.0645183594371112,9,1
+"1018","Westhoek NO","Sangatte",0.0351989765019307,9,3
+"1019","Westhoek NO","HB-Pylyserlaan",0.0380989923636643,9,16
+"1020","Westhoek NO","HB-Doornpanne",0.0441666348693926,9,14
+"1021","Westhoek NO","Witte Burg",0.0462509723471068,9,18
+"1022","Westhoek NO","Ter Yde IWVA",0.0368322449733785,9,23
+"1023","Westhoek NO","Veurne",0.0394647277940189,9,6
+"1024","Westhoek NO","Slack",0.0647313358260868,9,2
+"1025","Westhoek NO","HB-Noord",0.0619844326071139,9,13
+"1026","Westhoek NO","Belvedere",0.0334773549521999,9,12
+"1027","Westhoek NO","Westhoek NO",0,9,9
+"1028","Westhoek NO","Westhoek Oost",0.0364718722359514,9,10
+"1029","Westhoek NO","Oosthoekduinen",0.0257325009172815,9,11
+"1030","Westhoek NO","Schipgatduinen",0.0787920304306306,9,17
+"1031","Westhoek NO","HB-Oost",0.0526973524742944,9,15
+"1032","Westhoek NO","Zwinbosjes",0.115629240556437,9,38
+"1033","Westhoek NO","Ter Yde West",0.0419904084922469,9,22
+"1034","Westhoek NO","Plaatsduinen",0.0342601542298684,9,20
+"1035","Westhoek NO","Westhoek Zuid",0.0428460823333581,9,4
+"1036","Westhoek NO","Kopberg",0.133945043132213,9,47
+"1037","Westhoek NO","Keiheuvel",0.236115877406505,9,48
+"1038","Westhoek NO","Kortenhoeff-NL",0.246432173867084,9,42
+"1039","Westhoek NO","Arendschot",0.167440931139761,9,45
+"1040","Westhoek NO","Kalmthout",0.176876148142923,9,43
+"1041","Westhoek NO","Hamont-Achel3",0.19015639089739,9,50
+"1042","Westhoek NO","Hamont-Achel2",0.236574412583165,9,49
+"1043","Westhoek NO","Hamont-Achel1",0.193830236563759,9,51
+"1044","Westhoek NO","Vloethemveld-Zuid",0.0909990704558418,9,40
+"1045","Westhoek NO","Raversijde2",0.0720628605829272,9,30
+"1046","Westhoek NO","Vloethemveld-Noord",0.135993925528327,9,39
+"1047","Westhoek NO","DuinbossenDeHaan",0.0859591891640869,9,36
+"1048","Westhoek NO","Raversijde1",0.0975327866477424,9,29
+"1049","Westhoek NO","Raversijde3",0.117074350657059,9,31
+"1050","Westhoek NO","Bredene",0.0807373719129311,9,35
+"1051","Westhoek NO","Fort Napoleon",0.0761231417281545,9,33
+"1052","Westhoek NO","Averbode",0.0931630384351452,9,44
+"1053","Westhoek NO","Sint-Laureins2",0.0888737645631704,9,27
+"1054","Westhoek NO","Sint-Laureins1",0.0817867645565973,9,26
+"1055","Westhoek NO","WarandeduinenMiddelkerke",0.0787067743406139,9,28
+"1056","Westhoek NO","Raversijde4",0.116962291771453,9,32
+"1057","Westhoek NO","SpanjaardduinenOostende",0.0804082532453197,9,34
+"1058","Westhoek NO","Zwinbosjes-grazed",0.113519669924844,9,37
+"1059","Westhoek NO","Harchies",0.281034055722717,9,52
+"1060","Westhoek NO","Lagland",0.197901961339671,9,53
+"1061","Westhoek Oost","Simliduinen",0.0441747626713723,10,25
+"1062","Westhoek Oost","Cabour",0.0440204933179312,10,5
+"1063","Westhoek Oost","Tropiflora",0.0367792532223384,10,7
+"1064","Westhoek Oost","Westhoek vissersdorp",0.0380623978406073,10,8
+"1065","Westhoek Oost","Geel-Bel",0.164282833414026,10,46
+"1066","Westhoek Oost","Karthuizerduinen",0.0493520364130441,10,24
+"1067","Westhoek Oost","Oostvoordduinen",0.0452178933277492,10,21
+"1068","Westhoek Oost","Astridlaan",0.0422714029289735,10,19
+"1069","Westhoek Oost","Wetteren",0.168721809991623,10,41
+"1070","Westhoek Oost","Mt St Frieux",0.0969862719057843,10,1
+"1071","Westhoek Oost","Sangatte",0.0572531275968174,10,3
+"1072","Westhoek Oost","HB-Pylyserlaan",0.0462478546498802,10,16
+"1073","Westhoek Oost","HB-Doornpanne",0.0448461720914201,10,14
+"1074","Westhoek Oost","Witte Burg",0.0508605172799309,10,18
+"1075","Westhoek Oost","Ter Yde IWVA",0.050648111948272,10,23
+"1076","Westhoek Oost","Veurne",0.0443262563185252,10,6
+"1077","Westhoek Oost","Slack",0.099589825979358,10,2
+"1078","Westhoek Oost","HB-Noord",0.0463693976339264,10,13
+"1079","Westhoek Oost","Belvedere",0.0472403057905965,10,12
+"1080","Westhoek Oost","Westhoek NO",0.0364718722359514,10,9
+"1081","Westhoek Oost","Westhoek Oost",0,10,10
+"1082","Westhoek Oost","Oosthoekduinen",0.0352151310331328,10,11
+"1083","Westhoek Oost","Schipgatduinen",0.0805415316947885,10,17
+"1084","Westhoek Oost","HB-Oost",0.052925297657115,10,15
+"1085","Westhoek Oost","Zwinbosjes",0.152547188415977,10,38
+"1086","Westhoek Oost","Ter Yde West",0.0450972008084232,10,22
+"1087","Westhoek Oost","Plaatsduinen",0.0370428685211879,10,20
+"1088","Westhoek Oost","Westhoek Zuid",0.0387046050425265,10,4
+"1089","Westhoek Oost","Kopberg",0.144286251476352,10,47
+"1090","Westhoek Oost","Keiheuvel",0.245899987385607,10,48
+"1091","Westhoek Oost","Kortenhoeff-NL",0.287817271487461,10,42
+"1092","Westhoek Oost","Arendschot",0.19217939041888,10,45
+"1093","Westhoek Oost","Kalmthout",0.205574818941108,10,43
+"1094","Westhoek Oost","Hamont-Achel3",0.199134582233191,10,50
+"1095","Westhoek Oost","Hamont-Achel2",0.238786772489939,10,49
+"1096","Westhoek Oost","Hamont-Achel1",0.195870837116952,10,51
+"1097","Westhoek Oost","Vloethemveld-Zuid",0.0760151959974333,10,40
+"1098","Westhoek Oost","Raversijde2",0.071829534439248,10,30
+"1099","Westhoek Oost","Vloethemveld-Noord",0.162339075056821,10,39
+"1100","Westhoek Oost","DuinbossenDeHaan",0.0948078300340017,10,36
+"1101","Westhoek Oost","Raversijde1",0.0873361316345566,10,29
+"1102","Westhoek Oost","Raversijde3",0.0914173521623674,10,31
+"1103","Westhoek Oost","Bredene",0.073195367299559,10,35
+"1104","Westhoek Oost","Fort Napoleon",0.085380689331753,10,33
+"1105","Westhoek Oost","Averbode",0.113332227439757,10,44
+"1106","Westhoek Oost","Sint-Laureins2",0.0580381287432212,10,27
+"1107","Westhoek Oost","Sint-Laureins1",0.0603022661540118,10,26
+"1108","Westhoek Oost","WarandeduinenMiddelkerke",0.0770285737984791,10,28
+"1109","Westhoek Oost","Raversijde4",0.135090184111146,10,32
+"1110","Westhoek Oost","SpanjaardduinenOostende",0.0842918357956416,10,34
+"1111","Westhoek Oost","Zwinbosjes-grazed",0.147745977573901,10,37
+"1112","Westhoek Oost","Harchies",0.247887939267567,10,52
+"1113","Westhoek Oost","Lagland",0.195092997131171,10,53
+"1114","Oosthoekduinen","Simliduinen",0.0337944385136064,11,25
+"1115","Oosthoekduinen","Cabour",0.0334587279129011,11,5
+"1116","Oosthoekduinen","Tropiflora",0.0323804784149275,11,7
+"1117","Oosthoekduinen","Westhoek vissersdorp",0.0372008487981501,11,8
+"1118","Oosthoekduinen","Geel-Bel",0.139823876438067,11,46
+"1119","Oosthoekduinen","Karthuizerduinen",0.0350144842008146,11,24
+"1120","Oosthoekduinen","Oostvoordduinen",0.0251172788968229,11,21
+"1121","Oosthoekduinen","Astridlaan",0.0298526036202381,11,19
+"1122","Oosthoekduinen","Wetteren",0.166042067546488,11,41
+"1123","Oosthoekduinen","Mt St Frieux",0.0665107419642866,11,1
+"1124","Oosthoekduinen","Sangatte",0.044788674983681,11,3
+"1125","Oosthoekduinen","HB-Pylyserlaan",0.0397076675105796,11,16
+"1126","Oosthoekduinen","HB-Doornpanne",0.0510029175269743,11,14
+"1127","Oosthoekduinen","Witte Burg",0.0434480373575099,11,18
+"1128","Oosthoekduinen","Ter Yde IWVA",0.0354024254822481,11,23
+"1129","Oosthoekduinen","Veurne",0.0262107435052232,11,6
+"1130","Oosthoekduinen","Slack",0.0732599470106202,11,2
+"1131","Oosthoekduinen","HB-Noord",0.0425463327100996,11,13
+"1132","Oosthoekduinen","Belvedere",0.044265442660821,11,12
+"1133","Oosthoekduinen","Westhoek NO",0.0257325009172815,11,9
+"1134","Oosthoekduinen","Westhoek Oost",0.0352151310331328,11,10
+"1135","Oosthoekduinen","Oosthoekduinen",0,11,11
+"1136","Oosthoekduinen","Schipgatduinen",0.0667414757212578,11,17
+"1137","Oosthoekduinen","HB-Oost",0.0313855585650643,11,15
+"1138","Oosthoekduinen","Zwinbosjes",0.105766521107054,11,38
+"1139","Oosthoekduinen","Ter Yde West",0.0326071192431984,11,22
+"1140","Oosthoekduinen","Plaatsduinen",0.0313503052727311,11,20
+"1141","Oosthoekduinen","Westhoek Zuid",0.0302173950499122,11,4
+"1142","Oosthoekduinen","Kopberg",0.128867285539336,11,47
+"1143","Oosthoekduinen","Keiheuvel",0.220847084712965,11,48
+"1144","Oosthoekduinen","Kortenhoeff-NL",0.249126889179707,11,42
+"1145","Oosthoekduinen","Arendschot",0.175815757750359,11,45
+"1146","Oosthoekduinen","Kalmthout",0.149967015391956,11,43
+"1147","Oosthoekduinen","Hamont-Achel3",0.170973919401841,11,50
+"1148","Oosthoekduinen","Hamont-Achel2",0.221757602772552,11,49
+"1149","Oosthoekduinen","Hamont-Achel1",0.183870329872676,11,51
+"1150","Oosthoekduinen","Vloethemveld-Zuid",0.0712220520411759,11,40
+"1151","Oosthoekduinen","Raversijde2",0.0711866074452168,11,30
+"1152","Oosthoekduinen","Vloethemveld-Noord",0.109375506661756,11,39
+"1153","Oosthoekduinen","DuinbossenDeHaan",0.0693052156471333,11,36
+"1154","Oosthoekduinen","Raversijde1",0.0942916889460319,11,29
+"1155","Oosthoekduinen","Raversijde3",0.0958952706271413,11,31
+"1156","Oosthoekduinen","Bredene",0.0688918380265755,11,35
+"1157","Oosthoekduinen","Fort Napoleon",0.0837993727748545,11,33
+"1158","Oosthoekduinen","Averbode",0.0927735008390568,11,44
+"1159","Oosthoekduinen","Sint-Laureins2",0.0663273500179551,11,27
+"1160","Oosthoekduinen","Sint-Laureins1",0.0626774816878887,11,26
+"1161","Oosthoekduinen","WarandeduinenMiddelkerke",0.0796261660945807,11,28
+"1162","Oosthoekduinen","Raversijde4",0.0995828410448212,11,32
+"1163","Oosthoekduinen","SpanjaardduinenOostende",0.0785527868817841,11,34
+"1164","Oosthoekduinen","Zwinbosjes-grazed",0.126021502453448,11,37
+"1165","Oosthoekduinen","Harchies",0.244862921239529,11,52
+"1166","Oosthoekduinen","Lagland",0.196630628692871,11,53
+"1167","Schipgatduinen","Simliduinen",0.055965343850058,17,25
+"1168","Schipgatduinen","Cabour",0.0899350867982873,17,5
+"1169","Schipgatduinen","Tropiflora",0.0643721844403473,17,7
+"1170","Schipgatduinen","Westhoek vissersdorp",0.066890577032129,17,8
+"1171","Schipgatduinen","Geel-Bel",0.14823640913531,17,46
+"1172","Schipgatduinen","Karthuizerduinen",0.0737337672952988,17,24
+"1173","Schipgatduinen","Oostvoordduinen",0.0435858513394984,17,21
+"1174","Schipgatduinen","Astridlaan",0.0619611163682231,17,19
+"1175","Schipgatduinen","Wetteren",0.24047570403937,17,41
+"1176","Schipgatduinen","Mt St Frieux",0.10331222755824,17,1
+"1177","Schipgatduinen","Sangatte",0.0807705084839538,17,3
+"1178","Schipgatduinen","HB-Pylyserlaan",0.0713123912550802,17,16
+"1179","Schipgatduinen","HB-Doornpanne",0.0581618007924966,17,14
+"1180","Schipgatduinen","Witte Burg",0.052228556780272,17,18
+"1181","Schipgatduinen","Ter Yde IWVA",0.0517521463568758,17,23
+"1182","Schipgatduinen","Veurne",0.0793168294280546,17,6
+"1183","Schipgatduinen","Slack",0.102224309245581,17,2
+"1184","Schipgatduinen","HB-Noord",0.0903776172687924,17,13
+"1185","Schipgatduinen","Belvedere",0.0949352317262982,17,12
+"1186","Schipgatduinen","Westhoek NO",0.0787920304306306,17,9
+"1187","Schipgatduinen","Westhoek Oost",0.0805415316947885,17,10
+"1188","Schipgatduinen","Oosthoekduinen",0.0667414757212578,17,11
+"1189","Schipgatduinen","Schipgatduinen",0,17,17
+"1190","Schipgatduinen","HB-Oost",0.0615352037097259,17,15
+"1191","Schipgatduinen","Zwinbosjes",0.124467322074482,17,38
+"1192","Schipgatduinen","Ter Yde West",0.0532280015151627,17,22
+"1193","Schipgatduinen","Plaatsduinen",0.061261748644755,17,20
+"1194","Schipgatduinen","Westhoek Zuid",0.0574700572765643,17,4
+"1195","Schipgatduinen","Kopberg",0.170232973623353,17,47
+"1196","Schipgatduinen","Keiheuvel",0.235944940966749,17,48
+"1197","Schipgatduinen","Kortenhoeff-NL",0.23546758481682,17,42
+"1198","Schipgatduinen","Arendschot",0.188615061780339,17,45
+"1199","Schipgatduinen","Kalmthout",0.212641056921003,17,43
+"1200","Schipgatduinen","Hamont-Achel3",0.171679813670685,17,50
+"1201","Schipgatduinen","Hamont-Achel2",0.219151567854646,17,49
+"1202","Schipgatduinen","Hamont-Achel1",0.178823852258358,17,51
+"1203","Schipgatduinen","Vloethemveld-Zuid",0.126686692582561,17,40
+"1204","Schipgatduinen","Raversijde2",0.0814265411085653,17,30
+"1205","Schipgatduinen","Vloethemveld-Noord",0.188665944228746,17,39
+"1206","Schipgatduinen","DuinbossenDeHaan",0.0901047531648901,17,36
+"1207","Schipgatduinen","Raversijde1",0.10907951084991,17,29
+"1208","Schipgatduinen","Raversijde3",0.112174680440113,17,31
+"1209","Schipgatduinen","Bredene",0.117957711021295,17,35
+"1210","Schipgatduinen","Fort Napoleon",0.134828863057642,17,33
+"1211","Schipgatduinen","Averbode",0.141184568572829,17,44
+"1212","Schipgatduinen","Sint-Laureins2",0.106235584690469,17,27
+"1213","Schipgatduinen","Sint-Laureins1",0.0937672040579046,17,26
+"1214","Schipgatduinen","WarandeduinenMiddelkerke",0.11033308922918,17,28
+"1215","Schipgatduinen","Raversijde4",0.14894101206891,17,32
+"1216","Schipgatduinen","SpanjaardduinenOostende",0.0758346818782525,17,34
+"1217","Schipgatduinen","Zwinbosjes-grazed",0.117035120303497,17,37
+"1218","Schipgatduinen","Harchies",0.234220665553143,17,52
+"1219","Schipgatduinen","Lagland",0.17080960600489,17,53
+"1220","HB-Oost","Simliduinen",0.0555845105101972,15,25
+"1221","HB-Oost","Cabour",0.0510372049741857,15,5
+"1222","HB-Oost","Tropiflora",0.0535532170627875,15,7
+"1223","HB-Oost","Westhoek vissersdorp",0.0520337880290002,15,8
+"1224","HB-Oost","Geel-Bel",0.10323129556536,15,46
+"1225","HB-Oost","Karthuizerduinen",0.0479185558448656,15,24
+"1226","HB-Oost","Oostvoordduinen",0.0296254503704441,15,21
+"1227","HB-Oost","Astridlaan",0.0519618289503346,15,19
+"1228","HB-Oost","Wetteren",0.21149110030181,15,41
+"1229","HB-Oost","Mt St Frieux",0.0768000261077251,15,1
+"1230","HB-Oost","Sangatte",0.0564333141016277,15,3
+"1231","HB-Oost","HB-Pylyserlaan",0.0529753887631849,15,16
+"1232","HB-Oost","HB-Doornpanne",0.0595366427638055,15,14
+"1233","HB-Oost","Witte Burg",0.0417838710828124,15,18
+"1234","HB-Oost","Ter Yde IWVA",0.0545075715617552,15,23
+"1235","HB-Oost","Veurne",0.0415121776054674,15,6
+"1236","HB-Oost","Slack",0.0790131773818821,15,2
+"1237","HB-Oost","HB-Noord",0.053221117812639,15,13
+"1238","HB-Oost","Belvedere",0.0658956087922019,15,12
+"1239","HB-Oost","Westhoek NO",0.0526973524742944,15,9
+"1240","HB-Oost","Westhoek Oost",0.052925297657115,15,10
+"1241","HB-Oost","Oosthoekduinen",0.0313855585650643,15,11
+"1242","HB-Oost","Schipgatduinen",0.0615352037097259,15,17
+"1243","HB-Oost","HB-Oost",0,15,15
+"1244","HB-Oost","Zwinbosjes",0.113304110967865,15,38
+"1245","HB-Oost","Ter Yde West",0.0377683793678171,15,22
+"1246","HB-Oost","Plaatsduinen",0.0365515730868405,15,20
+"1247","HB-Oost","Westhoek Zuid",0.0393053362420976,15,4
+"1248","HB-Oost","Kopberg",0.0979572065638979,15,47
+"1249","HB-Oost","Keiheuvel",0.179419116079559,15,48
+"1250","HB-Oost","Kortenhoeff-NL",0.257118132267917,15,42
+"1251","HB-Oost","Arendschot",0.149605143902546,15,45
+"1252","HB-Oost","Kalmthout",0.155736591130462,15,43
+"1253","HB-Oost","Hamont-Achel3",0.162797840968914,15,50
+"1254","HB-Oost","Hamont-Achel2",0.230451868064075,15,49
+"1255","HB-Oost","Hamont-Achel1",0.187140050857521,15,51
+"1256","HB-Oost","Vloethemveld-Zuid",0.0947825088491609,15,40
+"1257","HB-Oost","Raversijde2",0.055066379508791,15,30
+"1258","HB-Oost","Vloethemveld-Noord",0.133452733084212,15,39
+"1259","HB-Oost","DuinbossenDeHaan",0.0658821438421583,15,36
+"1260","HB-Oost","Raversijde1",0.0915605629046652,15,29
+"1261","HB-Oost","Raversijde3",0.124403972125805,15,31
+"1262","HB-Oost","Bredene",0.0914099704408712,15,35
+"1263","HB-Oost","Fort Napoleon",0.119278438937436,15,33
+"1264","HB-Oost","Averbode",0.0976485581497644,15,44
+"1265","HB-Oost","Sint-Laureins2",0.0657956297619462,15,27
+"1266","HB-Oost","Sint-Laureins1",0.0849497867585303,15,26
+"1267","HB-Oost","WarandeduinenMiddelkerke",0.0904225095071251,15,28
+"1268","HB-Oost","Raversijde4",0.119864588233272,15,32
+"1269","HB-Oost","SpanjaardduinenOostende",0.0724195640501432,15,34
+"1270","HB-Oost","Zwinbosjes-grazed",0.124542204324331,15,37
+"1271","HB-Oost","Harchies",0.224121592744016,15,52
+"1272","HB-Oost","Lagland",0.14954884804929,15,53
+"1273","Zwinbosjes","Simliduinen",0.11211172569844,38,25
+"1274","Zwinbosjes","Cabour",0.127072522394418,38,5
+"1275","Zwinbosjes","Tropiflora",0.120582897215701,38,7
+"1276","Zwinbosjes","Westhoek vissersdorp",0.116975810938594,38,8
+"1277","Zwinbosjes","Geel-Bel",0.172402792617013,38,46
+"1278","Zwinbosjes","Karthuizerduinen",0.110460150803101,38,24
+"1279","Zwinbosjes","Oostvoordduinen",0.105820522662465,38,21
+"1280","Zwinbosjes","Astridlaan",0.111684038139534,38,19
+"1281","Zwinbosjes","Wetteren",0.236453443451565,38,41
+"1282","Zwinbosjes","Mt St Frieux",0.120235743788336,38,1
+"1283","Zwinbosjes","Sangatte",0.102431313809893,38,3
+"1284","Zwinbosjes","HB-Pylyserlaan",0.107597844841059,38,16
+"1285","Zwinbosjes","HB-Doornpanne",0.11247370049339,38,14
+"1286","Zwinbosjes","Witte Burg",0.119044662244504,38,18
+"1287","Zwinbosjes","Ter Yde IWVA",0.103332826437682,38,23
+"1288","Zwinbosjes","Veurne",0.11426768714167,38,6
+"1289","Zwinbosjes","Slack",0.107791270741041,38,2
+"1290","Zwinbosjes","HB-Noord",0.133195694160536,38,13
+"1291","Zwinbosjes","Belvedere",0.110525384876984,38,12
+"1292","Zwinbosjes","Westhoek NO",0.115629240556437,38,9
+"1293","Zwinbosjes","Westhoek Oost",0.152547188415977,38,10
+"1294","Zwinbosjes","Oosthoekduinen",0.105766521107054,38,11
+"1295","Zwinbosjes","Schipgatduinen",0.124467322074482,38,17
+"1296","Zwinbosjes","HB-Oost",0.113304110967865,38,15
+"1297","Zwinbosjes","Zwinbosjes",0,38,38
+"1298","Zwinbosjes","Ter Yde West",0.101838299556108,38,22
+"1299","Zwinbosjes","Plaatsduinen",0.10497635438062,38,20
+"1300","Zwinbosjes","Westhoek Zuid",0.111894505300212,38,4
+"1301","Zwinbosjes","Kopberg",0.202591175788449,38,47
+"1302","Zwinbosjes","Keiheuvel",0.313261429584336,38,48
+"1303","Zwinbosjes","Kortenhoeff-NL",0.283077533001185,38,42
+"1304","Zwinbosjes","Arendschot",0.234899964971848,38,45
+"1305","Zwinbosjes","Kalmthout",0.20987708641299,38,43
+"1306","Zwinbosjes","Hamont-Achel3",0.244291636531735,38,50
+"1307","Zwinbosjes","Hamont-Achel2",0.30454074530116,38,49
+"1308","Zwinbosjes","Hamont-Achel1",0.254941528102893,38,51
+"1309","Zwinbosjes","Vloethemveld-Zuid",0.159326174723721,38,40
+"1310","Zwinbosjes","Raversijde2",0.137603291183972,38,30
+"1311","Zwinbosjes","Vloethemveld-Noord",0.203300426604441,38,39
+"1312","Zwinbosjes","DuinbossenDeHaan",0.0744269614851598,38,36
+"1313","Zwinbosjes","Raversijde1",0.143548612434728,38,29
+"1314","Zwinbosjes","Raversijde3",0.198068738063383,38,31
+"1315","Zwinbosjes","Bredene",0.200497481128214,38,35
+"1316","Zwinbosjes","Fort Napoleon",0.199604564786722,38,33
+"1317","Zwinbosjes","Averbode",0.176248399862788,38,44
+"1318","Zwinbosjes","Sint-Laureins2",0.144130711113009,38,27
+"1319","Zwinbosjes","Sint-Laureins1",0.116769837219617,38,26
+"1320","Zwinbosjes","WarandeduinenMiddelkerke",0.208834369359318,38,28
+"1321","Zwinbosjes","Raversijde4",0.128761018168966,38,32
+"1322","Zwinbosjes","SpanjaardduinenOostende",0.211951023930892,38,34
+"1323","Zwinbosjes","Zwinbosjes-grazed",0.0623794447727077,38,37
+"1324","Zwinbosjes","Harchies",0.227843639890512,38,52
+"1325","Zwinbosjes","Lagland",0.252931268390502,38,53
+"1326","Ter Yde West","Simliduinen",0.031807152399753,22,25
+"1327","Ter Yde West","Cabour",0.0449879027257005,22,5
+"1328","Ter Yde West","Tropiflora",0.0334756366779264,22,7
+"1329","Ter Yde West","Westhoek vissersdorp",0.0338316275295508,22,8
+"1330","Ter Yde West","Geel-Bel",0.126503176515618,22,46
+"1331","Ter Yde West","Karthuizerduinen",0.03666472936375,22,24
+"1332","Ter Yde West","Oostvoordduinen",0.0229692350875583,22,21
+"1333","Ter Yde West","Astridlaan",0.0338668145927247,22,19
+"1334","Ter Yde West","Wetteren",0.17209104899487,22,41
+"1335","Ter Yde West","Mt St Frieux",0.0894152056265019,22,1
+"1336","Ter Yde West","Sangatte",0.0539896231647806,22,3
+"1337","Ter Yde West","HB-Pylyserlaan",0.0440135744301959,22,16
+"1338","Ter Yde West","HB-Doornpanne",0.0525779430755457,22,14
+"1339","Ter Yde West","Witte Burg",0.0384710886580886,22,18
+"1340","Ter Yde West","Ter Yde IWVA",0.0426209635285291,22,23
+"1341","Ter Yde West","Veurne",0.0421316309395593,22,6
+"1342","Ter Yde West","Slack",0.0920391589653983,22,2
+"1343","Ter Yde West","HB-Noord",0.0496470342599536,22,13
+"1344","Ter Yde West","Belvedere",0.0471119897167049,22,12
+"1345","Ter Yde West","Westhoek NO",0.0419904084922469,22,9
+"1346","Ter Yde West","Westhoek Oost",0.0450972008084232,22,10
+"1347","Ter Yde West","Oosthoekduinen",0.0326071192431984,22,11
+"1348","Ter Yde West","Schipgatduinen",0.0532280015151627,22,17
+"1349","Ter Yde West","HB-Oost",0.0377683793678171,22,15
+"1350","Ter Yde West","Zwinbosjes",0.101838299556108,22,38
+"1351","Ter Yde West","Ter Yde West",0,22,22
+"1352","Ter Yde West","Plaatsduinen",0.0420737869127881,22,20
+"1353","Ter Yde West","Westhoek Zuid",0.0466032142836295,22,4
+"1354","Ter Yde West","Kopberg",0.127278872462159,22,47
+"1355","Ter Yde West","Keiheuvel",0.227227182302061,22,48
+"1356","Ter Yde West","Kortenhoeff-NL",0.242361364072383,22,42
+"1357","Ter Yde West","Arendschot",0.158327256675212,22,45
+"1358","Ter Yde West","Kalmthout",0.183733799011064,22,43
+"1359","Ter Yde West","Hamont-Achel3",0.174463121254205,22,50
+"1360","Ter Yde West","Hamont-Achel2",0.234773999012261,22,49
+"1361","Ter Yde West","Hamont-Achel1",0.187113268502328,22,51
+"1362","Ter Yde West","Vloethemveld-Zuid",0.100378271394344,22,40
+"1363","Ter Yde West","Raversijde2",0.0689760655867034,22,30
+"1364","Ter Yde West","Vloethemveld-Noord",0.150909532124202,22,39
+"1365","Ter Yde West","DuinbossenDeHaan",0.0751093598211274,22,36
+"1366","Ter Yde West","Raversijde1",0.102228715858617,22,29
+"1367","Ter Yde West","Raversijde3",0.0946588138878541,22,31
+"1368","Ter Yde West","Bredene",0.0784495641373976,22,35
+"1369","Ter Yde West","Fort Napoleon",0.0664694334871375,22,33
+"1370","Ter Yde West","Averbode",0.103524631992094,22,44
+"1371","Ter Yde West","Sint-Laureins2",0.0704098219969685,22,27
+"1372","Ter Yde West","Sint-Laureins1",0.0721266739376453,22,26
+"1373","Ter Yde West","WarandeduinenMiddelkerke",0.0914328134743559,22,28
+"1374","Ter Yde West","Raversijde4",0.0942099503250485,22,32
+"1375","Ter Yde West","SpanjaardduinenOostende",0.073074319820293,22,34
+"1376","Ter Yde West","Zwinbosjes-grazed",0.129869928065963,22,37
+"1377","Ter Yde West","Harchies",0.244428215712096,22,52
+"1378","Ter Yde West","Lagland",0.192845211553201,22,53
+"1379","Plaatsduinen","Simliduinen",0.0344136836108533,20,25
+"1380","Plaatsduinen","Cabour",0.0444497486837601,20,5
+"1381","Plaatsduinen","Tropiflora",0.0368689152087861,20,7
+"1382","Plaatsduinen","Westhoek vissersdorp",0.0307598388156742,20,8
+"1383","Plaatsduinen","Geel-Bel",0.141638753572153,20,46
+"1384","Plaatsduinen","Karthuizerduinen",0.0558305062640174,20,24
+"1385","Plaatsduinen","Oostvoordduinen",0.0280370257782179,20,21
+"1386","Plaatsduinen","Astridlaan",0.0293367236881366,20,19
+"1387","Plaatsduinen","Wetteren",0.163397525866157,20,41
+"1388","Plaatsduinen","Mt St Frieux",0.0693650355428785,20,1
+"1389","Plaatsduinen","Sangatte",0.0532744518535632,20,3
+"1390","Plaatsduinen","HB-Pylyserlaan",0.0376301831581929,20,16
+"1391","Plaatsduinen","HB-Doornpanne",0.0312958981465166,20,14
+"1392","Plaatsduinen","Witte Burg",0.0347541282370528,20,18
+"1393","Plaatsduinen","Ter Yde IWVA",0.0341357400222013,20,23
+"1394","Plaatsduinen","Veurne",0.0406686184634228,20,6
+"1395","Plaatsduinen","Slack",0.0696043977345149,20,2
+"1396","Plaatsduinen","HB-Noord",0.0467884176817619,20,13
+"1397","Plaatsduinen","Belvedere",0.0486453705131326,20,12
+"1398","Plaatsduinen","Westhoek NO",0.0342601542298684,20,9
+"1399","Plaatsduinen","Westhoek Oost",0.0370428685211879,20,10
+"1400","Plaatsduinen","Oosthoekduinen",0.0313503052727311,20,11
+"1401","Plaatsduinen","Schipgatduinen",0.061261748644755,20,17
+"1402","Plaatsduinen","HB-Oost",0.0365515730868405,20,15
+"1403","Plaatsduinen","Zwinbosjes",0.10497635438062,20,38
+"1404","Plaatsduinen","Ter Yde West",0.0420737869127881,20,22
+"1405","Plaatsduinen","Plaatsduinen",0,20,20
+"1406","Plaatsduinen","Westhoek Zuid",0.0330999918315969,20,4
+"1407","Plaatsduinen","Kopberg",0.129090318262872,20,47
+"1408","Plaatsduinen","Keiheuvel",0.220711680044213,20,48
+"1409","Plaatsduinen","Kortenhoeff-NL",0.243708008275623,20,42
+"1410","Plaatsduinen","Arendschot",0.15992165300465,20,45
+"1411","Plaatsduinen","Kalmthout",0.15821408568663,20,43
+"1412","Plaatsduinen","Hamont-Achel3",0.187721679161687,20,50
+"1413","Plaatsduinen","Hamont-Achel2",0.262989336197391,20,49
+"1414","Plaatsduinen","Hamont-Achel1",0.193616422016532,20,51
+"1415","Plaatsduinen","Vloethemveld-Zuid",0.0949423538605135,20,40
+"1416","Plaatsduinen","Raversijde2",0.057998708801975,20,30
+"1417","Plaatsduinen","Vloethemveld-Noord",0.143825834118751,20,39
+"1418","Plaatsduinen","DuinbossenDeHaan",0.0772666987757205,20,36
+"1419","Plaatsduinen","Raversijde1",0.0955359385265923,20,29
+"1420","Plaatsduinen","Raversijde3",0.107213452666314,20,31
+"1421","Plaatsduinen","Bredene",0.0726013864609002,20,35
+"1422","Plaatsduinen","Fort Napoleon",0.108929500226595,20,33
+"1423","Plaatsduinen","Averbode",0.105909626545668,20,44
+"1424","Plaatsduinen","Sint-Laureins2",0.075907401124357,20,27
+"1425","Plaatsduinen","Sint-Laureins1",0.0788273877630157,20,26
+"1426","Plaatsduinen","WarandeduinenMiddelkerke",0.0643627600387627,20,28
+"1427","Plaatsduinen","Raversijde4",0.147037532676531,20,32
+"1428","Plaatsduinen","SpanjaardduinenOostende",0.0812708233314819,20,34
+"1429","Plaatsduinen","Zwinbosjes-grazed",0.10311261379231,20,37
+"1430","Plaatsduinen","Harchies",0.229715015450032,20,52
+"1431","Plaatsduinen","Lagland",0.187105155880274,20,53
+"1432","Westhoek Zuid","Simliduinen",0.0476462001545038,4,25
+"1433","Westhoek Zuid","Cabour",0.0635336555313641,4,5
+"1434","Westhoek Zuid","Tropiflora",0.0296719064810768,4,7
+"1435","Westhoek Zuid","Westhoek vissersdorp",0.0417533535273425,4,8
+"1436","Westhoek Zuid","Geel-Bel",0.115747061625673,4,46
+"1437","Westhoek Zuid","Karthuizerduinen",0.0391037112176178,4,24
+"1438","Westhoek Zuid","Oostvoordduinen",0.0386955826542124,4,21
+"1439","Westhoek Zuid","Astridlaan",0.0370026294760523,4,19
+"1440","Westhoek Zuid","Wetteren",0.181975539971112,4,41
+"1441","Westhoek Zuid","Mt St Frieux",0.0603404008159627,4,1
+"1442","Westhoek Zuid","Sangatte",0.0396222556711736,4,3
+"1443","Westhoek Zuid","HB-Pylyserlaan",0.0367977245474672,4,16
+"1444","Westhoek Zuid","HB-Doornpanne",0.0422430321415948,4,14
+"1445","Westhoek Zuid","Witte Burg",0.0535578998900014,4,18
+"1446","Westhoek Zuid","Ter Yde IWVA",0.0333307907599566,4,23
+"1447","Westhoek Zuid","Veurne",0.042672601975428,4,6
+"1448","Westhoek Zuid","Slack",0.0602997885373748,4,2
+"1449","Westhoek Zuid","HB-Noord",0.0413693332234081,4,13
+"1450","Westhoek Zuid","Belvedere",0.0537455681931772,4,12
+"1451","Westhoek Zuid","Westhoek NO",0.0428460823333581,4,9
+"1452","Westhoek Zuid","Westhoek Oost",0.0387046050425265,4,10
+"1453","Westhoek Zuid","Oosthoekduinen",0.0302173950499122,4,11
+"1454","Westhoek Zuid","Schipgatduinen",0.0574700572765643,4,17
+"1455","Westhoek Zuid","HB-Oost",0.0393053362420976,4,15
+"1456","Westhoek Zuid","Zwinbosjes",0.111894505300212,4,38
+"1457","Westhoek Zuid","Ter Yde West",0.0466032142836295,4,22
+"1458","Westhoek Zuid","Plaatsduinen",0.0330999918315969,4,20
+"1459","Westhoek Zuid","Westhoek Zuid",0,4,4
+"1460","Westhoek Zuid","Kopberg",0.109712512464454,4,47
+"1461","Westhoek Zuid","Keiheuvel",0.182313345949846,4,48
+"1462","Westhoek Zuid","Kortenhoeff-NL",0.303346551355587,4,42
+"1463","Westhoek Zuid","Arendschot",0.156113812052306,4,45
+"1464","Westhoek Zuid","Kalmthout",0.177344732806718,4,43
+"1465","Westhoek Zuid","Hamont-Achel3",0.139408606542255,4,50
+"1466","Westhoek Zuid","Hamont-Achel2",0.219348557846364,4,49
+"1467","Westhoek Zuid","Hamont-Achel1",0.160674086536572,4,51
+"1468","Westhoek Zuid","Vloethemveld-Zuid",0.0749453438687555,4,40
+"1469","Westhoek Zuid","Raversijde2",0.0515595725508303,4,30
+"1470","Westhoek Zuid","Vloethemveld-Noord",0.135222873223452,4,39
+"1471","Westhoek Zuid","DuinbossenDeHaan",0.0699206195388807,4,36
+"1472","Westhoek Zuid","Raversijde1",0.0904190887562443,4,29
+"1473","Westhoek Zuid","Raversijde3",0.0997160591147477,4,31
+"1474","Westhoek Zuid","Bredene",0.0715652036581755,4,35
+"1475","Westhoek Zuid","Fort Napoleon",0.105033450900098,4,33
+"1476","Westhoek Zuid","Averbode",0.0813789248357541,4,44
+"1477","Westhoek Zuid","Sint-Laureins2",0.0662006288611453,4,27
+"1478","Westhoek Zuid","Sint-Laureins1",0.0682942616544606,4,26
+"1479","Westhoek Zuid","WarandeduinenMiddelkerke",0.0709019580256016,4,28
+"1480","Westhoek Zuid","Raversijde4",0.125325651729638,4,32
+"1481","Westhoek Zuid","SpanjaardduinenOostende",0.0722694942875352,4,34
+"1482","Westhoek Zuid","Zwinbosjes-grazed",0.112028749284822,4,37
+"1483","Westhoek Zuid","Harchies",0.199776939275784,4,52
+"1484","Westhoek Zuid","Lagland",0.156714992795328,4,53
+"1485","Kopberg","Simliduinen",0.133338843910476,47,25
+"1486","Kopberg","Cabour",0.147323123871884,47,5
+"1487","Kopberg","Tropiflora",0.117775120525997,47,7
+"1488","Kopberg","Westhoek vissersdorp",0.149433153393387,47,8
+"1489","Kopberg","Geel-Bel",0.0434463859251876,47,46
+"1490","Kopberg","Karthuizerduinen",0.104222973650235,47,24
+"1491","Kopberg","Oostvoordduinen",0.131944707861554,47,21
+"1492","Kopberg","Astridlaan",0.122885733707961,47,19
+"1493","Kopberg","Wetteren",0.29557988633467,47,41
+"1494","Kopberg","Mt St Frieux",0.135168990138174,47,1
+"1495","Kopberg","Sangatte",0.128185481037014,47,3
+"1496","Kopberg","HB-Pylyserlaan",0.114145984876828,47,16
+"1497","Kopberg","HB-Doornpanne",0.126653220631986,47,14
+"1498","Kopberg","Witte Burg",0.125551527511166,47,18
+"1499","Kopberg","Ter Yde IWVA",0.15349978854108,47,23
+"1500","Kopberg","Veurne",0.111005686543223,47,6
+"1501","Kopberg","Slack",0.101964347629342,47,2
+"1502","Kopberg","HB-Noord",0.103797449215535,47,13
+"1503","Kopberg","Belvedere",0.134505890152809,47,12
+"1504","Kopberg","Westhoek NO",0.133945043132213,47,9
+"1505","Kopberg","Westhoek Oost",0.144286251476352,47,10
+"1506","Kopberg","Oosthoekduinen",0.128867285539336,47,11
+"1507","Kopberg","Schipgatduinen",0.170232973623353,47,17
+"1508","Kopberg","HB-Oost",0.0979572065638979,47,15
+"1509","Kopberg","Zwinbosjes",0.202591175788449,47,38
+"1510","Kopberg","Ter Yde West",0.127278872462159,47,22
+"1511","Kopberg","Plaatsduinen",0.129090318262872,47,20
+"1512","Kopberg","Westhoek Zuid",0.109712512464454,47,4
+"1513","Kopberg","Kopberg",0,47,47
+"1514","Kopberg","Keiheuvel",0.11210800308327,47,48
+"1515","Kopberg","Kortenhoeff-NL",0.251087018156881,47,42
+"1516","Kopberg","Arendschot",0.171714902630184,47,45
+"1517","Kopberg","Kalmthout",0.176712193902312,47,43
+"1518","Kopberg","Hamont-Achel3",0.208166655344799,47,50
+"1519","Kopberg","Hamont-Achel2",0.307203292317611,47,49
+"1520","Kopberg","Hamont-Achel1",0.183319207623766,47,51
+"1521","Kopberg","Vloethemveld-Zuid",0.182410026354967,47,40
+"1522","Kopberg","Raversijde2",0.12511772065912,47,30
+"1523","Kopberg","Vloethemveld-Noord",0.206851916508985,47,39
+"1524","Kopberg","DuinbossenDeHaan",0.131895688546015,47,36
+"1525","Kopberg","Raversijde1",0.199632485409884,47,29
+"1526","Kopberg","Raversijde3",0.189636008982873,47,31
+"1527","Kopberg","Bredene",0.181279412900891,47,35
+"1528","Kopberg","Fort Napoleon",0.172826275410798,47,33
+"1529","Kopberg","Averbode",0.0713158724727344,47,44
+"1530","Kopberg","Sint-Laureins2",0.159229015180392,47,27
+"1531","Kopberg","Sint-Laureins1",0.191369295171274,47,26
+"1532","Kopberg","WarandeduinenMiddelkerke",0.176466861104405,47,28
+"1533","Kopberg","Raversijde4",0.220506529471355,47,32
+"1534","Kopberg","SpanjaardduinenOostende",0.148949072292478,47,34
+"1535","Kopberg","Zwinbosjes-grazed",0.212135749809165,47,37
+"1536","Kopberg","Harchies",0.249863129708023,47,52
+"1537","Kopberg","Lagland",0.16613906112015,47,53
+"1538","Keiheuvel","Simliduinen",0.22153131683896,48,25
+"1539","Keiheuvel","Cabour",0.282574576997652,48,5
+"1540","Keiheuvel","Tropiflora",0.194752485567653,48,7
+"1541","Keiheuvel","Westhoek vissersdorp",0.262866651948497,48,8
+"1542","Keiheuvel","Geel-Bel",0.109729755010382,48,46
+"1543","Keiheuvel","Karthuizerduinen",0.211271419041717,48,24
+"1544","Keiheuvel","Oostvoordduinen",0.225045169824267,48,21
+"1545","Keiheuvel","Astridlaan",0.204357148703622,48,19
+"1546","Keiheuvel","Wetteren",0.374068977127533,48,41
+"1547","Keiheuvel","Mt St Frieux",0.187891185033369,48,1
+"1548","Keiheuvel","Sangatte",0.223831224555694,48,3
+"1549","Keiheuvel","HB-Pylyserlaan",0.200477002175918,48,16
+"1550","Keiheuvel","HB-Doornpanne",0.212650825303652,48,14
+"1551","Keiheuvel","Witte Burg",0.227464057984059,48,18
+"1552","Keiheuvel","Ter Yde IWVA",0.242324663907841,48,23
+"1553","Keiheuvel","Veurne",0.201129881418687,48,6
+"1554","Keiheuvel","Slack",0.174455685948828,48,2
+"1555","Keiheuvel","HB-Noord",0.217040812337765,48,13
+"1556","Keiheuvel","Belvedere",0.252787650907767,48,12
+"1557","Keiheuvel","Westhoek NO",0.236115877406505,48,9
+"1558","Keiheuvel","Westhoek Oost",0.245899987385607,48,10
+"1559","Keiheuvel","Oosthoekduinen",0.220847084712965,48,11
+"1560","Keiheuvel","Schipgatduinen",0.235944940966749,48,17
+"1561","Keiheuvel","HB-Oost",0.179419116079559,48,15
+"1562","Keiheuvel","Zwinbosjes",0.313261429584336,48,38
+"1563","Keiheuvel","Ter Yde West",0.227227182302061,48,22
+"1564","Keiheuvel","Plaatsduinen",0.220711680044213,48,20
+"1565","Keiheuvel","Westhoek Zuid",0.182313345949846,48,4
+"1566","Keiheuvel","Kopberg",0.11210800308327,48,47
+"1567","Keiheuvel","Keiheuvel",0,48,48
+"1568","Keiheuvel","Kortenhoeff-NL",0.361984832479708,48,42
+"1569","Keiheuvel","Arendschot",0.279968823172579,48,45
+"1570","Keiheuvel","Kalmthout",0.215211765332497,48,43
+"1571","Keiheuvel","Hamont-Achel3",0.160318111047527,48,50
+"1572","Keiheuvel","Hamont-Achel2",0.262915869893728,48,49
+"1573","Keiheuvel","Hamont-Achel1",0.164472337179956,48,51
+"1574","Keiheuvel","Vloethemveld-Zuid",0.29447239593121,48,40
+"1575","Keiheuvel","Raversijde2",0.208269504368295,48,30
+"1576","Keiheuvel","Vloethemveld-Noord",0.280582837605074,48,39
+"1577","Keiheuvel","DuinbossenDeHaan",0.210139366131173,48,36
+"1578","Keiheuvel","Raversijde1",0.316540570402379,48,29
+"1579","Keiheuvel","Raversijde3",0.247388821809968,48,31
+"1580","Keiheuvel","Bredene",0.245633477221117,48,35
+"1581","Keiheuvel","Fort Napoleon",0.308860820334884,48,33
+"1582","Keiheuvel","Averbode",0.0951908639998833,48,44
+"1583","Keiheuvel","Sint-Laureins2",0.228165879907215,48,27
+"1584","Keiheuvel","Sint-Laureins1",0.282320654431414,48,26
+"1585","Keiheuvel","WarandeduinenMiddelkerke",0.27698606928414,48,28
+"1586","Keiheuvel","Raversijde4",0.320209467796039,48,32
+"1587","Keiheuvel","SpanjaardduinenOostende",0.192253553037457,48,34
+"1588","Keiheuvel","Zwinbosjes-grazed",0.300309951144032,48,37
+"1589","Keiheuvel","Harchies",0.278982091406202,48,52
+"1590","Keiheuvel","Lagland",0.245578030522515,48,53
+"1591","Kortenhoeff-NL","Simliduinen",0.203528042098818,42,25
+"1592","Kortenhoeff-NL","Cabour",0.261623632547761,42,5
+"1593","Kortenhoeff-NL","Tropiflora",0.272174039538855,42,7
+"1594","Kortenhoeff-NL","Westhoek vissersdorp",0.278509159843049,42,8
+"1595","Kortenhoeff-NL","Geel-Bel",0.265701363089737,42,46
+"1596","Kortenhoeff-NL","Karthuizerduinen",0.284006268403266,42,24
+"1597","Kortenhoeff-NL","Oostvoordduinen",0.257070808910544,42,21
+"1598","Kortenhoeff-NL","Astridlaan",0.239026911145349,42,19
+"1599","Kortenhoeff-NL","Wetteren",0.444771313372176,42,41
+"1600","Kortenhoeff-NL","Mt St Frieux",0.306419956126815,42,1
+"1601","Kortenhoeff-NL","Sangatte",0.308416788218452,42,3
+"1602","Kortenhoeff-NL","HB-Pylyserlaan",0.259211031493394,42,16
+"1603","Kortenhoeff-NL","HB-Doornpanne",0.213764233599429,42,14
+"1604","Kortenhoeff-NL","Witte Burg",0.226557431186997,42,18
+"1605","Kortenhoeff-NL","Ter Yde IWVA",0.307652059494612,42,23
+"1606","Kortenhoeff-NL","Veurne",0.251314139590119,42,6
+"1607","Kortenhoeff-NL","Slack",0.262409503285581,42,2
+"1608","Kortenhoeff-NL","HB-Noord",0.277340342922063,42,13
+"1609","Kortenhoeff-NL","Belvedere",0.301121315172258,42,12
+"1610","Kortenhoeff-NL","Westhoek NO",0.246432173867084,42,9
+"1611","Kortenhoeff-NL","Westhoek Oost",0.287817271487461,42,10
+"1612","Kortenhoeff-NL","Oosthoekduinen",0.249126889179707,42,11
+"1613","Kortenhoeff-NL","Schipgatduinen",0.23546758481682,42,17
+"1614","Kortenhoeff-NL","HB-Oost",0.257118132267917,42,15
+"1615","Kortenhoeff-NL","Zwinbosjes",0.283077533001185,42,38
+"1616","Kortenhoeff-NL","Ter Yde West",0.242361364072383,42,22
+"1617","Kortenhoeff-NL","Plaatsduinen",0.243708008275623,42,20
+"1618","Kortenhoeff-NL","Westhoek Zuid",0.303346551355587,42,4
+"1619","Kortenhoeff-NL","Kopberg",0.251087018156881,42,47
+"1620","Kortenhoeff-NL","Keiheuvel",0.361984832479708,42,48
+"1621","Kortenhoeff-NL","Kortenhoeff-NL",0,42,42
+"1622","Kortenhoeff-NL","Arendschot",0.388677188711188,42,45
+"1623","Kortenhoeff-NL","Kalmthout",0.226015767680076,42,43
+"1624","Kortenhoeff-NL","Hamont-Achel3",0.351726656809659,42,50
+"1625","Kortenhoeff-NL","Hamont-Achel2",0.418470240333022,42,49
+"1626","Kortenhoeff-NL","Hamont-Achel1",0.281562290598856,42,51
+"1627","Kortenhoeff-NL","Vloethemveld-Zuid",0.355795551000686,42,40
+"1628","Kortenhoeff-NL","Raversijde2",0.338092832724818,42,30
+"1629","Kortenhoeff-NL","Vloethemveld-Noord",0.36817036191395,42,39
+"1630","Kortenhoeff-NL","DuinbossenDeHaan",0.2624125332206,42,36
+"1631","Kortenhoeff-NL","Raversijde1",0.362215631231576,42,29
+"1632","Kortenhoeff-NL","Raversijde3",0.261456970347351,42,31
+"1633","Kortenhoeff-NL","Bredene",0.363591256817463,42,35
+"1634","Kortenhoeff-NL","Fort Napoleon",0.267911737360061,42,33
+"1635","Kortenhoeff-NL","Averbode",0.275939479913152,42,44
+"1636","Kortenhoeff-NL","Sint-Laureins2",0.296640202855484,42,27
+"1637","Kortenhoeff-NL","Sint-Laureins1",0.321081084465833,42,26
+"1638","Kortenhoeff-NL","WarandeduinenMiddelkerke",0.285401704237363,42,28
+"1639","Kortenhoeff-NL","Raversijde4",0.373218433085387,42,32
+"1640","Kortenhoeff-NL","SpanjaardduinenOostende",0.292317386502172,42,34
+"1641","Kortenhoeff-NL","Zwinbosjes-grazed",0.316054041329714,42,37
+"1642","Kortenhoeff-NL","Harchies",0.423436194059821,42,52
+"1643","Kortenhoeff-NL","Lagland",0.38645632353073,42,53
+"1644","Arendschot","Simliduinen",0.206130318259632,45,25
+"1645","Arendschot","Cabour",0.154127813431435,45,5
+"1646","Arendschot","Tropiflora",0.171646511840069,45,7
+"1647","Arendschot","Westhoek vissersdorp",0.179781379967487,45,8
+"1648","Arendschot","Geel-Bel",0.128026158339273,45,46
+"1649","Arendschot","Karthuizerduinen",0.191778549726081,45,24
+"1650","Arendschot","Oostvoordduinen",0.145018364908095,45,21
+"1651","Arendschot","Astridlaan",0.172518714635879,45,19
+"1652","Arendschot","Wetteren",0.354980693357461,45,41
+"1653","Arendschot","Mt St Frieux",0.172214590387229,45,1
+"1654","Arendschot","Sangatte",0.169297729936838,45,3
+"1655","Arendschot","HB-Pylyserlaan",0.171192354507429,45,16
+"1656","Arendschot","HB-Doornpanne",0.199865537781398,45,14
+"1657","Arendschot","Witte Burg",0.156470365445399,45,18
+"1658","Arendschot","Ter Yde IWVA",0.192654968784814,45,23
+"1659","Arendschot","Veurne",0.164604241860071,45,6
+"1660","Arendschot","Slack",0.146232225595931,45,2
+"1661","Arendschot","HB-Noord",0.166412217199288,45,13
+"1662","Arendschot","Belvedere",0.202520925581311,45,12
+"1663","Arendschot","Westhoek NO",0.167440931139761,45,9
+"1664","Arendschot","Westhoek Oost",0.19217939041888,45,10
+"1665","Arendschot","Oosthoekduinen",0.175815757750359,45,11
+"1666","Arendschot","Schipgatduinen",0.188615061780339,45,17
+"1667","Arendschot","HB-Oost",0.149605143902546,45,15
+"1668","Arendschot","Zwinbosjes",0.234899964971848,45,38
+"1669","Arendschot","Ter Yde West",0.158327256675212,45,22
+"1670","Arendschot","Plaatsduinen",0.15992165300465,45,20
+"1671","Arendschot","Westhoek Zuid",0.156113812052306,45,4
+"1672","Arendschot","Kopberg",0.171714902630184,45,47
+"1673","Arendschot","Keiheuvel",0.279968823172579,45,48
+"1674","Arendschot","Kortenhoeff-NL",0.388677188711188,45,42
+"1675","Arendschot","Arendschot",0,45,45
+"1676","Arendschot","Kalmthout",0.313354922164258,45,43
+"1677","Arendschot","Hamont-Achel3",0.278825569601411,45,50
+"1678","Arendschot","Hamont-Achel2",0.399167093704353,45,49
+"1679","Arendschot","Hamont-Achel1",0.34806766956371,45,51
+"1680","Arendschot","Vloethemveld-Zuid",0.178620076152808,45,40
+"1681","Arendschot","Raversijde2",0.194189018836091,45,30
+"1682","Arendschot","Vloethemveld-Noord",0.224834977092665,45,39
+"1683","Arendschot","DuinbossenDeHaan",0.226374523152224,45,36
+"1684","Arendschot","Raversijde1",0.233159418438739,45,29
+"1685","Arendschot","Raversijde3",0.262791714100092,45,31
+"1686","Arendschot","Bredene",0.191425545133953,45,35
+"1687","Arendschot","Fort Napoleon",0.219878802895306,45,33
+"1688","Arendschot","Averbode",0.192343555756686,45,44
+"1689","Arendschot","Sint-Laureins2",0.206879974406128,45,27
+"1690","Arendschot","Sint-Laureins1",0.228154455278554,45,26
+"1691","Arendschot","WarandeduinenMiddelkerke",0.219684030482807,45,28
+"1692","Arendschot","Raversijde4",0.306904346160479,45,32
+"1693","Arendschot","SpanjaardduinenOostende",0.203498660868712,45,34
+"1694","Arendschot","Zwinbosjes-grazed",0.191909517284922,45,37
+"1695","Arendschot","Harchies",0.310784092829987,45,52
+"1696","Arendschot","Lagland",0.196374278491447,45,53
+"1697","Kalmthout","Simliduinen",0.15790878062085,43,25
+"1698","Kalmthout","Cabour",0.206710478791466,43,5
+"1699","Kalmthout","Tropiflora",0.166307554194402,43,7
+"1700","Kalmthout","Westhoek vissersdorp",0.201995306133631,43,8
+"1701","Kalmthout","Geel-Bel",0.211379690661252,43,46
+"1702","Kalmthout","Karthuizerduinen",0.167437978634108,43,24
+"1703","Kalmthout","Oostvoordduinen",0.187648429804254,43,21
+"1704","Kalmthout","Astridlaan",0.182365639959102,43,19
+"1705","Kalmthout","Wetteren",0.250977632747768,43,41
+"1706","Kalmthout","Mt St Frieux",0.185009636799872,43,1
+"1707","Kalmthout","Sangatte",0.204918430961612,43,3
+"1708","Kalmthout","HB-Pylyserlaan",0.173480385649385,43,16
+"1709","Kalmthout","HB-Doornpanne",0.184119992711497,43,14
+"1710","Kalmthout","Witte Burg",0.183978912364879,43,18
+"1711","Kalmthout","Ter Yde IWVA",0.181083773937778,43,23
+"1712","Kalmthout","Veurne",0.157104671495147,43,6
+"1713","Kalmthout","Slack",0.175220849874373,43,2
+"1714","Kalmthout","HB-Noord",0.193016388028388,43,13
+"1715","Kalmthout","Belvedere",0.188420011017892,43,12
+"1716","Kalmthout","Westhoek NO",0.176876148142923,43,9
+"1717","Kalmthout","Westhoek Oost",0.205574818941108,43,10
+"1718","Kalmthout","Oosthoekduinen",0.149967015391956,43,11
+"1719","Kalmthout","Schipgatduinen",0.212641056921003,43,17
+"1720","Kalmthout","HB-Oost",0.155736591130462,43,15
+"1721","Kalmthout","Zwinbosjes",0.20987708641299,43,38
+"1722","Kalmthout","Ter Yde West",0.183733799011064,43,22
+"1723","Kalmthout","Plaatsduinen",0.15821408568663,43,20
+"1724","Kalmthout","Westhoek Zuid",0.177344732806718,43,4
+"1725","Kalmthout","Kopberg",0.176712193902312,43,47
+"1726","Kalmthout","Keiheuvel",0.215211765332497,43,48
+"1727","Kalmthout","Kortenhoeff-NL",0.226015767680076,43,42
+"1728","Kalmthout","Arendschot",0.313354922164258,43,45
+"1729","Kalmthout","Kalmthout",0,43,43
+"1730","Kalmthout","Hamont-Achel3",0.221092419795741,43,50
+"1731","Kalmthout","Hamont-Achel2",0.283382619027524,43,49
+"1732","Kalmthout","Hamont-Achel1",0.208054037441708,43,51
+"1733","Kalmthout","Vloethemveld-Zuid",0.234080274616319,43,40
+"1734","Kalmthout","Raversijde2",0.216637232229015,43,30
+"1735","Kalmthout","Vloethemveld-Noord",0.189928150242724,43,39
+"1736","Kalmthout","DuinbossenDeHaan",0.161526724650553,43,36
+"1737","Kalmthout","Raversijde1",0.221352543149538,43,29
+"1738","Kalmthout","Raversijde3",0.261617997090147,43,31
+"1739","Kalmthout","Bredene",0.226588757494323,43,35
+"1740","Kalmthout","Fort Napoleon",0.296027274513858,43,33
+"1741","Kalmthout","Averbode",0.165519646404623,43,44
+"1742","Kalmthout","Sint-Laureins2",0.231436547710267,43,27
+"1743","Kalmthout","Sint-Laureins1",0.21104539579078,43,26
+"1744","Kalmthout","WarandeduinenMiddelkerke",0.201562003814249,43,28
+"1745","Kalmthout","Raversijde4",0.296002254698849,43,32
+"1746","Kalmthout","SpanjaardduinenOostende",0.184461915275928,43,34
+"1747","Kalmthout","Zwinbosjes-grazed",0.19473401616747,43,37
+"1748","Kalmthout","Harchies",0.291702127152872,43,52
+"1749","Kalmthout","Lagland",0.229145042341728,43,53
+"1750","Hamont-Achel3","Simliduinen",0.180483135453843,50,25
+"1751","Hamont-Achel3","Cabour",0.200937518301883,50,5
+"1752","Hamont-Achel3","Tropiflora",0.153790559248975,50,7
+"1753","Hamont-Achel3","Westhoek vissersdorp",0.203949361554034,50,8
+"1754","Hamont-Achel3","Geel-Bel",0.184656569043934,50,46
+"1755","Hamont-Achel3","Karthuizerduinen",0.177129700828461,50,24
+"1756","Hamont-Achel3","Oostvoordduinen",0.177667987723553,50,21
+"1757","Hamont-Achel3","Astridlaan",0.152156091762085,50,19
+"1758","Hamont-Achel3","Wetteren",0.380053122629054,50,41
+"1759","Hamont-Achel3","Mt St Frieux",0.200879560630362,50,1
+"1760","Hamont-Achel3","Sangatte",0.189791136579176,50,3
+"1761","Hamont-Achel3","HB-Pylyserlaan",0.152489507729988,50,16
+"1762","Hamont-Achel3","HB-Doornpanne",0.194146372319099,50,14
+"1763","Hamont-Achel3","Witte Burg",0.178690351549813,50,18
+"1764","Hamont-Achel3","Ter Yde IWVA",0.199353762945076,50,23
+"1765","Hamont-Achel3","Veurne",0.163698425390955,50,6
+"1766","Hamont-Achel3","Slack",0.162502563888598,50,2
+"1767","Hamont-Achel3","HB-Noord",0.184151181744596,50,13
+"1768","Hamont-Achel3","Belvedere",0.205540840331559,50,12
+"1769","Hamont-Achel3","Westhoek NO",0.19015639089739,50,9
+"1770","Hamont-Achel3","Westhoek Oost",0.199134582233191,50,10
+"1771","Hamont-Achel3","Oosthoekduinen",0.170973919401841,50,11
+"1772","Hamont-Achel3","Schipgatduinen",0.171679813670685,50,17
+"1773","Hamont-Achel3","HB-Oost",0.162797840968914,50,15
+"1774","Hamont-Achel3","Zwinbosjes",0.244291636531735,50,38
+"1775","Hamont-Achel3","Ter Yde West",0.174463121254205,50,22
+"1776","Hamont-Achel3","Plaatsduinen",0.187721679161687,50,20
+"1777","Hamont-Achel3","Westhoek Zuid",0.139408606542255,50,4
+"1778","Hamont-Achel3","Kopberg",0.208166655344799,50,47
+"1779","Hamont-Achel3","Keiheuvel",0.160318111047527,50,48
+"1780","Hamont-Achel3","Kortenhoeff-NL",0.351726656809659,50,42
+"1781","Hamont-Achel3","Arendschot",0.278825569601411,50,45
+"1782","Hamont-Achel3","Kalmthout",0.221092419795741,50,43
+"1783","Hamont-Achel3","Hamont-Achel3",0,50,50
+"1784","Hamont-Achel3","Hamont-Achel2",0.0751768772533243,50,49
+"1785","Hamont-Achel3","Hamont-Achel1",0.0712564491187297,50,51
+"1786","Hamont-Achel3","Vloethemveld-Zuid",0.249680108371687,50,40
+"1787","Hamont-Achel3","Raversijde2",0.220081228714122,50,30
+"1788","Hamont-Achel3","Vloethemveld-Noord",0.281405040687012,50,39
+"1789","Hamont-Achel3","DuinbossenDeHaan",0.161849808183434,50,36
+"1790","Hamont-Achel3","Raversijde1",0.249356978963652,50,29
+"1791","Hamont-Achel3","Raversijde3",0.221487971379866,50,31
+"1792","Hamont-Achel3","Bredene",0.182071453538124,50,35
+"1793","Hamont-Achel3","Fort Napoleon",0.277469535892183,50,33
+"1794","Hamont-Achel3","Averbode",0.121721420288233,50,44
+"1795","Hamont-Achel3","Sint-Laureins2",0.197050555855903,50,27
+"1796","Hamont-Achel3","Sint-Laureins1",0.170842665073551,50,26
+"1797","Hamont-Achel3","WarandeduinenMiddelkerke",0.235110923539292,50,28
+"1798","Hamont-Achel3","Raversijde4",0.238993952585898,50,32
+"1799","Hamont-Achel3","SpanjaardduinenOostende",0.168782799004594,50,34
+"1800","Hamont-Achel3","Zwinbosjes-grazed",0.2851891326469,50,37
+"1801","Hamont-Achel3","Harchies",0.269081574852609,50,52
+"1802","Hamont-Achel3","Lagland",0.254884026138773,50,53
+"1803","Hamont-Achel2","Simliduinen",0.249005995573932,49,25
+"1804","Hamont-Achel2","Cabour",0.241168746635847,49,5
+"1805","Hamont-Achel2","Tropiflora",0.228674585995495,49,7
+"1806","Hamont-Achel2","Westhoek vissersdorp",0.262909867851664,49,8
+"1807","Hamont-Achel2","Geel-Bel",0.292476122757454,49,46
+"1808","Hamont-Achel2","Karthuizerduinen",0.231672421539669,49,24
+"1809","Hamont-Achel2","Oostvoordduinen",0.227956661797483,49,21
+"1810","Hamont-Achel2","Astridlaan",0.204161776834023,49,19
+"1811","Hamont-Achel2","Wetteren",0.418002227789515,49,41
+"1812","Hamont-Achel2","Mt St Frieux",0.291687369618415,49,1
+"1813","Hamont-Achel2","Sangatte",0.242967485179598,49,3
+"1814","Hamont-Achel2","HB-Pylyserlaan",0.203119378469728,49,16
+"1815","Hamont-Achel2","HB-Doornpanne",0.253763099148484,49,14
+"1816","Hamont-Achel2","Witte Burg",0.228806789622421,49,18
+"1817","Hamont-Achel2","Ter Yde IWVA",0.237627579340594,49,23
+"1818","Hamont-Achel2","Veurne",0.238341809657238,49,6
+"1819","Hamont-Achel2","Slack",0.22340710530994,49,2
+"1820","Hamont-Achel2","HB-Noord",0.277342095767398,49,13
+"1821","Hamont-Achel2","Belvedere",0.250569644924951,49,12
+"1822","Hamont-Achel2","Westhoek NO",0.236574412583165,49,9
+"1823","Hamont-Achel2","Westhoek Oost",0.238786772489939,49,10
+"1824","Hamont-Achel2","Oosthoekduinen",0.221757602772552,49,11
+"1825","Hamont-Achel2","Schipgatduinen",0.219151567854646,49,17
+"1826","Hamont-Achel2","HB-Oost",0.230451868064075,49,15
+"1827","Hamont-Achel2","Zwinbosjes",0.30454074530116,49,38
+"1828","Hamont-Achel2","Ter Yde West",0.234773999012261,49,22
+"1829","Hamont-Achel2","Plaatsduinen",0.262989336197391,49,20
+"1830","Hamont-Achel2","Westhoek Zuid",0.219348557846364,49,4
+"1831","Hamont-Achel2","Kopberg",0.307203292317611,49,47
+"1832","Hamont-Achel2","Keiheuvel",0.262915869893728,49,48
+"1833","Hamont-Achel2","Kortenhoeff-NL",0.418470240333022,49,42
+"1834","Hamont-Achel2","Arendschot",0.399167093704353,49,45
+"1835","Hamont-Achel2","Kalmthout",0.283382619027524,49,43
+"1836","Hamont-Achel2","Hamont-Achel3",0.0751768772533243,49,50
+"1837","Hamont-Achel2","Hamont-Achel2",0,49,49
+"1838","Hamont-Achel2","Hamont-Achel1",0.076753891782825,49,51
+"1839","Hamont-Achel2","Vloethemveld-Zuid",0.301400276328973,49,40
+"1840","Hamont-Achel2","Raversijde2",0.290083367047457,49,30
+"1841","Hamont-Achel2","Vloethemveld-Noord",0.340801519423277,49,39
+"1842","Hamont-Achel2","DuinbossenDeHaan",0.207907342330216,49,36
+"1843","Hamont-Achel2","Raversijde1",0.341358011811413,49,29
+"1844","Hamont-Achel2","Raversijde3",0.298309176344112,49,31
+"1845","Hamont-Achel2","Bredene",0.202356491493027,49,35
+"1846","Hamont-Achel2","Fort Napoleon",0.34480118793169,49,33
+"1847","Hamont-Achel2","Averbode",0.216090780870276,49,44
+"1848","Hamont-Achel2","Sint-Laureins2",0.267612902241584,49,27
+"1849","Hamont-Achel2","Sint-Laureins1",0.203810358395613,49,26
+"1850","Hamont-Achel2","WarandeduinenMiddelkerke",0.333620496954062,49,28
+"1851","Hamont-Achel2","Raversijde4",0.272323148329854,49,32
+"1852","Hamont-Achel2","SpanjaardduinenOostende",0.220550642744842,49,34
+"1853","Hamont-Achel2","Zwinbosjes-grazed",0.313086846525477,49,37
+"1854","Hamont-Achel2","Harchies",0.363982516919123,49,52
+"1855","Hamont-Achel2","Lagland",0.303372291680614,49,53
+"1856","Hamont-Achel1","Simliduinen",0.174201677012207,51,25
+"1857","Hamont-Achel1","Cabour",0.218390662210162,51,5
+"1858","Hamont-Achel1","Tropiflora",0.166499227266355,51,7
+"1859","Hamont-Achel1","Westhoek vissersdorp",0.216805344715651,51,8
+"1860","Hamont-Achel1","Geel-Bel",0.200962411372432,51,46
+"1861","Hamont-Achel1","Karthuizerduinen",0.161439692480594,51,24
+"1862","Hamont-Achel1","Oostvoordduinen",0.191446956151507,51,21
+"1863","Hamont-Achel1","Astridlaan",0.1500260282286,51,19
+"1864","Hamont-Achel1","Wetteren",0.341903496320306,51,41
+"1865","Hamont-Achel1","Mt St Frieux",0.209514846545345,51,1
+"1866","Hamont-Achel1","Sangatte",0.186249976754226,51,3
+"1867","Hamont-Achel1","HB-Pylyserlaan",0.138923088699228,51,16
+"1868","Hamont-Achel1","HB-Doornpanne",0.173577502199343,51,14
+"1869","Hamont-Achel1","Witte Burg",0.189684912602993,51,18
+"1870","Hamont-Achel1","Ter Yde IWVA",0.198819838681068,51,23
+"1871","Hamont-Achel1","Veurne",0.187793330243972,51,6
+"1872","Hamont-Achel1","Slack",0.164774726486773,51,2
+"1873","Hamont-Achel1","HB-Noord",0.194504011445958,51,13
+"1874","Hamont-Achel1","Belvedere",0.191390316906837,51,12
+"1875","Hamont-Achel1","Westhoek NO",0.193830236563759,51,9
+"1876","Hamont-Achel1","Westhoek Oost",0.195870837116952,51,10
+"1877","Hamont-Achel1","Oosthoekduinen",0.183870329872676,51,11
+"1878","Hamont-Achel1","Schipgatduinen",0.178823852258358,51,17
+"1879","Hamont-Achel1","HB-Oost",0.187140050857521,51,15
+"1880","Hamont-Achel1","Zwinbosjes",0.254941528102893,51,38
+"1881","Hamont-Achel1","Ter Yde West",0.187113268502328,51,22
+"1882","Hamont-Achel1","Plaatsduinen",0.193616422016532,51,20
+"1883","Hamont-Achel1","Westhoek Zuid",0.160674086536572,51,4
+"1884","Hamont-Achel1","Kopberg",0.183319207623766,51,47
+"1885","Hamont-Achel1","Keiheuvel",0.164472337179956,51,48
+"1886","Hamont-Achel1","Kortenhoeff-NL",0.281562290598856,51,42
+"1887","Hamont-Achel1","Arendschot",0.34806766956371,51,45
+"1888","Hamont-Achel1","Kalmthout",0.208054037441708,51,43
+"1889","Hamont-Achel1","Hamont-Achel3",0.0712564491187297,51,50
+"1890","Hamont-Achel1","Hamont-Achel2",0.076753891782825,51,49
+"1891","Hamont-Achel1","Hamont-Achel1",0,51,51
+"1892","Hamont-Achel1","Vloethemveld-Zuid",0.255237132925064,51,40
+"1893","Hamont-Achel1","Raversijde2",0.218434772272047,51,30
+"1894","Hamont-Achel1","Vloethemveld-Noord",0.299737760015358,51,39
+"1895","Hamont-Achel1","DuinbossenDeHaan",0.167510814047909,51,36
+"1896","Hamont-Achel1","Raversijde1",0.279166662030121,51,29
+"1897","Hamont-Achel1","Raversijde3",0.201523508574805,51,31
+"1898","Hamont-Achel1","Bredene",0.205968101424492,51,35
+"1899","Hamont-Achel1","Fort Napoleon",0.283209268135427,51,33
+"1900","Hamont-Achel1","Averbode",0.125432082093903,51,44
+"1901","Hamont-Achel1","Sint-Laureins2",0.20198023439576,51,27
+"1902","Hamont-Achel1","Sint-Laureins1",0.17711406436031,51,26
+"1903","Hamont-Achel1","WarandeduinenMiddelkerke",0.267335595677763,51,28
+"1904","Hamont-Achel1","Raversijde4",0.275964097574722,51,32
+"1905","Hamont-Achel1","SpanjaardduinenOostende",0.15801557816181,51,34
+"1906","Hamont-Achel1","Zwinbosjes-grazed",0.255389445376655,51,37
+"1907","Hamont-Achel1","Harchies",0.231989172110383,51,52
+"1908","Hamont-Achel1","Lagland",0.269595517950064,51,53
+"1909","Vloethemveld-Zuid","Simliduinen",0.120489629480709,40,25
+"1910","Vloethemveld-Zuid","Cabour",0.107514457499433,40,5
+"1911","Vloethemveld-Zuid","Tropiflora",0.0627952136398692,40,7
+"1912","Vloethemveld-Zuid","Westhoek vissersdorp",0.0937297983737842,40,8
+"1913","Vloethemveld-Zuid","Geel-Bel",0.169577355364279,40,46
+"1914","Vloethemveld-Zuid","Karthuizerduinen",0.0911153481792196,40,24
+"1915","Vloethemveld-Zuid","Oostvoordduinen",0.0840423742747197,40,21
+"1916","Vloethemveld-Zuid","Astridlaan",0.09382499649918,40,19
+"1917","Vloethemveld-Zuid","Wetteren",0.206529593945314,40,41
+"1918","Vloethemveld-Zuid","Mt St Frieux",0.0994158105860653,40,1
+"1919","Vloethemveld-Zuid","Sangatte",0.10146975530105,40,3
+"1920","Vloethemveld-Zuid","HB-Pylyserlaan",0.0949746446848061,40,16
+"1921","Vloethemveld-Zuid","HB-Doornpanne",0.0986873598394808,40,14
+"1922","Vloethemveld-Zuid","Witte Burg",0.117663075712317,40,18
+"1923","Vloethemveld-Zuid","Ter Yde IWVA",0.0946192242955046,40,23
+"1924","Vloethemveld-Zuid","Veurne",0.0977666544301587,40,6
+"1925","Vloethemveld-Zuid","Slack",0.0977942191069206,40,2
+"1926","Vloethemveld-Zuid","HB-Noord",0.0839177589754179,40,13
+"1927","Vloethemveld-Zuid","Belvedere",0.109209722628346,40,12
+"1928","Vloethemveld-Zuid","Westhoek NO",0.0909990704558418,40,9
+"1929","Vloethemveld-Zuid","Westhoek Oost",0.0760151959974333,40,10
+"1930","Vloethemveld-Zuid","Oosthoekduinen",0.0712220520411759,40,11
+"1931","Vloethemveld-Zuid","Schipgatduinen",0.126686692582561,40,17
+"1932","Vloethemveld-Zuid","HB-Oost",0.0947825088491609,40,15
+"1933","Vloethemveld-Zuid","Zwinbosjes",0.159326174723721,40,38
+"1934","Vloethemveld-Zuid","Ter Yde West",0.100378271394344,40,22
+"1935","Vloethemveld-Zuid","Plaatsduinen",0.0949423538605135,40,20
+"1936","Vloethemveld-Zuid","Westhoek Zuid",0.0749453438687555,40,4
+"1937","Vloethemveld-Zuid","Kopberg",0.182410026354967,40,47
+"1938","Vloethemveld-Zuid","Keiheuvel",0.29447239593121,40,48
+"1939","Vloethemveld-Zuid","Kortenhoeff-NL",0.355795551000686,40,42
+"1940","Vloethemveld-Zuid","Arendschot",0.178620076152808,40,45
+"1941","Vloethemveld-Zuid","Kalmthout",0.234080274616319,40,43
+"1942","Vloethemveld-Zuid","Hamont-Achel3",0.249680108371687,40,50
+"1943","Vloethemveld-Zuid","Hamont-Achel2",0.301400276328973,40,49
+"1944","Vloethemveld-Zuid","Hamont-Achel1",0.255237132925064,40,51
+"1945","Vloethemveld-Zuid","Vloethemveld-Zuid",0,40,40
+"1946","Vloethemveld-Zuid","Raversijde2",0.145112280568728,40,30
+"1947","Vloethemveld-Zuid","Vloethemveld-Noord",0.0917019012985561,40,39
+"1948","Vloethemveld-Zuid","DuinbossenDeHaan",0.133273924634902,40,36
+"1949","Vloethemveld-Zuid","Raversijde1",0.121338876533077,40,29
+"1950","Vloethemveld-Zuid","Raversijde3",0.117644726290772,40,31
+"1951","Vloethemveld-Zuid","Bredene",0.146101415625651,40,35
+"1952","Vloethemveld-Zuid","Fort Napoleon",0.154619414114772,40,33
+"1953","Vloethemveld-Zuid","Averbode",0.150785349232251,40,44
+"1954","Vloethemveld-Zuid","Sint-Laureins2",0.0952882384136263,40,27
+"1955","Vloethemveld-Zuid","Sint-Laureins1",0.114225901912296,40,26
+"1956","Vloethemveld-Zuid","WarandeduinenMiddelkerke",0.155235679959244,40,28
+"1957","Vloethemveld-Zuid","Raversijde4",0.173655046379851,40,32
+"1958","Vloethemveld-Zuid","SpanjaardduinenOostende",0.153586778670834,40,34
+"1959","Vloethemveld-Zuid","Zwinbosjes-grazed",0.135607547406407,40,37
+"1960","Vloethemveld-Zuid","Harchies",0.25108124266535,40,52
+"1961","Vloethemveld-Zuid","Lagland",0.197076053577136,40,53
+"1962","Raversijde2","Simliduinen",0.0669279834291452,30,25
+"1963","Raversijde2","Cabour",0.0954353603255954,30,5
+"1964","Raversijde2","Tropiflora",0.0728556751631051,30,7
+"1965","Raversijde2","Westhoek vissersdorp",0.0684986223500188,30,8
+"1966","Raversijde2","Geel-Bel",0.131819861770171,30,46
+"1967","Raversijde2","Karthuizerduinen",0.0773345977106629,30,24
+"1968","Raversijde2","Oostvoordduinen",0.0635657518361548,30,21
+"1969","Raversijde2","Astridlaan",0.0715832106695345,30,19
+"1970","Raversijde2","Wetteren",0.197711699376956,30,41
+"1971","Raversijde2","Mt St Frieux",0.0971948066384752,30,1
+"1972","Raversijde2","Sangatte",0.0792368140867153,30,3
+"1973","Raversijde2","HB-Pylyserlaan",0.0770128888302893,30,16
+"1974","Raversijde2","HB-Doornpanne",0.0714355336451575,30,14
+"1975","Raversijde2","Witte Burg",0.0710192825223689,30,18
+"1976","Raversijde2","Ter Yde IWVA",0.0506116939460074,30,23
+"1977","Raversijde2","Veurne",0.0721389281747375,30,6
+"1978","Raversijde2","Slack",0.108150056925212,30,2
+"1979","Raversijde2","HB-Noord",0.0876715570894707,30,13
+"1980","Raversijde2","Belvedere",0.0560926246947515,30,12
+"1981","Raversijde2","Westhoek NO",0.0720628605829272,30,9
+"1982","Raversijde2","Westhoek Oost",0.071829534439248,30,10
+"1983","Raversijde2","Oosthoekduinen",0.0711866074452168,30,11
+"1984","Raversijde2","Schipgatduinen",0.0814265411085653,30,17
+"1985","Raversijde2","HB-Oost",0.055066379508791,30,15
+"1986","Raversijde2","Zwinbosjes",0.137603291183972,30,38
+"1987","Raversijde2","Ter Yde West",0.0689760655867034,30,22
+"1988","Raversijde2","Plaatsduinen",0.057998708801975,30,20
+"1989","Raversijde2","Westhoek Zuid",0.0515595725508303,30,4
+"1990","Raversijde2","Kopberg",0.12511772065912,30,47
+"1991","Raversijde2","Keiheuvel",0.208269504368295,30,48
+"1992","Raversijde2","Kortenhoeff-NL",0.338092832724818,30,42
+"1993","Raversijde2","Arendschot",0.194189018836091,30,45
+"1994","Raversijde2","Kalmthout",0.216637232229015,30,43
+"1995","Raversijde2","Hamont-Achel3",0.220081228714122,30,50
+"1996","Raversijde2","Hamont-Achel2",0.290083367047457,30,49
+"1997","Raversijde2","Hamont-Achel1",0.218434772272047,30,51
+"1998","Raversijde2","Vloethemveld-Zuid",0.145112280568728,30,40
+"1999","Raversijde2","Raversijde2",0,30,30
+"2000","Raversijde2","Vloethemveld-Noord",0.22702147748129,30,39
+"2001","Raversijde2","DuinbossenDeHaan",0.0939456217654553,30,36
+"2002","Raversijde2","Raversijde1",0.0846530488456917,30,29
+"2003","Raversijde2","Raversijde3",0.173328028692245,30,31
+"2004","Raversijde2","Bredene",0.124576633496698,30,35
+"2005","Raversijde2","Fort Napoleon",0.125692328736834,30,33
+"2006","Raversijde2","Averbode",0.12583534203028,30,44
+"2007","Raversijde2","Sint-Laureins2",0.104177456468996,30,27
+"2008","Raversijde2","Sint-Laureins1",0.102641712780659,30,26
+"2009","Raversijde2","WarandeduinenMiddelkerke",0.100672749463606,30,28
+"2010","Raversijde2","Raversijde4",0.164446696304283,30,32
+"2011","Raversijde2","SpanjaardduinenOostende",0.0922235439884809,30,34
+"2012","Raversijde2","Zwinbosjes-grazed",0.147619536259511,30,37
+"2013","Raversijde2","Harchies",0.236399435868417,30,52
+"2014","Raversijde2","Lagland",0.174504154595052,30,53
+"2015","Vloethemveld-Noord","Simliduinen",0.168226432153249,39,25
+"2016","Vloethemveld-Noord","Cabour",0.151670194308034,39,5
+"2017","Vloethemveld-Noord","Tropiflora",0.108894021655831,39,7
+"2018","Vloethemveld-Noord","Westhoek vissersdorp",0.165623606693778,39,8
+"2019","Vloethemveld-Noord","Geel-Bel",0.196117063181776,39,46
+"2020","Vloethemveld-Noord","Karthuizerduinen",0.131191853974382,39,24
+"2021","Vloethemveld-Noord","Oostvoordduinen",0.140592869428358,39,21
+"2022","Vloethemveld-Noord","Astridlaan",0.152082778370069,39,19
+"2023","Vloethemveld-Noord","Wetteren",0.227802319025778,39,41
+"2024","Vloethemveld-Noord","Mt St Frieux",0.141992981402162,39,1
+"2025","Vloethemveld-Noord","Sangatte",0.158951123244632,39,3
+"2026","Vloethemveld-Noord","HB-Pylyserlaan",0.132537733283916,39,16
+"2027","Vloethemveld-Noord","HB-Doornpanne",0.182374513289371,39,14
+"2028","Vloethemveld-Noord","Witte Burg",0.159159046243959,39,18
+"2029","Vloethemveld-Noord","Ter Yde IWVA",0.154027610762174,39,23
+"2030","Vloethemveld-Noord","Veurne",0.126907853554465,39,6
+"2031","Vloethemveld-Noord","Slack",0.143306550813253,39,2
+"2032","Vloethemveld-Noord","HB-Noord",0.15450572231378,39,13
+"2033","Vloethemveld-Noord","Belvedere",0.150171617758026,39,12
+"2034","Vloethemveld-Noord","Westhoek NO",0.135993925528327,39,9
+"2035","Vloethemveld-Noord","Westhoek Oost",0.162339075056821,39,10
+"2036","Vloethemveld-Noord","Oosthoekduinen",0.109375506661756,39,11
+"2037","Vloethemveld-Noord","Schipgatduinen",0.188665944228746,39,17
+"2038","Vloethemveld-Noord","HB-Oost",0.133452733084212,39,15
+"2039","Vloethemveld-Noord","Zwinbosjes",0.203300426604441,39,38
+"2040","Vloethemveld-Noord","Ter Yde West",0.150909532124202,39,22
+"2041","Vloethemveld-Noord","Plaatsduinen",0.143825834118751,39,20
+"2042","Vloethemveld-Noord","Westhoek Zuid",0.135222873223452,39,4
+"2043","Vloethemveld-Noord","Kopberg",0.206851916508985,39,47
+"2044","Vloethemveld-Noord","Keiheuvel",0.280582837605074,39,48
+"2045","Vloethemveld-Noord","Kortenhoeff-NL",0.36817036191395,39,42
+"2046","Vloethemveld-Noord","Arendschot",0.224834977092665,39,45
+"2047","Vloethemveld-Noord","Kalmthout",0.189928150242724,39,43
+"2048","Vloethemveld-Noord","Hamont-Achel3",0.281405040687012,39,50
+"2049","Vloethemveld-Noord","Hamont-Achel2",0.340801519423277,39,49
+"2050","Vloethemveld-Noord","Hamont-Achel1",0.299737760015358,39,51
+"2051","Vloethemveld-Noord","Vloethemveld-Zuid",0.0917019012985561,39,40
+"2052","Vloethemveld-Noord","Raversijde2",0.22702147748129,39,30
+"2053","Vloethemveld-Noord","Vloethemveld-Noord",0,39,39
+"2054","Vloethemveld-Noord","DuinbossenDeHaan",0.179731315155435,39,36
+"2055","Vloethemveld-Noord","Raversijde1",0.20576706572262,39,29
+"2056","Vloethemveld-Noord","Raversijde3",0.237636835879323,39,31
+"2057","Vloethemveld-Noord","Bredene",0.156897014396633,39,35
+"2058","Vloethemveld-Noord","Fort Napoleon",0.211789122993513,39,33
+"2059","Vloethemveld-Noord","Averbode",0.154757527921261,39,44
+"2060","Vloethemveld-Noord","Sint-Laureins2",0.159377209529758,39,27
+"2061","Vloethemveld-Noord","Sint-Laureins1",0.226446203979627,39,26
+"2062","Vloethemveld-Noord","WarandeduinenMiddelkerke",0.210715636886611,39,28
+"2063","Vloethemveld-Noord","Raversijde4",0.213432553123263,39,32
+"2064","Vloethemveld-Noord","SpanjaardduinenOostende",0.186310655196828,39,34
+"2065","Vloethemveld-Noord","Zwinbosjes-grazed",0.185773068870182,39,37
+"2066","Vloethemveld-Noord","Harchies",0.361777158761873,39,52
+"2067","Vloethemveld-Noord","Lagland",0.266327241499388,39,53
+"2068","DuinbossenDeHaan","Simliduinen",0.0788530722911273,36,25
+"2069","DuinbossenDeHaan","Cabour",0.101522196133937,36,5
+"2070","DuinbossenDeHaan","Tropiflora",0.0792706152748721,36,7
+"2071","DuinbossenDeHaan","Westhoek vissersdorp",0.0748736590306961,36,8
+"2072","DuinbossenDeHaan","Geel-Bel",0.124878387313815,36,46
+"2073","DuinbossenDeHaan","Karthuizerduinen",0.0696386541358096,36,24
+"2074","DuinbossenDeHaan","Oostvoordduinen",0.0727448119046286,36,21
+"2075","DuinbossenDeHaan","Astridlaan",0.0824739357207791,36,19
+"2076","DuinbossenDeHaan","Wetteren",0.246415664369231,36,41
+"2077","DuinbossenDeHaan","Mt St Frieux",0.0908940519607664,36,1
+"2078","DuinbossenDeHaan","Sangatte",0.0636979569252616,36,3
+"2079","DuinbossenDeHaan","HB-Pylyserlaan",0.0902133020166298,36,16
+"2080","DuinbossenDeHaan","HB-Doornpanne",0.0866483631560371,36,14
+"2081","DuinbossenDeHaan","Witte Burg",0.0799857159260985,36,18
+"2082","DuinbossenDeHaan","Ter Yde IWVA",0.0699915252568293,36,23
+"2083","DuinbossenDeHaan","Veurne",0.0676486116700916,36,6
+"2084","DuinbossenDeHaan","Slack",0.0728094878661833,36,2
+"2085","DuinbossenDeHaan","HB-Noord",0.101170254975267,36,13
+"2086","DuinbossenDeHaan","Belvedere",0.0915846665361393,36,12
+"2087","DuinbossenDeHaan","Westhoek NO",0.0859591891640869,36,9
+"2088","DuinbossenDeHaan","Westhoek Oost",0.0948078300340017,36,10
+"2089","DuinbossenDeHaan","Oosthoekduinen",0.0693052156471333,36,11
+"2090","DuinbossenDeHaan","Schipgatduinen",0.0901047531648901,36,17
+"2091","DuinbossenDeHaan","HB-Oost",0.0658821438421583,36,15
+"2092","DuinbossenDeHaan","Zwinbosjes",0.0744269614851598,36,38
+"2093","DuinbossenDeHaan","Ter Yde West",0.0751093598211274,36,22
+"2094","DuinbossenDeHaan","Plaatsduinen",0.0772666987757205,36,20
+"2095","DuinbossenDeHaan","Westhoek Zuid",0.0699206195388807,36,4
+"2096","DuinbossenDeHaan","Kopberg",0.131895688546015,36,47
+"2097","DuinbossenDeHaan","Keiheuvel",0.210139366131173,36,48
+"2098","DuinbossenDeHaan","Kortenhoeff-NL",0.2624125332206,36,42
+"2099","DuinbossenDeHaan","Arendschot",0.226374523152224,36,45
+"2100","DuinbossenDeHaan","Kalmthout",0.161526724650553,36,43
+"2101","DuinbossenDeHaan","Hamont-Achel3",0.161849808183434,36,50
+"2102","DuinbossenDeHaan","Hamont-Achel2",0.207907342330216,36,49
+"2103","DuinbossenDeHaan","Hamont-Achel1",0.167510814047909,36,51
+"2104","DuinbossenDeHaan","Vloethemveld-Zuid",0.133273924634902,36,40
+"2105","DuinbossenDeHaan","Raversijde2",0.0939456217654553,36,30
+"2106","DuinbossenDeHaan","Vloethemveld-Noord",0.179731315155435,36,39
+"2107","DuinbossenDeHaan","DuinbossenDeHaan",0,36,36
+"2108","DuinbossenDeHaan","Raversijde1",0.107072902622003,36,29
+"2109","DuinbossenDeHaan","Raversijde3",0.162431234773929,36,31
+"2110","DuinbossenDeHaan","Bredene",0.137016267744938,36,35
+"2111","DuinbossenDeHaan","Fort Napoleon",0.158972039650874,36,33
+"2112","DuinbossenDeHaan","Averbode",0.109388433597352,36,44
+"2113","DuinbossenDeHaan","Sint-Laureins2",0.103414984669168,36,27
+"2114","DuinbossenDeHaan","Sint-Laureins1",0.0826684234155539,36,26
+"2115","DuinbossenDeHaan","WarandeduinenMiddelkerke",0.14670049856733,36,28
+"2116","DuinbossenDeHaan","Raversijde4",0.115376157607979,36,32
+"2117","DuinbossenDeHaan","SpanjaardduinenOostende",0.113484543178487,36,34
+"2118","DuinbossenDeHaan","Zwinbosjes-grazed",0.0994829058707892,36,37
+"2119","DuinbossenDeHaan","Harchies",0.196735019357362,36,52
+"2120","DuinbossenDeHaan","Lagland",0.186652885519633,36,53
+"2121","Raversijde1","Simliduinen",0.0896815975831605,29,25
+"2122","Raversijde1","Cabour",0.113918460750205,29,5
+"2123","Raversijde1","Tropiflora",0.0900657405095816,29,7
+"2124","Raversijde1","Westhoek vissersdorp",0.10670494704482,29,8
+"2125","Raversijde1","Geel-Bel",0.189975775032582,29,46
+"2126","Raversijde1","Karthuizerduinen",0.100401709225489,29,24
+"2127","Raversijde1","Oostvoordduinen",0.094642667126764,29,21
+"2128","Raversijde1","Astridlaan",0.115253307626647,29,19
+"2129","Raversijde1","Wetteren",0.228092904253602,29,41
+"2130","Raversijde1","Mt St Frieux",0.125121009896477,29,1
+"2131","Raversijde1","Sangatte",0.103023827143541,29,3
+"2132","Raversijde1","HB-Pylyserlaan",0.115274663994048,29,16
+"2133","Raversijde1","HB-Doornpanne",0.11729276750199,29,14
+"2134","Raversijde1","Witte Burg",0.100863848593212,29,18
+"2135","Raversijde1","Ter Yde IWVA",0.0871488003604817,29,23
+"2136","Raversijde1","Veurne",0.0877393230023414,29,6
+"2137","Raversijde1","Slack",0.131864121045378,29,2
+"2138","Raversijde1","HB-Noord",0.120144858256715,29,13
+"2139","Raversijde1","Belvedere",0.0872023148482424,29,12
+"2140","Raversijde1","Westhoek NO",0.0975327866477424,29,9
+"2141","Raversijde1","Westhoek Oost",0.0873361316345566,29,10
+"2142","Raversijde1","Oosthoekduinen",0.0942916889460319,29,11
+"2143","Raversijde1","Schipgatduinen",0.10907951084991,29,17
+"2144","Raversijde1","HB-Oost",0.0915605629046652,29,15
+"2145","Raversijde1","Zwinbosjes",0.143548612434728,29,38
+"2146","Raversijde1","Ter Yde West",0.102228715858617,29,22
+"2147","Raversijde1","Plaatsduinen",0.0955359385265923,29,20
+"2148","Raversijde1","Westhoek Zuid",0.0904190887562443,29,4
+"2149","Raversijde1","Kopberg",0.199632485409884,29,47
+"2150","Raversijde1","Keiheuvel",0.316540570402379,29,48
+"2151","Raversijde1","Kortenhoeff-NL",0.362215631231576,29,42
+"2152","Raversijde1","Arendschot",0.233159418438739,29,45
+"2153","Raversijde1","Kalmthout",0.221352543149538,29,43
+"2154","Raversijde1","Hamont-Achel3",0.249356978963652,29,50
+"2155","Raversijde1","Hamont-Achel2",0.341358011811413,29,49
+"2156","Raversijde1","Hamont-Achel1",0.279166662030121,29,51
+"2157","Raversijde1","Vloethemveld-Zuid",0.121338876533077,29,40
+"2158","Raversijde1","Raversijde2",0.0846530488456917,29,30
+"2159","Raversijde1","Vloethemveld-Noord",0.20576706572262,29,39
+"2160","Raversijde1","DuinbossenDeHaan",0.107072902622003,29,36
+"2161","Raversijde1","Raversijde1",0,29,29
+"2162","Raversijde1","Raversijde3",0.19040867587444,29,31
+"2163","Raversijde1","Bredene",0.182305521532041,29,35
+"2164","Raversijde1","Fort Napoleon",0.162841794552138,29,33
+"2165","Raversijde1","Averbode",0.16575846488179,29,44
+"2166","Raversijde1","Sint-Laureins2",0.0979429687606083,29,27
+"2167","Raversijde1","Sint-Laureins1",0.0995319025676685,29,26
+"2168","Raversijde1","WarandeduinenMiddelkerke",0.156681393674726,29,28
+"2169","Raversijde1","Raversijde4",0.16163166366663,29,32
+"2170","Raversijde1","SpanjaardduinenOostende",0.137554449316748,29,34
+"2171","Raversijde1","Zwinbosjes-grazed",0.150332242646091,29,37
+"2172","Raversijde1","Harchies",0.229358973983784,29,52
+"2173","Raversijde1","Lagland",0.221137039412962,29,53
+"2174","Raversijde3","Simliduinen",0.0987827629197024,31,25
+"2175","Raversijde3","Cabour",0.125144588962742,31,5
+"2176","Raversijde3","Tropiflora",0.0899047634362965,31,7
+"2177","Raversijde3","Westhoek vissersdorp",0.112246794543469,31,8
+"2178","Raversijde3","Geel-Bel",0.190965609494688,31,46
+"2179","Raversijde3","Karthuizerduinen",0.106438239420408,31,24
+"2180","Raversijde3","Oostvoordduinen",0.0938160504377787,31,21
+"2181","Raversijde3","Astridlaan",0.0929840963654459,31,19
+"2182","Raversijde3","Wetteren",0.239398809309294,31,41
+"2183","Raversijde3","Mt St Frieux",0.13782535648994,31,1
+"2184","Raversijde3","Sangatte",0.13328141258669,31,3
+"2185","Raversijde3","HB-Pylyserlaan",0.101457360091362,31,16
+"2186","Raversijde3","HB-Doornpanne",0.0668597385678729,31,14
+"2187","Raversijde3","Witte Burg",0.116189844911869,31,18
+"2188","Raversijde3","Ter Yde IWVA",0.129017881039296,31,23
+"2189","Raversijde3","Veurne",0.123868497923363,31,6
+"2190","Raversijde3","Slack",0.150030230184533,31,2
+"2191","Raversijde3","HB-Noord",0.0994539280952094,31,13
+"2192","Raversijde3","Belvedere",0.148179160059333,31,12
+"2193","Raversijde3","Westhoek NO",0.117074350657059,31,9
+"2194","Raversijde3","Westhoek Oost",0.0914173521623674,31,10
+"2195","Raversijde3","Oosthoekduinen",0.0958952706271413,31,11
+"2196","Raversijde3","Schipgatduinen",0.112174680440113,31,17
+"2197","Raversijde3","HB-Oost",0.124403972125805,31,15
+"2198","Raversijde3","Zwinbosjes",0.198068738063383,31,38
+"2199","Raversijde3","Ter Yde West",0.0946588138878541,31,22
+"2200","Raversijde3","Plaatsduinen",0.107213452666314,31,20
+"2201","Raversijde3","Westhoek Zuid",0.0997160591147477,31,4
+"2202","Raversijde3","Kopberg",0.189636008982873,31,47
+"2203","Raversijde3","Keiheuvel",0.247388821809968,31,48
+"2204","Raversijde3","Kortenhoeff-NL",0.261456970347351,31,42
+"2205","Raversijde3","Arendschot",0.262791714100092,31,45
+"2206","Raversijde3","Kalmthout",0.261617997090147,31,43
+"2207","Raversijde3","Hamont-Achel3",0.221487971379866,31,50
+"2208","Raversijde3","Hamont-Achel2",0.298309176344112,31,49
+"2209","Raversijde3","Hamont-Achel1",0.201523508574805,31,51
+"2210","Raversijde3","Vloethemveld-Zuid",0.117644726290772,31,40
+"2211","Raversijde3","Raversijde2",0.173328028692245,31,30
+"2212","Raversijde3","Vloethemveld-Noord",0.237636835879323,31,39
+"2213","Raversijde3","DuinbossenDeHaan",0.162431234773929,31,36
+"2214","Raversijde3","Raversijde1",0.19040867587444,31,29
+"2215","Raversijde3","Raversijde3",0,31,31
+"2216","Raversijde3","Bredene",0.164442697867211,31,35
+"2217","Raversijde3","Fort Napoleon",0.168748178890188,31,33
+"2218","Raversijde3","Averbode",0.145226794717339,31,44
+"2219","Raversijde3","Sint-Laureins2",0.129572651531834,31,27
+"2220","Raversijde3","Sint-Laureins1",0.10674590005749,31,26
+"2221","Raversijde3","WarandeduinenMiddelkerke",0.149159377816338,31,28
+"2222","Raversijde3","Raversijde4",0.182424013568412,31,32
+"2223","Raversijde3","SpanjaardduinenOostende",0.153972803292959,31,34
+"2224","Raversijde3","Zwinbosjes-grazed",0.20803100669928,31,37
+"2225","Raversijde3","Harchies",0.218112318817702,31,52
+"2226","Raversijde3","Lagland",0.302787581796634,31,53
+"2227","Bredene","Simliduinen",0.0874523898713718,35,25
+"2228","Bredene","Cabour",0.0805015720625163,35,5
+"2229","Bredene","Tropiflora",0.0821207982201774,35,7
+"2230","Bredene","Westhoek vissersdorp",0.0788552312069183,35,8
+"2231","Bredene","Geel-Bel",0.198401123315918,35,46
+"2232","Bredene","Karthuizerduinen",0.0965761023239141,35,24
+"2233","Bredene","Oostvoordduinen",0.079394887005664,35,21
+"2234","Bredene","Astridlaan",0.0806798956731279,35,19
+"2235","Bredene","Wetteren",0.216688337186821,35,41
+"2236","Bredene","Mt St Frieux",0.116589584365591,35,1
+"2237","Bredene","Sangatte",0.0898914919092581,35,3
+"2238","Bredene","HB-Pylyserlaan",0.0828107363144655,35,16
+"2239","Bredene","HB-Doornpanne",0.0958253993800611,35,14
+"2240","Bredene","Witte Burg",0.0692543785985277,35,18
+"2241","Bredene","Ter Yde IWVA",0.0697935987969399,35,23
+"2242","Bredene","Veurne",0.0794689588846307,35,6
+"2243","Bredene","Slack",0.11582998306676,35,2
+"2244","Bredene","HB-Noord",0.109088895127034,35,13
+"2245","Bredene","Belvedere",0.0932623618789262,35,12
+"2246","Bredene","Westhoek NO",0.0807373719129311,35,9
+"2247","Bredene","Westhoek Oost",0.073195367299559,35,10
+"2248","Bredene","Oosthoekduinen",0.0688918380265755,35,11
+"2249","Bredene","Schipgatduinen",0.117957711021295,35,17
+"2250","Bredene","HB-Oost",0.0914099704408712,35,15
+"2251","Bredene","Zwinbosjes",0.200497481128214,35,38
+"2252","Bredene","Ter Yde West",0.0784495641373976,35,22
+"2253","Bredene","Plaatsduinen",0.0726013864609002,35,20
+"2254","Bredene","Westhoek Zuid",0.0715652036581755,35,4
+"2255","Bredene","Kopberg",0.181279412900891,35,47
+"2256","Bredene","Keiheuvel",0.245633477221117,35,48
+"2257","Bredene","Kortenhoeff-NL",0.363591256817463,35,42
+"2258","Bredene","Arendschot",0.191425545133953,35,45
+"2259","Bredene","Kalmthout",0.226588757494323,35,43
+"2260","Bredene","Hamont-Achel3",0.182071453538124,35,50
+"2261","Bredene","Hamont-Achel2",0.202356491493027,35,49
+"2262","Bredene","Hamont-Achel1",0.205968101424492,35,51
+"2263","Bredene","Vloethemveld-Zuid",0.146101415625651,35,40
+"2264","Bredene","Raversijde2",0.124576633496698,35,30
+"2265","Bredene","Vloethemveld-Noord",0.156897014396633,35,39
+"2266","Bredene","DuinbossenDeHaan",0.137016267744938,35,36
+"2267","Bredene","Raversijde1",0.182305521532041,35,29
+"2268","Bredene","Raversijde3",0.164442697867211,35,31
+"2269","Bredene","Bredene",0,35,35
+"2270","Bredene","Fort Napoleon",0.123248989635222,35,33
+"2271","Bredene","Averbode",0.140472114163321,35,44
+"2272","Bredene","Sint-Laureins2",0.107126460182305,35,27
+"2273","Bredene","Sint-Laureins1",0.133961299869714,35,26
+"2274","Bredene","WarandeduinenMiddelkerke",0.0984275825711755,35,28
+"2275","Bredene","Raversijde4",0.197987018611651,35,32
+"2276","Bredene","SpanjaardduinenOostende",0.113172150103809,35,34
+"2277","Bredene","Zwinbosjes-grazed",0.185736363264665,35,37
+"2278","Bredene","Harchies",0.317512496496508,35,52
+"2279","Bredene","Lagland",0.232477429571942,35,53
+"2280","Fort Napoleon","Simliduinen",0.057963291987993,33,25
+"2281","Fort Napoleon","Cabour",0.0872260343251258,33,5
+"2282","Fort Napoleon","Tropiflora",0.0779446581302618,33,7
+"2283","Fort Napoleon","Westhoek vissersdorp",0.084271738799725,33,8
+"2284","Fort Napoleon","Geel-Bel",0.188788698594894,33,46
+"2285","Fort Napoleon","Karthuizerduinen",0.0878091119772463,33,24
+"2286","Fort Napoleon","Oostvoordduinen",0.0778034354847179,33,21
+"2287","Fort Napoleon","Astridlaan",0.0753728395603133,33,19
+"2288","Fort Napoleon","Wetteren",0.286444682492998,33,41
+"2289","Fort Napoleon","Mt St Frieux",0.177606673467519,33,1
+"2290","Fort Napoleon","Sangatte",0.102757334839877,33,3
+"2291","Fort Napoleon","HB-Pylyserlaan",0.116907386694921,33,16
+"2292","Fort Napoleon","HB-Doornpanne",0.107934474948744,33,14
+"2293","Fort Napoleon","Witte Burg",0.0901881026354076,33,18
+"2294","Fort Napoleon","Ter Yde IWVA",0.0877131379790354,33,23
+"2295","Fort Napoleon","Veurne",0.0933321364207926,33,6
+"2296","Fort Napoleon","Slack",0.167329550889473,33,2
+"2297","Fort Napoleon","HB-Noord",0.093278072172969,33,13
+"2298","Fort Napoleon","Belvedere",0.0915529401413715,33,12
+"2299","Fort Napoleon","Westhoek NO",0.0761231417281545,33,9
+"2300","Fort Napoleon","Westhoek Oost",0.085380689331753,33,10
+"2301","Fort Napoleon","Oosthoekduinen",0.0837993727748545,33,11
+"2302","Fort Napoleon","Schipgatduinen",0.134828863057642,33,17
+"2303","Fort Napoleon","HB-Oost",0.119278438937436,33,15
+"2304","Fort Napoleon","Zwinbosjes",0.199604564786722,33,38
+"2305","Fort Napoleon","Ter Yde West",0.0664694334871375,33,22
+"2306","Fort Napoleon","Plaatsduinen",0.108929500226595,33,20
+"2307","Fort Napoleon","Westhoek Zuid",0.105033450900098,33,4
+"2308","Fort Napoleon","Kopberg",0.172826275410798,33,47
+"2309","Fort Napoleon","Keiheuvel",0.308860820334884,33,48
+"2310","Fort Napoleon","Kortenhoeff-NL",0.267911737360061,33,42
+"2311","Fort Napoleon","Arendschot",0.219878802895306,33,45
+"2312","Fort Napoleon","Kalmthout",0.296027274513858,33,43
+"2313","Fort Napoleon","Hamont-Achel3",0.277469535892183,33,50
+"2314","Fort Napoleon","Hamont-Achel2",0.34480118793169,33,49
+"2315","Fort Napoleon","Hamont-Achel1",0.283209268135427,33,51
+"2316","Fort Napoleon","Vloethemveld-Zuid",0.154619414114772,33,40
+"2317","Fort Napoleon","Raversijde2",0.125692328736834,33,30
+"2318","Fort Napoleon","Vloethemveld-Noord",0.211789122993513,33,39
+"2319","Fort Napoleon","DuinbossenDeHaan",0.158972039650874,33,36
+"2320","Fort Napoleon","Raversijde1",0.162841794552138,33,29
+"2321","Fort Napoleon","Raversijde3",0.168748178890188,33,31
+"2322","Fort Napoleon","Bredene",0.123248989635222,33,35
+"2323","Fort Napoleon","Fort Napoleon",0,33,33
+"2324","Fort Napoleon","Averbode",0.152691632885743,33,44
+"2325","Fort Napoleon","Sint-Laureins2",0.127363976307534,33,27
+"2326","Fort Napoleon","Sint-Laureins1",0.147139174687846,33,26
+"2327","Fort Napoleon","WarandeduinenMiddelkerke",0.125172035885219,33,28
+"2328","Fort Napoleon","Raversijde4",0.172370207466127,33,32
+"2329","Fort Napoleon","SpanjaardduinenOostende",0.135298228094542,33,34
+"2330","Fort Napoleon","Zwinbosjes-grazed",0.242828533104641,33,37
+"2331","Fort Napoleon","Harchies",0.373975377152356,33,52
+"2332","Fort Napoleon","Lagland",0.240999974044791,33,53
+"2333","Averbode","Simliduinen",0.103751313486567,44,25
+"2334","Averbode","Cabour",0.135186614802277,44,5
+"2335","Averbode","Tropiflora",0.067920837453659,44,7
+"2336","Averbode","Westhoek vissersdorp",0.121281613822785,44,8
+"2337","Averbode","Geel-Bel",0.0616992127908515,44,46
+"2338","Averbode","Karthuizerduinen",0.0902571369893269,44,24
+"2339","Averbode","Oostvoordduinen",0.111850600997647,44,21
+"2340","Averbode","Astridlaan",0.0862721152481557,44,19
+"2341","Averbode","Wetteren",0.234601552515033,44,41
+"2342","Averbode","Mt St Frieux",0.0989038892658023,44,1
+"2343","Averbode","Sangatte",0.0978550823548082,44,3
+"2344","Averbode","HB-Pylyserlaan",0.085688884091742,44,16
+"2345","Averbode","HB-Doornpanne",0.110509600821449,44,14
+"2346","Averbode","Witte Burg",0.109429254800243,44,18
+"2347","Averbode","Ter Yde IWVA",0.120546180639799,44,23
+"2348","Averbode","Veurne",0.0829821780277767,44,6
+"2349","Averbode","Slack",0.0828589574021707,44,2
+"2350","Averbode","HB-Noord",0.108391849839814,44,13
+"2351","Averbode","Belvedere",0.109263744765727,44,12
+"2352","Averbode","Westhoek NO",0.0931630384351452,44,9
+"2353","Averbode","Westhoek Oost",0.113332227439757,44,10
+"2354","Averbode","Oosthoekduinen",0.0927735008390568,44,11
+"2355","Averbode","Schipgatduinen",0.141184568572829,44,17
+"2356","Averbode","HB-Oost",0.0976485581497644,44,15
+"2357","Averbode","Zwinbosjes",0.176248399862788,44,38
+"2358","Averbode","Ter Yde West",0.103524631992094,44,22
+"2359","Averbode","Plaatsduinen",0.105909626545668,44,20
+"2360","Averbode","Westhoek Zuid",0.0813789248357541,44,4
+"2361","Averbode","Kopberg",0.0713158724727344,44,47
+"2362","Averbode","Keiheuvel",0.0951908639998833,44,48
+"2363","Averbode","Kortenhoeff-NL",0.275939479913152,44,42
+"2364","Averbode","Arendschot",0.192343555756686,44,45
+"2365","Averbode","Kalmthout",0.165519646404623,44,43
+"2366","Averbode","Hamont-Achel3",0.121721420288233,44,50
+"2367","Averbode","Hamont-Achel2",0.216090780870276,44,49
+"2368","Averbode","Hamont-Achel1",0.125432082093903,44,51
+"2369","Averbode","Vloethemveld-Zuid",0.150785349232251,44,40
+"2370","Averbode","Raversijde2",0.12583534203028,44,30
+"2371","Averbode","Vloethemveld-Noord",0.154757527921261,44,39
+"2372","Averbode","DuinbossenDeHaan",0.109388433597352,44,36
+"2373","Averbode","Raversijde1",0.16575846488179,44,29
+"2374","Averbode","Raversijde3",0.145226794717339,44,31
+"2375","Averbode","Bredene",0.140472114163321,44,35
+"2376","Averbode","Fort Napoleon",0.152691632885743,44,33
+"2377","Averbode","Averbode",0,44,44
+"2378","Averbode","Sint-Laureins2",0.144228603169851,44,27
+"2379","Averbode","Sint-Laureins1",0.133028771737363,44,26
+"2380","Averbode","WarandeduinenMiddelkerke",0.172607350673397,44,28
+"2381","Averbode","Raversijde4",0.190845261262502,44,32
+"2382","Averbode","SpanjaardduinenOostende",0.118151529173166,44,34
+"2383","Averbode","Zwinbosjes-grazed",0.186702520157418,44,37
+"2384","Averbode","Harchies",0.217938192449953,44,52
+"2385","Averbode","Lagland",0.209066501281769,44,53
+"2386","Sint-Laureins2","Simliduinen",0.0678928286200116,27,25
+"2387","Sint-Laureins2","Cabour",0.0846000905596209,27,5
+"2388","Sint-Laureins2","Tropiflora",0.0720999517132019,27,7
+"2389","Sint-Laureins2","Westhoek vissersdorp",0.0908345328171292,27,8
+"2390","Sint-Laureins2","Geel-Bel",0.158138079470352,27,46
+"2391","Sint-Laureins2","Karthuizerduinen",0.0795678531499965,27,24
+"2392","Sint-Laureins2","Oostvoordduinen",0.0775009726079116,27,21
+"2393","Sint-Laureins2","Astridlaan",0.0680285137821186,27,19
+"2394","Sint-Laureins2","Wetteren",0.20372573526785,27,41
+"2395","Sint-Laureins2","Mt St Frieux",0.101184552314597,27,1
+"2396","Sint-Laureins2","Sangatte",0.0808640522003958,27,3
+"2397","Sint-Laureins2","HB-Pylyserlaan",0.0701684823230307,27,16
+"2398","Sint-Laureins2","HB-Doornpanne",0.0837292469644397,27,14
+"2399","Sint-Laureins2","Witte Burg",0.0781545765805212,27,18
+"2400","Sint-Laureins2","Ter Yde IWVA",0.0826109575936078,27,23
+"2401","Sint-Laureins2","Veurne",0.0734184017987846,27,6
+"2402","Sint-Laureins2","Slack",0.109619536573208,27,2
+"2403","Sint-Laureins2","HB-Noord",0.0704264925243429,27,13
+"2404","Sint-Laureins2","Belvedere",0.0911313111657206,27,12
+"2405","Sint-Laureins2","Westhoek NO",0.0888737645631704,27,9
+"2406","Sint-Laureins2","Westhoek Oost",0.0580381287432212,27,10
+"2407","Sint-Laureins2","Oosthoekduinen",0.0663273500179551,27,11
+"2408","Sint-Laureins2","Schipgatduinen",0.106235584690469,27,17
+"2409","Sint-Laureins2","HB-Oost",0.0657956297619462,27,15
+"2410","Sint-Laureins2","Zwinbosjes",0.144130711113009,27,38
+"2411","Sint-Laureins2","Ter Yde West",0.0704098219969685,27,22
+"2412","Sint-Laureins2","Plaatsduinen",0.075907401124357,27,20
+"2413","Sint-Laureins2","Westhoek Zuid",0.0662006288611453,27,4
+"2414","Sint-Laureins2","Kopberg",0.159229015180392,27,47
+"2415","Sint-Laureins2","Keiheuvel",0.228165879907215,27,48
+"2416","Sint-Laureins2","Kortenhoeff-NL",0.296640202855484,27,42
+"2417","Sint-Laureins2","Arendschot",0.206879974406128,27,45
+"2418","Sint-Laureins2","Kalmthout",0.231436547710267,27,43
+"2419","Sint-Laureins2","Hamont-Achel3",0.197050555855903,27,50
+"2420","Sint-Laureins2","Hamont-Achel2",0.267612902241584,27,49
+"2421","Sint-Laureins2","Hamont-Achel1",0.20198023439576,27,51
+"2422","Sint-Laureins2","Vloethemveld-Zuid",0.0952882384136263,27,40
+"2423","Sint-Laureins2","Raversijde2",0.104177456468996,27,30
+"2424","Sint-Laureins2","Vloethemveld-Noord",0.159377209529758,27,39
+"2425","Sint-Laureins2","DuinbossenDeHaan",0.103414984669168,27,36
+"2426","Sint-Laureins2","Raversijde1",0.0979429687606083,27,29
+"2427","Sint-Laureins2","Raversijde3",0.129572651531834,27,31
+"2428","Sint-Laureins2","Bredene",0.107126460182305,27,35
+"2429","Sint-Laureins2","Fort Napoleon",0.127363976307534,27,33
+"2430","Sint-Laureins2","Averbode",0.144228603169851,27,44
+"2431","Sint-Laureins2","Sint-Laureins2",0,27,27
+"2432","Sint-Laureins2","Sint-Laureins1",0.124657717985962,27,26
+"2433","Sint-Laureins2","WarandeduinenMiddelkerke",0.121646993804228,27,28
+"2434","Sint-Laureins2","Raversijde4",0.126218397413527,27,32
+"2435","Sint-Laureins2","SpanjaardduinenOostende",0.109586652600215,27,34
+"2436","Sint-Laureins2","Zwinbosjes-grazed",0.155941722581394,27,37
+"2437","Sint-Laureins2","Harchies",0.231004821109125,27,52
+"2438","Sint-Laureins2","Lagland",0.260261666949331,27,53
+"2439","Sint-Laureins1","Simliduinen",0.0720236333707624,26,25
+"2440","Sint-Laureins1","Cabour",0.0800730803822771,26,5
+"2441","Sint-Laureins1","Tropiflora",0.0777680832604379,26,7
+"2442","Sint-Laureins1","Westhoek vissersdorp",0.0634595606949511,26,8
+"2443","Sint-Laureins1","Geel-Bel",0.186459675972215,26,46
+"2444","Sint-Laureins1","Karthuizerduinen",0.0725430335310278,26,24
+"2445","Sint-Laureins1","Oostvoordduinen",0.0619249578616662,26,21
+"2446","Sint-Laureins1","Astridlaan",0.0647211642763552,26,19
+"2447","Sint-Laureins1","Wetteren",0.207468380020791,26,41
+"2448","Sint-Laureins1","Mt St Frieux",0.137366361272054,26,1
+"2449","Sint-Laureins1","Sangatte",0.098313043173092,26,3
+"2450","Sint-Laureins1","HB-Pylyserlaan",0.078800742228605,26,16
+"2451","Sint-Laureins1","HB-Doornpanne",0.0769459095279627,26,14
+"2452","Sint-Laureins1","Witte Burg",0.09956295701814,26,18
+"2453","Sint-Laureins1","Ter Yde IWVA",0.0833016929819021,26,23
+"2454","Sint-Laureins1","Veurne",0.0705772638431261,26,6
+"2455","Sint-Laureins1","Slack",0.130405704767255,26,2
+"2456","Sint-Laureins1","HB-Noord",0.0837278053371281,26,13
+"2457","Sint-Laureins1","Belvedere",0.0821454829000623,26,12
+"2458","Sint-Laureins1","Westhoek NO",0.0817867645565973,26,9
+"2459","Sint-Laureins1","Westhoek Oost",0.0603022661540118,26,10
+"2460","Sint-Laureins1","Oosthoekduinen",0.0626774816878887,26,11
+"2461","Sint-Laureins1","Schipgatduinen",0.0937672040579046,26,17
+"2462","Sint-Laureins1","HB-Oost",0.0849497867585303,26,15
+"2463","Sint-Laureins1","Zwinbosjes",0.116769837219617,26,38
+"2464","Sint-Laureins1","Ter Yde West",0.0721266739376453,26,22
+"2465","Sint-Laureins1","Plaatsduinen",0.0788273877630157,26,20
+"2466","Sint-Laureins1","Westhoek Zuid",0.0682942616544606,26,4
+"2467","Sint-Laureins1","Kopberg",0.191369295171274,26,47
+"2468","Sint-Laureins1","Keiheuvel",0.282320654431414,26,48
+"2469","Sint-Laureins1","Kortenhoeff-NL",0.321081084465833,26,42
+"2470","Sint-Laureins1","Arendschot",0.228154455278554,26,45
+"2471","Sint-Laureins1","Kalmthout",0.21104539579078,26,43
+"2472","Sint-Laureins1","Hamont-Achel3",0.170842665073551,26,50
+"2473","Sint-Laureins1","Hamont-Achel2",0.203810358395613,26,49
+"2474","Sint-Laureins1","Hamont-Achel1",0.17711406436031,26,51
+"2475","Sint-Laureins1","Vloethemveld-Zuid",0.114225901912296,26,40
+"2476","Sint-Laureins1","Raversijde2",0.102641712780659,26,30
+"2477","Sint-Laureins1","Vloethemveld-Noord",0.226446203979627,26,39
+"2478","Sint-Laureins1","DuinbossenDeHaan",0.0826684234155539,26,36
+"2479","Sint-Laureins1","Raversijde1",0.0995319025676685,26,29
+"2480","Sint-Laureins1","Raversijde3",0.10674590005749,26,31
+"2481","Sint-Laureins1","Bredene",0.133961299869714,26,35
+"2482","Sint-Laureins1","Fort Napoleon",0.147139174687846,26,33
+"2483","Sint-Laureins1","Averbode",0.133028771737363,26,44
+"2484","Sint-Laureins1","Sint-Laureins2",0.124657717985962,26,27
+"2485","Sint-Laureins1","Sint-Laureins1",0,26,26
+"2486","Sint-Laureins1","WarandeduinenMiddelkerke",0.135065008521538,26,28
+"2487","Sint-Laureins1","Raversijde4",0.117200641810726,26,32
+"2488","Sint-Laureins1","SpanjaardduinenOostende",0.131095290035237,26,34
+"2489","Sint-Laureins1","Zwinbosjes-grazed",0.149811994803604,26,37
+"2490","Sint-Laureins1","Harchies",0.212097180746916,26,52
+"2491","Sint-Laureins1","Lagland",0.19979691984539,26,53
+"2492","WarandeduinenMiddelkerke","Simliduinen",0.0655428785047199,28,25
+"2493","WarandeduinenMiddelkerke","Cabour",0.096059324161015,28,5
+"2494","WarandeduinenMiddelkerke","Tropiflora",0.0768283972824975,28,7
+"2495","WarandeduinenMiddelkerke","Westhoek vissersdorp",0.0764871546266526,28,8
+"2496","WarandeduinenMiddelkerke","Geel-Bel",0.211107012591934,28,46
+"2497","WarandeduinenMiddelkerke","Karthuizerduinen",0.105694487238318,28,24
+"2498","WarandeduinenMiddelkerke","Oostvoordduinen",0.0811916271961967,28,21
+"2499","WarandeduinenMiddelkerke","Astridlaan",0.0770354549162214,28,19
+"2500","WarandeduinenMiddelkerke","Wetteren",0.245282832120247,28,41
+"2501","WarandeduinenMiddelkerke","Mt St Frieux",0.143949333890007,28,1
+"2502","WarandeduinenMiddelkerke","Sangatte",0.111224217603466,28,3
+"2503","WarandeduinenMiddelkerke","HB-Pylyserlaan",0.104467034581161,28,16
+"2504","WarandeduinenMiddelkerke","HB-Doornpanne",0.0706947953157825,28,14
+"2505","WarandeduinenMiddelkerke","Witte Burg",0.075570985942051,28,18
+"2506","WarandeduinenMiddelkerke","Ter Yde IWVA",0.0703370123356083,28,23
+"2507","WarandeduinenMiddelkerke","Veurne",0.105422353467807,28,6
+"2508","WarandeduinenMiddelkerke","Slack",0.142756507078209,28,2
+"2509","WarandeduinenMiddelkerke","HB-Noord",0.085180744715847,28,13
+"2510","WarandeduinenMiddelkerke","Belvedere",0.100801353514985,28,12
+"2511","WarandeduinenMiddelkerke","Westhoek NO",0.0787067743406139,28,9
+"2512","WarandeduinenMiddelkerke","Westhoek Oost",0.0770285737984791,28,10
+"2513","WarandeduinenMiddelkerke","Oosthoekduinen",0.0796261660945807,28,11
+"2514","WarandeduinenMiddelkerke","Schipgatduinen",0.11033308922918,28,17
+"2515","WarandeduinenMiddelkerke","HB-Oost",0.0904225095071251,28,15
+"2516","WarandeduinenMiddelkerke","Zwinbosjes",0.208834369359318,28,38
+"2517","WarandeduinenMiddelkerke","Ter Yde West",0.0914328134743559,28,22
+"2518","WarandeduinenMiddelkerke","Plaatsduinen",0.0643627600387627,28,20
+"2519","WarandeduinenMiddelkerke","Westhoek Zuid",0.0709019580256016,28,4
+"2520","WarandeduinenMiddelkerke","Kopberg",0.176466861104405,28,47
+"2521","WarandeduinenMiddelkerke","Keiheuvel",0.27698606928414,28,48
+"2522","WarandeduinenMiddelkerke","Kortenhoeff-NL",0.285401704237363,28,42
+"2523","WarandeduinenMiddelkerke","Arendschot",0.219684030482807,28,45
+"2524","WarandeduinenMiddelkerke","Kalmthout",0.201562003814249,28,43
+"2525","WarandeduinenMiddelkerke","Hamont-Achel3",0.235110923539292,28,50
+"2526","WarandeduinenMiddelkerke","Hamont-Achel2",0.333620496954062,28,49
+"2527","WarandeduinenMiddelkerke","Hamont-Achel1",0.267335595677763,28,51
+"2528","WarandeduinenMiddelkerke","Vloethemveld-Zuid",0.155235679959244,28,40
+"2529","WarandeduinenMiddelkerke","Raversijde2",0.100672749463606,28,30
+"2530","WarandeduinenMiddelkerke","Vloethemveld-Noord",0.210715636886611,28,39
+"2531","WarandeduinenMiddelkerke","DuinbossenDeHaan",0.14670049856733,28,36
+"2532","WarandeduinenMiddelkerke","Raversijde1",0.156681393674726,28,29
+"2533","WarandeduinenMiddelkerke","Raversijde3",0.149159377816338,28,31
+"2534","WarandeduinenMiddelkerke","Bredene",0.0984275825711755,28,35
+"2535","WarandeduinenMiddelkerke","Fort Napoleon",0.125172035885219,28,33
+"2536","WarandeduinenMiddelkerke","Averbode",0.172607350673397,28,44
+"2537","WarandeduinenMiddelkerke","Sint-Laureins2",0.121646993804228,28,27
+"2538","WarandeduinenMiddelkerke","Sint-Laureins1",0.135065008521538,28,26
+"2539","WarandeduinenMiddelkerke","WarandeduinenMiddelkerke",0,28,28
+"2540","WarandeduinenMiddelkerke","Raversijde4",0.202169583850072,28,32
+"2541","WarandeduinenMiddelkerke","SpanjaardduinenOostende",0.100741473882058,28,34
+"2542","WarandeduinenMiddelkerke","Zwinbosjes-grazed",0.209333204029664,28,37
+"2543","WarandeduinenMiddelkerke","Harchies",0.362193032959721,28,52
+"2544","WarandeduinenMiddelkerke","Lagland",0.230519634844035,28,53
+"2545","Raversijde4","Simliduinen",0.116336363527012,32,25
+"2546","Raversijde4","Cabour",0.115084072287454,32,5
+"2547","Raversijde4","Tropiflora",0.110563458895787,32,7
+"2548","Raversijde4","Westhoek vissersdorp",0.131408890214254,32,8
+"2549","Raversijde4","Geel-Bel",0.207807262617892,32,46
+"2550","Raversijde4","Karthuizerduinen",0.0810155759870037,32,24
+"2551","Raversijde4","Oostvoordduinen",0.11084277049994,32,21
+"2552","Raversijde4","Astridlaan",0.113920052606068,32,19
+"2553","Raversijde4","Wetteren",0.235834318679491,32,41
+"2554","Raversijde4","Mt St Frieux",0.170081956669809,32,1
+"2555","Raversijde4","Sangatte",0.126391133757043,32,3
+"2556","Raversijde4","HB-Pylyserlaan",0.106013294883086,32,16
+"2557","Raversijde4","HB-Doornpanne",0.147488307891294,32,14
+"2558","Raversijde4","Witte Burg",0.138763486171273,32,18
+"2559","Raversijde4","Ter Yde IWVA",0.122918253257568,32,23
+"2560","Raversijde4","Veurne",0.121597045537221,32,6
+"2561","Raversijde4","Slack",0.16627152186782,32,2
+"2562","Raversijde4","HB-Noord",0.114882873844099,32,13
+"2563","Raversijde4","Belvedere",0.109628550764273,32,12
+"2564","Raversijde4","Westhoek NO",0.116962291771453,32,9
+"2565","Raversijde4","Westhoek Oost",0.135090184111146,32,10
+"2566","Raversijde4","Oosthoekduinen",0.0995828410448212,32,11
+"2567","Raversijde4","Schipgatduinen",0.14894101206891,32,17
+"2568","Raversijde4","HB-Oost",0.119864588233272,32,15
+"2569","Raversijde4","Zwinbosjes",0.128761018168966,32,38
+"2570","Raversijde4","Ter Yde West",0.0942099503250485,32,22
+"2571","Raversijde4","Plaatsduinen",0.147037532676531,32,20
+"2572","Raversijde4","Westhoek Zuid",0.125325651729638,32,4
+"2573","Raversijde4","Kopberg",0.220506529471355,32,47
+"2574","Raversijde4","Keiheuvel",0.320209467796039,32,48
+"2575","Raversijde4","Kortenhoeff-NL",0.373218433085387,32,42
+"2576","Raversijde4","Arendschot",0.306904346160479,32,45
+"2577","Raversijde4","Kalmthout",0.296002254698849,32,43
+"2578","Raversijde4","Hamont-Achel3",0.238993952585898,32,50
+"2579","Raversijde4","Hamont-Achel2",0.272323148329854,32,49
+"2580","Raversijde4","Hamont-Achel1",0.275964097574722,32,51
+"2581","Raversijde4","Vloethemveld-Zuid",0.173655046379851,32,40
+"2582","Raversijde4","Raversijde2",0.164446696304283,32,30
+"2583","Raversijde4","Vloethemveld-Noord",0.213432553123263,32,39
+"2584","Raversijde4","DuinbossenDeHaan",0.115376157607979,32,36
+"2585","Raversijde4","Raversijde1",0.16163166366663,32,29
+"2586","Raversijde4","Raversijde3",0.182424013568412,32,31
+"2587","Raversijde4","Bredene",0.197987018611651,32,35
+"2588","Raversijde4","Fort Napoleon",0.172370207466127,32,33
+"2589","Raversijde4","Averbode",0.190845261262502,32,44
+"2590","Raversijde4","Sint-Laureins2",0.126218397413527,32,27
+"2591","Raversijde4","Sint-Laureins1",0.117200641810726,32,26
+"2592","Raversijde4","WarandeduinenMiddelkerke",0.202169583850072,32,28
+"2593","Raversijde4","Raversijde4",0,32,32
+"2594","Raversijde4","SpanjaardduinenOostende",0.190348046825266,32,34
+"2595","Raversijde4","Zwinbosjes-grazed",0.212785650977216,32,37
+"2596","Raversijde4","Harchies",0.320882161130876,32,52
+"2597","Raversijde4","Lagland",0.361677679256052,32,53
+"2598","SpanjaardduinenOostende","Simliduinen",0.0752082263417726,34,25
+"2599","SpanjaardduinenOostende","Cabour",0.0945978604415949,34,5
+"2600","SpanjaardduinenOostende","Tropiflora",0.0674328654009838,34,7
+"2601","SpanjaardduinenOostende","Westhoek vissersdorp",0.0844324505930339,34,8
+"2602","SpanjaardduinenOostende","Geel-Bel",0.164478297869149,34,46
+"2603","SpanjaardduinenOostende","Karthuizerduinen",0.0739724701683157,34,24
+"2604","SpanjaardduinenOostende","Oostvoordduinen",0.0647313121297787,34,21
+"2605","SpanjaardduinenOostende","Astridlaan",0.0766918721268321,34,19
+"2606","SpanjaardduinenOostende","Wetteren",0.199736690070363,34,41
+"2607","SpanjaardduinenOostende","Mt St Frieux",0.123608795540908,34,1
+"2608","SpanjaardduinenOostende","Sangatte",0.0790988490849683,34,3
+"2609","SpanjaardduinenOostende","HB-Pylyserlaan",0.073807839700673,34,16
+"2610","SpanjaardduinenOostende","HB-Doornpanne",0.0774860436051424,34,14
+"2611","SpanjaardduinenOostende","Witte Burg",0.0692764501620294,34,18
+"2612","SpanjaardduinenOostende","Ter Yde IWVA",0.0723110679330046,34,23
+"2613","SpanjaardduinenOostende","Veurne",0.0898395597026752,34,6
+"2614","SpanjaardduinenOostende","Slack",0.108963823471869,34,2
+"2615","SpanjaardduinenOostende","HB-Noord",0.096967491344596,34,13
+"2616","SpanjaardduinenOostende","Belvedere",0.0905735291963743,34,12
+"2617","SpanjaardduinenOostende","Westhoek NO",0.0804082532453197,34,9
+"2618","SpanjaardduinenOostende","Westhoek Oost",0.0842918357956416,34,10
+"2619","SpanjaardduinenOostende","Oosthoekduinen",0.0785527868817841,34,11
+"2620","SpanjaardduinenOostende","Schipgatduinen",0.0758346818782525,34,17
+"2621","SpanjaardduinenOostende","HB-Oost",0.0724195640501432,34,15
+"2622","SpanjaardduinenOostende","Zwinbosjes",0.211951023930892,34,38
+"2623","SpanjaardduinenOostende","Ter Yde West",0.073074319820293,34,22
+"2624","SpanjaardduinenOostende","Plaatsduinen",0.0812708233314819,34,20
+"2625","SpanjaardduinenOostende","Westhoek Zuid",0.0722694942875352,34,4
+"2626","SpanjaardduinenOostende","Kopberg",0.148949072292478,34,47
+"2627","SpanjaardduinenOostende","Keiheuvel",0.192253553037457,34,48
+"2628","SpanjaardduinenOostende","Kortenhoeff-NL",0.292317386502172,34,42
+"2629","SpanjaardduinenOostende","Arendschot",0.203498660868712,34,45
+"2630","SpanjaardduinenOostende","Kalmthout",0.184461915275928,34,43
+"2631","SpanjaardduinenOostende","Hamont-Achel3",0.168782799004594,34,50
+"2632","SpanjaardduinenOostende","Hamont-Achel2",0.220550642744842,34,49
+"2633","SpanjaardduinenOostende","Hamont-Achel1",0.15801557816181,34,51
+"2634","SpanjaardduinenOostende","Vloethemveld-Zuid",0.153586778670834,34,40
+"2635","SpanjaardduinenOostende","Raversijde2",0.0922235439884809,34,30
+"2636","SpanjaardduinenOostende","Vloethemveld-Noord",0.186310655196828,34,39
+"2637","SpanjaardduinenOostende","DuinbossenDeHaan",0.113484543178487,34,36
+"2638","SpanjaardduinenOostende","Raversijde1",0.137554449316748,34,29
+"2639","SpanjaardduinenOostende","Raversijde3",0.153972803292959,34,31
+"2640","SpanjaardduinenOostende","Bredene",0.113172150103809,34,35
+"2641","SpanjaardduinenOostende","Fort Napoleon",0.135298228094542,34,33
+"2642","SpanjaardduinenOostende","Averbode",0.118151529173166,34,44
+"2643","SpanjaardduinenOostende","Sint-Laureins2",0.109586652600215,34,27
+"2644","SpanjaardduinenOostende","Sint-Laureins1",0.131095290035237,34,26
+"2645","SpanjaardduinenOostende","WarandeduinenMiddelkerke",0.100741473882058,34,28
+"2646","SpanjaardduinenOostende","Raversijde4",0.190348046825266,34,32
+"2647","SpanjaardduinenOostende","SpanjaardduinenOostende",0,34,34
+"2648","SpanjaardduinenOostende","Zwinbosjes-grazed",0.194143562372675,34,37
+"2649","SpanjaardduinenOostende","Harchies",0.262074775754825,34,52
+"2650","SpanjaardduinenOostende","Lagland",0.180656088551915,34,53
+"2651","Zwinbosjes-grazed","Simliduinen",0.139229793030427,37,25
+"2652","Zwinbosjes-grazed","Cabour",0.140701750313299,37,5
+"2653","Zwinbosjes-grazed","Tropiflora",0.124977246314237,37,7
+"2654","Zwinbosjes-grazed","Westhoek vissersdorp",0.117450508110831,37,8
+"2655","Zwinbosjes-grazed","Geel-Bel",0.186773991147437,37,46
+"2656","Zwinbosjes-grazed","Karthuizerduinen",0.125409404123772,37,24
+"2657","Zwinbosjes-grazed","Oostvoordduinen",0.117557718207262,37,21
+"2658","Zwinbosjes-grazed","Astridlaan",0.133838090462706,37,19
+"2659","Zwinbosjes-grazed","Wetteren",0.22238592471879,37,41
+"2660","Zwinbosjes-grazed","Mt St Frieux",0.0955446219994876,37,1
+"2661","Zwinbosjes-grazed","Sangatte",0.0872183127535558,37,3
+"2662","Zwinbosjes-grazed","HB-Pylyserlaan",0.111941725281408,37,16
+"2663","Zwinbosjes-grazed","HB-Doornpanne",0.117054715816871,37,14
+"2664","Zwinbosjes-grazed","Witte Burg",0.117935277322886,37,18
+"2665","Zwinbosjes-grazed","Ter Yde IWVA",0.0964175209403117,37,23
+"2666","Zwinbosjes-grazed","Veurne",0.136937089211803,37,6
+"2667","Zwinbosjes-grazed","Slack",0.100472466668064,37,2
+"2668","Zwinbosjes-grazed","HB-Noord",0.162316868198034,37,13
+"2669","Zwinbosjes-grazed","Belvedere",0.128991222764842,37,12
+"2670","Zwinbosjes-grazed","Westhoek NO",0.113519669924844,37,9
+"2671","Zwinbosjes-grazed","Westhoek Oost",0.147745977573901,37,10
+"2672","Zwinbosjes-grazed","Oosthoekduinen",0.126021502453448,37,11
+"2673","Zwinbosjes-grazed","Schipgatduinen",0.117035120303497,37,17
+"2674","Zwinbosjes-grazed","HB-Oost",0.124542204324331,37,15
+"2675","Zwinbosjes-grazed","Zwinbosjes",0.0623794447727077,37,38
+"2676","Zwinbosjes-grazed","Ter Yde West",0.129869928065963,37,22
+"2677","Zwinbosjes-grazed","Plaatsduinen",0.10311261379231,37,20
+"2678","Zwinbosjes-grazed","Westhoek Zuid",0.112028749284822,37,4
+"2679","Zwinbosjes-grazed","Kopberg",0.212135749809165,37,47
+"2680","Zwinbosjes-grazed","Keiheuvel",0.300309951144032,37,48
+"2681","Zwinbosjes-grazed","Kortenhoeff-NL",0.316054041329714,37,42
+"2682","Zwinbosjes-grazed","Arendschot",0.191909517284922,37,45
+"2683","Zwinbosjes-grazed","Kalmthout",0.19473401616747,37,43
+"2684","Zwinbosjes-grazed","Hamont-Achel3",0.2851891326469,37,50
+"2685","Zwinbosjes-grazed","Hamont-Achel2",0.313086846525477,37,49
+"2686","Zwinbosjes-grazed","Hamont-Achel1",0.255389445376655,37,51
+"2687","Zwinbosjes-grazed","Vloethemveld-Zuid",0.135607547406407,37,40
+"2688","Zwinbosjes-grazed","Raversijde2",0.147619536259511,37,30
+"2689","Zwinbosjes-grazed","Vloethemveld-Noord",0.185773068870182,37,39
+"2690","Zwinbosjes-grazed","DuinbossenDeHaan",0.0994829058707892,37,36
+"2691","Zwinbosjes-grazed","Raversijde1",0.150332242646091,37,29
+"2692","Zwinbosjes-grazed","Raversijde3",0.20803100669928,37,31
+"2693","Zwinbosjes-grazed","Bredene",0.185736363264665,37,35
+"2694","Zwinbosjes-grazed","Fort Napoleon",0.242828533104641,37,33
+"2695","Zwinbosjes-grazed","Averbode",0.186702520157418,37,44
+"2696","Zwinbosjes-grazed","Sint-Laureins2",0.155941722581394,37,27
+"2697","Zwinbosjes-grazed","Sint-Laureins1",0.149811994803604,37,26
+"2698","Zwinbosjes-grazed","WarandeduinenMiddelkerke",0.209333204029664,37,28
+"2699","Zwinbosjes-grazed","Raversijde4",0.212785650977216,37,32
+"2700","Zwinbosjes-grazed","SpanjaardduinenOostende",0.194143562372675,37,34
+"2701","Zwinbosjes-grazed","Zwinbosjes-grazed",0,37,37
+"2702","Zwinbosjes-grazed","Harchies",0.237368484150577,37,52
+"2703","Zwinbosjes-grazed","Lagland",0.216547608297088,37,53
+"2704","Harchies","Simliduinen",0.233860311616729,52,25
+"2705","Harchies","Cabour",0.305416489635286,52,5
+"2706","Harchies","Tropiflora",0.23750525909365,52,7
+"2707","Harchies","Westhoek vissersdorp",0.291969331182074,52,8
+"2708","Harchies","Geel-Bel",0.218866453955197,52,46
+"2709","Harchies","Karthuizerduinen",0.229206171672636,52,24
+"2710","Harchies","Oostvoordduinen",0.249491630985332,52,21
+"2711","Harchies","Astridlaan",0.247143385052748,52,19
+"2712","Harchies","Wetteren",0.356651098604311,52,41
+"2713","Harchies","Mt St Frieux",0.19064863166843,52,1
+"2714","Harchies","Sangatte",0.240611835364173,52,3
+"2715","Harchies","HB-Pylyserlaan",0.226335017016291,52,16
+"2716","Harchies","HB-Doornpanne",0.209516913331397,52,14
+"2717","Harchies","Witte Burg",0.23667989495825,52,18
+"2718","Harchies","Ter Yde IWVA",0.261904734913188,52,23
+"2719","Harchies","Veurne",0.234072427072805,52,6
+"2720","Harchies","Slack",0.178889175306294,52,2
+"2721","Harchies","HB-Noord",0.240459664771515,52,13
+"2722","Harchies","Belvedere",0.283311698652714,52,12
+"2723","Harchies","Westhoek NO",0.281034055722717,52,9
+"2724","Harchies","Westhoek Oost",0.247887939267567,52,10
+"2725","Harchies","Oosthoekduinen",0.244862921239529,52,11
+"2726","Harchies","Schipgatduinen",0.234220665553143,52,17
+"2727","Harchies","HB-Oost",0.224121592744016,52,15
+"2728","Harchies","Zwinbosjes",0.227843639890512,52,38
+"2729","Harchies","Ter Yde West",0.244428215712096,52,22
+"2730","Harchies","Plaatsduinen",0.229715015450032,52,20
+"2731","Harchies","Westhoek Zuid",0.199776939275784,52,4
+"2732","Harchies","Kopberg",0.249863129708023,52,47
+"2733","Harchies","Keiheuvel",0.278982091406202,52,48
+"2734","Harchies","Kortenhoeff-NL",0.423436194059821,52,42
+"2735","Harchies","Arendschot",0.310784092829987,52,45
+"2736","Harchies","Kalmthout",0.291702127152872,52,43
+"2737","Harchies","Hamont-Achel3",0.269081574852609,52,50
+"2738","Harchies","Hamont-Achel2",0.363982516919123,52,49
+"2739","Harchies","Hamont-Achel1",0.231989172110383,52,51
+"2740","Harchies","Vloethemveld-Zuid",0.25108124266535,52,40
+"2741","Harchies","Raversijde2",0.236399435868417,52,30
+"2742","Harchies","Vloethemveld-Noord",0.361777158761873,52,39
+"2743","Harchies","DuinbossenDeHaan",0.196735019357362,52,36
+"2744","Harchies","Raversijde1",0.229358973983784,52,29
+"2745","Harchies","Raversijde3",0.218112318817702,52,31
+"2746","Harchies","Bredene",0.317512496496508,52,35
+"2747","Harchies","Fort Napoleon",0.373975377152356,52,33
+"2748","Harchies","Averbode",0.217938192449953,52,44
+"2749","Harchies","Sint-Laureins2",0.231004821109125,52,27
+"2750","Harchies","Sint-Laureins1",0.212097180746916,52,26
+"2751","Harchies","WarandeduinenMiddelkerke",0.362193032959721,52,28
+"2752","Harchies","Raversijde4",0.320882161130876,52,32
+"2753","Harchies","SpanjaardduinenOostende",0.262074775754825,52,34
+"2754","Harchies","Zwinbosjes-grazed",0.237368484150577,52,37
+"2755","Harchies","Harchies",0,52,52
+"2756","Harchies","Lagland",0.303128882061571,52,53
+"2757","Lagland","Simliduinen",0.208127441501717,53,25
+"2758","Lagland","Cabour",0.206107165897174,53,5
+"2759","Lagland","Tropiflora",0.175783482696545,53,7
+"2760","Lagland","Westhoek vissersdorp",0.167551470803801,53,8
+"2761","Lagland","Geel-Bel",0.186352721949241,53,46
+"2762","Lagland","Karthuizerduinen",0.189346041516187,53,24
+"2763","Lagland","Oostvoordduinen",0.163921480574924,53,21
+"2764","Lagland","Astridlaan",0.201485175092545,53,19
+"2765","Lagland","Wetteren",0.427538893756755,53,41
+"2766","Lagland","Mt St Frieux",0.206079357071385,53,1
+"2767","Lagland","Sangatte",0.191007373653628,53,3
+"2768","Lagland","HB-Pylyserlaan",0.236128377994424,53,16
+"2769","Lagland","HB-Doornpanne",0.189189983464935,53,14
+"2770","Lagland","Witte Burg",0.182001331346808,53,18
+"2771","Lagland","Ter Yde IWVA",0.171659105343762,53,23
+"2772","Lagland","Veurne",0.183900087064455,53,6
+"2773","Lagland","Slack",0.145835054190839,53,2
+"2774","Lagland","HB-Noord",0.192914490249831,53,13
+"2775","Lagland","Belvedere",0.210320627122993,53,12
+"2776","Lagland","Westhoek NO",0.197901961339671,53,9
+"2777","Lagland","Westhoek Oost",0.195092997131171,53,10
+"2778","Lagland","Oosthoekduinen",0.196630628692871,53,11
+"2779","Lagland","Schipgatduinen",0.17080960600489,53,17
+"2780","Lagland","HB-Oost",0.14954884804929,53,15
+"2781","Lagland","Zwinbosjes",0.252931268390502,53,38
+"2782","Lagland","Ter Yde West",0.192845211553201,53,22
+"2783","Lagland","Plaatsduinen",0.187105155880274,53,20
+"2784","Lagland","Westhoek Zuid",0.156714992795328,53,4
+"2785","Lagland","Kopberg",0.16613906112015,53,47
+"2786","Lagland","Keiheuvel",0.245578030522515,53,48
+"2787","Lagland","Kortenhoeff-NL",0.38645632353073,53,42
+"2788","Lagland","Arendschot",0.196374278491447,53,45
+"2789","Lagland","Kalmthout",0.229145042341728,53,43
+"2790","Lagland","Hamont-Achel3",0.254884026138773,53,50
+"2791","Lagland","Hamont-Achel2",0.303372291680614,53,49
+"2792","Lagland","Hamont-Achel1",0.269595517950064,53,51
+"2793","Lagland","Vloethemveld-Zuid",0.197076053577136,53,40
+"2794","Lagland","Raversijde2",0.174504154595052,53,30
+"2795","Lagland","Vloethemveld-Noord",0.266327241499388,53,39
+"2796","Lagland","DuinbossenDeHaan",0.186652885519633,53,36
+"2797","Lagland","Raversijde1",0.221137039412962,53,29
+"2798","Lagland","Raversijde3",0.302787581796634,53,31
+"2799","Lagland","Bredene",0.232477429571942,53,35
+"2800","Lagland","Fort Napoleon",0.240999974044791,53,33
+"2801","Lagland","Averbode",0.209066501281769,53,44
+"2802","Lagland","Sint-Laureins2",0.260261666949331,53,27
+"2803","Lagland","Sint-Laureins1",0.19979691984539,53,26
+"2804","Lagland","WarandeduinenMiddelkerke",0.230519634844035,53,28
+"2805","Lagland","Raversijde4",0.361677679256052,53,32
+"2806","Lagland","SpanjaardduinenOostende",0.180656088551915,53,34
+"2807","Lagland","Zwinbosjes-grazed",0.216547608297088,53,37
+"2808","Lagland","Harchies",0.303128882061571,53,52
+"2809","Lagland","Lagland",0,53,53

@@ -1,0 +1,66 @@
+---
+title: "hierarchical AMOVA"
+author: "Femke Batsleer"
+date: "15-2-2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Loading packages and data
+
+```{r packages, message=FALSE, warning=FALSE}
+library("dplyr")
+library("tidyr")
+library("tidyverse")
+library("adegenet")
+library("adespatial")
+library("spdep")
+library("poppr")
+library("hierfstat")
+library("diveRsity")
+library("graph4lg")
+library("miscTools")
+library("stringr")
+library("RColorBrewer")
+library("MASS")
+library("reshape2")
+```
+
+https://grunwaldlab.github.io/poppr/reference/poppr.amova.html
+https://grunwaldlab.github.io/Population_Genetics_in_R/AMOVA.html
+
+
+following strata were defined in genind objects
+-year
+-region (Picardie, BelCoast, Inland Flanders, Wallonia) (or coast vs inland?)
+-sample-location=population
+
+
+All data together, 2018 separately, 2020 separately
+
+## AMOVA to detect variation between years
+
+To know if we can lump and combine populations sampled in different years, we checked the amount of variation explained by year for populations that were sampled both in 2018 and 2020. 
+As a check, we perform the same on all data together (but this is less correct).  
+
+```{r}
+overlap_genind <- readRDS("../data/genind/genind_pops2yearsampled.RDS")
+
+#hierarchical data
+table(strata(overlap_genind, ~Population/Year, combine=FALSE))
+
+#amova
+overlap_amova <- poppr.amova(overlap_genind, ~Population/Year)
+overlap_amova
+
+#on all data together
+data_genind <- readRDS("../data/genind/genind_pop.RDS")
+
+gen_amova <- poppr.amova(data_genind, ~Population/Year)
+gen_amova
+```
+
+
