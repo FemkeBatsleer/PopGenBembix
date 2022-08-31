@@ -14,8 +14,8 @@ By: Femke Batsleer
 
 
 ## Packages used
-- genetic analysis packages: adegenet, diveRsity, graph4lg, hierfstat, pegas, PopGenReport, poppr
-- data handling and manipulation: dplyr, foreign, reshape2, stringr, tibble, tidyr, tidyverse
-- multivariate analysis: vegan, adespatial
-- visualisations: Ggally, ggplot2, ggpubr, ggsci, RColorBrewer, scales
-- other: car, devtools, MASS, miscTools, pkgload, purr, spdep
+- **genetic analysis packages**: adegenet, diveRsity, graph4lg, hierfstat, pegas, PopGenReport, poppr
+- **data handling and manipulation**: dplyr, foreign, reshape2, stringr, tibble, tidyr, tidyverse
+- **multivariate analysis**: vegan, adespatial
+- **visualisations**: Ggally, ggplot2, ggpubr, ggsci, RColorBrewer, scales
+- **other**: car, devtools, MASS, miscTools, pkgload, purr, spdep
