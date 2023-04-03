@@ -4,7 +4,7 @@ by: Femke Batsleer
 Geneclass2 can be downloaded from: http://www1.montpellier.inra.fr/URLB/GeneClass2/Help/
 
 Following data was loaded:
-'reference populations': ..\data\genepop\selectionsamples_oldpop.txt
+'reference populations': ..\data\genepop\selectionsamples_all.txt
 'samples to be assigned': ..\data\genepop\selectionsamples_all.txt
 If an error is accounted when loading: change in the datafiles the kommas separating the loci-names with enter keys (so they are listed under eachother
 
@@ -14,7 +14,8 @@ If an error is accounted when loading: change in the datafiles the kommas separa
  > 'Rannala & Mountain (1997)'
  > 'Number of simulated individuals: 10000'
  
-After calculation, the data was exported to 'Results_indassign_newpopsoldpops_RM_probRM10000MC.csv'
-This file was manually slightly adjusted to more easily load into R: 'Results_indassign_newpopsoldpops_RM_probRM10000MC_forR.csv'
+After calculation, the data was exported to 'Results_indassign_allpops_RM_probRM10000MCalpha001.csv'
+This file was manually slightly adjusted to more easily load into R: 'Results_indassign_allpops_RM_probRM10000MCalpha001_forR.csv'
+
 In the R-script 'tables_from_output_Geneclass.R', summary tables are made from this output and data created to load into QGIS
 QGIS flow chart visualisation was inspired by https://anitagraser.com/2019/05/04/flow-maps-in-qgis-no-plugins-needed/
