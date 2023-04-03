@@ -1,7 +1,7 @@
 ---
-title: "Pop stats and genetic distances"
+title: "Population statistics and pairwise Fst for subsampled populations"
 author: "Femke Batsleer"
-date: "15-2-2022"
+date: "17-02-2023"
 output: html_document
 ---
 
@@ -35,14 +35,12 @@ library("ggsci")
 
 
 ```{r data}
-data_genind <- readRDS("../data/genind/genind_pop.RDS")
-data_genind_popyear <- readRDS("../data/genind/genind_popyear.RDS")
+data_genind <- readRDS("../data/genind/genind_selection_subsamp.RDS")
 metadatapop <- read.dbf("../data/GIS/Population_centroids_selection_collapsedyear.dbf")
-metadatapopyear <- read.dbf("../data/GIS/Populations_centroids_selection_all_Lambert.dbf")
 ```
 
 
-## General info loci
+## Info loci
 
 Summary, number of alleles per locus, sample size per pop, heterozygosity per locus
 
@@ -51,7 +49,6 @@ Summary, number of alleles per locus, sample size per pop, heterozygosity per lo
 data_genind
 #number of alleles per locus
 as.data.frame(table(data_genind$loc.fac))
-#number of alleles in total
 as.data.frame(table(data_genind$loc.fac)) %>% summarise(total=sum(Freq), average=mean(Freq),
                                                         min=min(Freq), max=max(Freq))
 #sample size for each site
@@ -87,56 +84,20 @@ nrow(as.data.frame(data_genind@tab) %>% pivot_longer(cols=1:ncol(.)))
 ```{r}
 #coordinates per pop (centroid of all samples)
 coordinates_pops <- metadatapop %>% dplyr::select(Population, MEAN_X, MEAN_Y)
-#frequency per pop per year
-freq <- as.data.frame(summary(data_genind_popyear$pop)) %>% rename(freq = `summary(data_genind_popyear$pop)`) %>% rownames_to_column("PopulationYear") %>%
-   mutate(year = substr(PopulationYear, nchar(PopulationYear)-4+1, nchar(PopulationYear))) %>%
-  mutate(Population = substr(PopulationYear, 1, nchar(PopulationYear)-4)) %>%
-  mutate(year= as.numeric(year)) %>%
-  dplyr::select(-PopulationYear)
 #number_pop
 number_pop <- metadatapop %>% dplyr::select(Population, Number_pop)
   
-
-
-summary_popsyear <- metadatapopyear %>% dplyr::select(Region, Population, Year) %>% left_join(number_pop, by="Population") %>%
-  dplyr::select(Region, Number_pop, Population, Year) %>%
-  left_join(coordinates_pops, by="Population") %>%
-  mutate(year = as.numeric(Year)) %>% dplyr::select(-Year) %>%
-  left_join(freq, by=c("Population", "year")) %>%
-  arrange(Number_pop, year)
-summary_popsyear
-# write.csv(summary_popsyear, file="summary_properties_perpopperyear.csv")
-
-
-
 freq_collapsed <- as.data.frame(summary(data_genind$pop)) %>% rename(freq = `summary(data_genind$pop)`) %>% rownames_to_column("Population")
 
 summary_pops <- metadatapop %>% dplyr::select(Region, Number_pop, Population, MEAN_X, MEAN_Y, years_samp) %>%
   left_join(freq_collapsed, by=c("Population")) %>%
   arrange(Number_pop)
 summary_pops
-# write.csv(summary_pops, file="summary_properties_perpop.csv")
+#write.csv(summary_pops, file="summary_properties_perpop.csv")
 ```
 
 
 ## Basic population genetic measures per population
-
-private alleles, allelic richness, heterozygosity, Fis
-(observed heterozygosity also says something about diversity; difference between both about one of the assumptions of HW not met (small pop size, selection, Wahlund effect,...)).  
-In haplodiploidy, one actually expects lower Ho (due to purging, but also drift is faster and have a smaller effective population size due to haplodiploidy; Lester & Selander 1979)  
-Fis probably not reliable due to haplodiploidy: higher inbreeding expected anyway (but see Liautard & Sundström (2005) Insects Sociaux, for estimate of inbreeding for haplodiploids based on individual-based level, using relatedness-measures)  
-  
-  Allelic richness:  
-  * lowest in Wetteren, Kortenhoeff, Kalmthout2, Harchies, Lagland  
-  * highest at westcoast, slightly decreasing towards east coast  
-  * further decreasing in Kempen  
-  He-Ho:  
-  * inbreeding high in midcoast (small populations that have inbreeding, although connected to rest of coast, see Fst below)  
-  * inbreeding higher in some populations in Kempen  
-  * inbreeding high in Wallonia  
-  * inbreeding (surprisingly) low in Wetteren, Kortenhoeff, Kalmthout2 (Hamont-Achel), while these are quite differentiated (Fst) and have low allelic richness. Possibility: bottleneck (Moyra's thesis, Molecular Ecology book p109-110)?  
-
-
 
 ```{r}
 #private alleles
@@ -227,7 +188,7 @@ Fis_pop <- as_tibble(t(Fis_mean %>% bind_rows(Fis_sd)), rownames="pop") %>%
   rename(Fis_mean=V1, Fis_sd=V2) %>% mutate(Fis_se=Fis_sd/sqrt(21)) %>%
   left_join(metadatapop, by=c("pop"="Population"))
 
-write.csv(Fis_pop, "Fis_all.csv")
+write.csv(Fis_pop, "Fis_subsampling.csv")
 
 plot_Fis <- ggplot(Fis_pop, aes(x=reorder(pop, Number_pop), y=Fis_mean)) +
   geom_point() + geom_errorbar(aes(ymin=Fis_mean-Fis_se, ymax=Fis_mean+Fis_se)) +
@@ -255,19 +216,13 @@ summary_pops_stats <- summary_pops %>% full_join(private_alleles, by=c("Populati
   full_join(Fis_pop %>% dplyr::select(pop, Fis_mean, Fis_sd, Fis_se), #add inbreeding coefficient
             by=c("Population"="pop"))
 
-# write.csv(summary_pops_stats, "summary_pop_statistics.csv")
+#write.csv(summary_pops_stats, "summary_pop_statistics.csv")
 
 ```
 
-
 ## Nei's genetic distance
 
-poppr function nei.dist or hierfstat (but is dat Nei's distance?)
-hierfstat::genet.dist: Ds (Nei's standard genetic distance)
-confidence intervals? Toch Genalex or other stand alone program?
-
-
-```{r Neis genetic distance, fig.height=10, fig.width=12}
+```{r}
 nei.dist_m <- as.data.frame(as.matrix(hierfstat::genet.dist(data_genind, method="Ds")))
 colnames(nei.dist_m) <- popNames(data_genind) #add popnames to columns
 rownames(nei.dist_m) <- popNames(data_genind) #add popnames to rows
@@ -283,7 +238,7 @@ nei.dist_df <- nei.dist_m %>% rownames_to_column(var="pop1") %>%
                 dplyr::select(Population, Number_pop) %>% rename("X_2"="Number_pop"), 
               by=c("pop2"="Population"))
 
-write.csv(nei.dist_df, "Neisgeneticdistance_hierfstat.csv")
+#write.csv(nei.dist_df, "Neisgeneticdistance_hierfstat.csv")
 
 #plot Nei's distance
 
@@ -302,33 +257,34 @@ Ds_tile
     left_join(dplyr::select(metadatapop_assign, Population, Number_pop, Region), by=c("pop1"="Population")) %>%
     rmarkdown::paged_table())
 
-# write.csv(meanDs_pop, "average Nei's genetic distance per pop.csv")
+#write.csv(meanDs_pop, "average Nei's genetic distance per pop subsamp.csv")
 ```
+
 
 ## Pairwise Fst values
 
-Calculated with package diveRsity. The first chunk of code has to be run to actually calculate the indices (should be uncommented to run), but takes a lot of time to run (because of the bootstraps).
+Calculated with package diveRsity. Lines are commented when it is run.
 
 ```{r fig.height=10, fig.width=12}
 #to work with package diveRsity: convert genind to genepop-file
 #https://rdrr.io/github/romunov/zvau/man/writeGenPop.html
-
-# genpop <- genind_to_genepop(data_genind, "all_genind_genepop.txt")
+# genpop <- genind_to_genepop(data_genind, "all_genind_genepop_subsamp.txt")
 # 
 # # #
-# gendata <- readGenepop(infile = "all_genind_genepop.txt", gp = 3, bootstrap = F)
-# diffs <- fastDivPart(infile = "all_genind_genepop.txt", outfile = "./differentation diveRsity/13092021", pairwise=T)
-# # 
-# fst <- diffCalc(infile = "all_genind_genepop.txt", outfile="diffs",
+# gendata <- readGenepop(infile = "all_genind_genepop_subsamp.txt", gp = 3, bootstrap = F)
+# diffs <- fastDivPart(infile = "all_genind_genepop_subsamp.txt", outfile = "./differentation diveRsity subsamp/17022023", pairwise=T)
+# #
+# fst <- diffCalc(infile = "all_genind_genepop_subsamp.txt", outfile="diffs",
 #                 fst=T, pairwise=T, bs_pairwise=T, boots = 999)
-# write.table(fst$bs_pairwise$Fst, "Outputs/Fst_diveRsity1000boots.txt")
-# write.table(fst$bs_pairwise$D, "Outputs/D_diveRsity1000boots.txt")
-# write.table(fst$bs_pairwise$gst, "Outputs/gst_diveRsity1000boots.txt")
-# write.table(fst$bs_pairwise$Gst, "Outputs/Gst_diveRsity1000boots.txt")
-# write.table(fst$bs_pairwise$GGst, "Outputs/GGst_diveRsity1000boots.txt")
+# write.table(fst$bs_pairwise$Fst, "Outputs/Fst_diveRsity1000boots_subsamp.txt")
+# write.table(fst$bs_pairwise$D, "Outputs/D_diveRsity1000boots_subsamp.txt")
+# write.table(fst$bs_pairwise$gst, "Outputs/gst_diveRsity1000boots_subsamp.txt")
+# write.table(fst$bs_pairwise$Gst, "Outputs/Gst_diveRsity1000boots_subsamp.txt")
+# write.table(fst$bs_pairwise$GGst, "Outputs/GGst_diveRsity1000boots_subsamp.txt")
 
+metadatapop_assign <- metadatapop %>% mutate(pop = gsub('\\ ', "", Population))
 #define function to read differentation measure from above files
-read_diffmeasure <- function(file = "Outputs/Fst_diveRsity1000boots.txt"){
+read_diffmeasure <- function(file = "Outputs/Fst_diveRsity1000boots_subsamp.txt"){
   diff_df <-  read.table(file, head=T) %>%
   separate(populations, c("pop1", "pop2"), sep="\\s*vs\\s*") %>%
   mutate(pop1 = gsub("*_.*", "", pop1)) %>%
@@ -349,7 +305,7 @@ read_diffmeasure <- function(file = "Outputs/Fst_diveRsity1000boots.txt"){
   return(diff_df_all)
 }
 
-fst_df_all <- read_diffmeasure("Outputs/Fst_diveRsity1000boots.txt")
+fst_df_all <- read_diffmeasure("Outputs/Fst_diveRsity1000boots_subsamp.txt")
 
 fst_tile <-  ggplot(fst_df_all, aes(x=reorder(pop1, X_1), y=reorder(pop2, X_2), fill=actual)) +
   geom_tile() +
@@ -373,24 +329,23 @@ fst_tile_sign
 (meanfst_pop <- fst_df_all %>% group_by(pop1) %>% summarise(Fstmean=mean(actual), sd=sd(actual)) %>% arrange(desc(Fstmean)) %>%
     left_join(dplyr::select(metadatapop_assign, pop, Number_pop, Region), by=c("pop1"="pop")) %>%
     rmarkdown::paged_table())
-# write.csv(meanfst_pop, "average pairwise Fst per pop.csv")
+#write.csv(meanfst_pop, "average pairwise Fst per pop subsamp.csv")
 
 ####Add regions as second level of axes: https://stackoverflow.com/questions/20571306/multi-row-x-axis-labels-in-ggplot-line-chart
 ```
 
 
-## Alternatives for Fst: Djost, Gst
+## Alternatives for Fst: Djost, Gst (+corrections)
 
-
-Djost, calculated above (Jost 2008, good for highly polymorphic markers); Gst (+ G'st, G''st are possible but not given)  
+Djost, calculated above (Jost 2008, good for highly polymorphic markers); Gst (+ G'st, G''st)  
 
 Hierfstat is another package which might have other possibilities (but not used here).  
 
 
 ```{r diff correlations, fig.height=10, fig.width=12}
 # read measures
-D_df_all <- read_diffmeasure("Outputs/D_diveRsity1000boots.txt")
-Gst_df_all <- read_diffmeasure("Outputs/gst_diveRsity1000boots.txt")
+D_df_all <- read_diffmeasure("Outputs/D_diveRsity1000boots_subsamp.txt")
+Gst_df_all <- read_diffmeasure("Outputs/gst_diveRsity1000boots_subsamp.txt")
 
 #bind measures into one dataframe
 
@@ -422,7 +377,7 @@ D_tile_sign
 (meanD_pop <- D_df_all %>% group_by(pop1) %>% summarise(Djost=mean(actual), sd=sd(actual)) %>% arrange(desc(Djost)) %>%
     left_join(dplyr::select(metadatapop_assign, pop, Number_pop, Region), by=c("pop1"="pop")) %>%
     rmarkdown::paged_table())
-# write.csv(meanD_pop, "average pairwise D per pop.csv")
+#write.csv(meanD_pop, "average pairwise D per pop subsamp.csv")
 
 #tables for average D's etc
 

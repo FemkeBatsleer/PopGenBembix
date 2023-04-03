@@ -1,0 +1,72 @@
+---
+title: "individual based relatedness pairwise measures"
+author: "Femke Batsleer"
+date: "17-2-2023"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r message=FALSE, warning=FALSE}
+#library(related)
+library(dplyr)
+library(tidyr)
+library(tibble)
+library(adegenet)
+library(poppr)
+library(stringr)
+library(GGally)
+library(ecodist)
+library("foreign")
+```
+
+
+## Load data
+```{r}
+data_genind <- readRDS("../../data/genind/genind_pop.RDS")
+metadatapop <- read.dbf("../../data/GIS/Population_centroids_selection_collapsedyear.dbf")
+```
+
+
+## relatedness measure based on PCA
+```{r}
+pca.gendata <- dudi.pca(tab(data_genind, NA.method="mean"), scannf=F, nf=16)
+# 
+# col <- funky(length(unique(pop(gendata))))
+# s.class(pca.gendata$li, pop(gendata), col=transp(col,.6), clabel=0.6)
+pc.gendata <- pca.gendata$li
+distance.m <- distance(pc.gendata, method="euclidean")
+
+#put pairwise distances between individuals into long data format
+distance_df <- as.data.frame(as.matrix(distance.m)) %>% rownames_to_column(var="sample1")
+distance_long <- distance_df %>% pivot_longer(cols=2:ncol(distance_df), names_to = "sample2")
+#add population name per sample
+samplepop_df <- as.data.frame(data_genind@tab) %>% tibble::rownames_to_column("Sample") %>% add_column(Population = data_genind$pop) %>% dplyr::select(Sample, Population) #get data sample-pop
+
+distance_long_pop <- distance_long %>% left_join(samplepop_df, by=c("sample1"="Sample")) %>% rename(pop1 = Population) %>%
+  left_join(samplepop_df, by=c("sample2"="Sample")) %>% rename(pop2 = Population) %>%
+  dplyr::filter(!sample1==sample2)#leave out zero values if it is compared with itself (the diagonal in the distance matrix)
+
+#calculate mean
+distance_mean <- distance_long_pop %>% group_by(pop1, pop2) %>%
+  summarise(mean_rel = mean(value), sd_rel=sd(value), n=n()) %>%
+  mutate(se_rel = sd_rel/sqrt(n)) %>%
+  left_join(dplyr::select(metadatapop, Population, Number_pop), by=c("pop1"="Population")) %>% rename(pop1_n=Number_pop) %>%
+  left_join(dplyr::select(metadatapop, Population, Number_pop), by=c("pop2"="Population")) %>% rename(pop2_n=Number_pop)
+```
+
+## Graph
+```{r}
+rel_tile <- ggplot(distance_mean, aes(x=reorder(as.character(pop1_n), pop1_n),
+                                      y=reorder(as.character(pop2_n), pop2_n), fill=mean_rel)) + #reorder(pop1, X_1) reorder(as.character(X_1), X_1)
+  geom_tile() +
+  scale_fill_distiller(palette = "RdBu") +
+  #scale_fill_distiller(palette = "PuBuGn", direction=1, name="distance_mean") +#RdYlBu
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+  xlab("Population ID") + ylab("Population ID") + labs(fill="mean ind\ndissimilarity")
+  
+rel_tile
+```
+

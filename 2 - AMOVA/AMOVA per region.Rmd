@@ -1,0 +1,103 @@
+---
+title: "AMOVA regions"
+author: "Femke Batsleer"
+date: "20-2-2023"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Loading packages and data
+
+```{r packages, message=FALSE, warning=FALSE}
+library("dplyr")
+library("tidyr")
+library("tidyverse")
+library("adegenet")
+library("adespatial")
+library("spdep")
+library("poppr")
+library("hierfstat")
+library("diveRsity")
+library("graph4lg")
+library("miscTools")
+library("stringr")
+library("RColorBrewer")
+library("MASS")
+library("reshape2")
+```
+
+https://grunwaldlab.github.io/poppr/reference/poppr.amova.html
+https://grunwaldlab.github.io/Population_Genetics_in_R/AMOVA.html
+
+## Region-Population
+
+```{r}
+data_genind <- readRDS("../data/genind/genind_pop.RDS")
+
+#amova with region level the four regions in manuscript
+gen_amova <- poppr.amova(data_genind, ~Region/Population)
+gen_amova
+
+#amova with highest level coast vs inland
+gen2_amova <- poppr.amova(data_genind, ~Region2/Population)
+gen2_amova
+
+genind_region <- data_genind
+pop(genind_region) <- strata(genind_region)$Region
+```
+## Per region
+AMOVA's for regions separately.  
+```{r}
+#amova only for region Flanders-coast
+fc_genind <- popsub(genind_region, sublist=c("Flanders-coast"))
+pop(fc_genind) <- strata(fc_genind)$Population
+strata(fc_genind) <- as.data.frame(strata(fc_genind))
+
+fc_amova <- poppr.amova(fc_genind, ~Population)
+fc_amova
+
+#amova only for region Flanders-inland
+fi_genind <- popsub(genind_region, sublist=c("Flanders-inland"))
+pop(fi_genind) <- strata(fi_genind)$Population
+strata(fi_genind) <- as.data.frame(strata(fi_genind))
+
+fi_amova <- poppr.amova(fi_genind, ~Population)
+fi_amova
+
+#amova for Wallonia
+wi_genind <- popsub(genind_region, sublist=c("Wallonia"))
+pop(wi_genind) <- strata(wi_genind)$Population
+strata(wi_genind) <- as.data.frame(strata(wi_genind))
+
+wi_amova <- poppr.amova(wi_genind, ~Population)
+wi_amova
+#amova for france
+fr_genind <- popsub(genind_region, sublist=c("France-Picardie"))
+pop(fr_genind) <- strata(fr_genind)$Population
+strata(fr_genind) <- as.data.frame(strata(fr_genind))
+
+fr_amova <- poppr.amova(fr_genind, ~Population)
+fr_amova
+
+
+#amova only for coast
+coast_genind <- popsub(genind_region, sublist=c("Flanders-coast", "France-Picardie"))
+pop(coast_genind) <- strata(coast_genind)$Population
+strata(coast_genind) <- as.data.frame(strata(coast_genind))
+
+coast_amova <- poppr.amova(coast_genind, ~Population)
+coast_amova
+
+#amova only for inland
+inland_genind <- popsub(genind_region, sublist=c("Flanders-inland", "Wallonia"))
+pop(inland_genind) <- strata(inland_genind)$Population
+strata(inland_genind) <- as.data.frame(strata(inland_genind))
+
+inland_amova <- poppr.amova(inland_genind, ~Population)
+inland_amova
+```
+
+
