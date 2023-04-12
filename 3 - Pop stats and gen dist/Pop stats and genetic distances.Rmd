@@ -1,5 +1,5 @@
 ---
-title: "Pop stats and genetic distances"
+title: "Population statistics and pairwise Fst"
 author: "Femke Batsleer"
 date: "15-2-2022"
 output: html_document
@@ -35,14 +35,14 @@ library("ggsci")
 
 
 ```{r data}
-data_genind <- readRDS("../data/genind/genind_pop.RDS")
-data_genind_popyear <- readRDS("../data/genind/genind_popyear.RDS")
-metadatapop <- read.dbf("../data/GIS/Population_centroids_selection_collapsedyear.dbf")
-metadatapopyear <- read.dbf("../data/GIS/Populations_centroids_selection_all_Lambert.dbf")
+data_genind <- readRDS("../data/genind_selection_pop.RDS")
+data_genind_popyear <- readRDS("../data/genind_selection_popyear.RDS")
+metadatapop <- read.dbf("../../GIS/Selection population genetics/Population_centroids_selection_collapsedyear.dbf")
+metadatapopyear <- read.dbf("../../GIS/Selection population genetics/Populations_centroids_selection_all_Lambert.dbf")
 ```
 
 
-## General info loci
+## Info loci
 
 Summary, number of alleles per locus, sample size per pop, heterozygosity per locus
 
@@ -51,7 +51,6 @@ Summary, number of alleles per locus, sample size per pop, heterozygosity per lo
 data_genind
 #number of alleles per locus
 as.data.frame(table(data_genind$loc.fac))
-#number of alleles in total
 as.data.frame(table(data_genind$loc.fac)) %>% summarise(total=sum(Freq), average=mean(Freq),
                                                         min=min(Freq), max=max(Freq))
 #sample size for each site
@@ -105,7 +104,7 @@ summary_popsyear <- metadatapopyear %>% dplyr::select(Region, Population, Year) 
   left_join(freq, by=c("Population", "year")) %>%
   arrange(Number_pop, year)
 summary_popsyear
-# write.csv(summary_popsyear, file="summary_properties_perpopperyear.csv")
+write.csv(summary_popsyear, file="summary_properties_perpopperyear.csv")
 
 
 
@@ -115,7 +114,7 @@ summary_pops <- metadatapop %>% dplyr::select(Region, Number_pop, Population, ME
   left_join(freq_collapsed, by=c("Population")) %>%
   arrange(Number_pop)
 summary_pops
-# write.csv(summary_pops, file="summary_properties_perpop.csv")
+write.csv(summary_pops, file="summary_properties_perpop.csv")
 ```
 
 
@@ -161,7 +160,7 @@ AR_pop <- as_tibble(t(AR_mean %>% bind_rows(AR_sd)), rownames = "pop") %>%
 AR_pop <- AR_pop %>% left_join(metadatapop, by=c("pop"="Population"))
 
 #make a graph for allelic richness
-plot_AR <- ggplot(AR_pop, aes(x=reorder(pop, Number_pop), y=mean)) +
+plot_AR <- ggplot(AR_pop, aes(x=reorder(as.character(Number_pop), Number_pop), y=mean)) +
   geom_point() +  geom_errorbar(aes(ymin=mean-se, ymax=mean+se)) +
   xlab("Population") + ylab("Rarefied Allelic Richness") +  ylim(c(1.5, 3.5)) +
   theme(axis.text.x = element_text(angle = 90, vjust=0.5, hjust=1))
@@ -169,7 +168,7 @@ plot_AR
 
 #per region
 (AR_region <- AR_pop %>% group_by(Region2) %>%
-  summarize(meanAR = mean(mean), minAR=min(mean), maxAR=max(mean)))
+  summarize(meanAR = mean(mean), sdAR=sd(mean), minAR=min(mean), maxAR=max(mean)))
 t.test(mean~Region2, data=AR_pop)
 
 #Heterozygosities
@@ -189,11 +188,11 @@ He_pop <- as_tibble(t(He_mean %>% bind_rows(He_sd)), rownames = "pop") %>%
   add_column(H_measure = "He")
 
 (Ho_region <- Ho_pop %>% left_join(metadatapop, by=c("pop"="Population")) %>% group_by(Region2) %>%
-  summarize(meanHo = mean(H_mean), minHo=min(H_mean), maxHo=max(H_mean)))
+  summarize(meanHo = mean(H_mean), sdHo = sd(H_mean), minHo=min(H_mean), maxHo=max(H_mean)))
 t.test(H_mean~Region2, data=Ho_pop %>% left_join(metadatapop, by=c("pop"="Population")))
 
 (He_region <- He_pop %>% left_join(metadatapop, by=c("pop"="Population")) %>% group_by(Region2) %>%
-  summarize(meanHe = mean(H_mean), minHo=min(H_mean), maxHo=max(H_mean)))
+  summarize(meanHe = mean(H_mean), sdHe= sd(H_mean), minHo=min(H_mean), maxHo=max(H_mean)))
 t.test(H_mean~Region2, data=He_pop %>% left_join(metadatapop, by=c("pop"="Population")))
 
 H_pop_diff <- rename(Ho_pop, Ho_mean = H_mean, Ho_sd = H_sd, Ho_se=H_se, Ho_measure = H_measure) %>%
@@ -210,7 +209,7 @@ plot_H <- ggplot(H_pop, aes(x=reorder(pop, Number_pop), y=H_mean, fill=H_measure
   theme(axis.text.x = element_text(angle = 90, vjust=0.5, hjust=1))
 plot_H
 
-plot_Hdiff <- ggplot(H_pop_diff, aes(x=reorder(pop, Number_pop), y=He_Ho_mean)) +
+plot_Hdiff <- ggplot(H_pop_diff, aes(x=reorder(as.character(Number_pop), Number_pop), y=He_Ho_mean)) +
   geom_bar(stat="identity") +
   geom_errorbar(aes(ymin = He_Ho_mean-He_Ho_se, ymax = He_Ho_mean+He_Ho_se)) +
   xlab("Population") + ggtitle("Expected - observed heterozygosity") +
@@ -227,9 +226,13 @@ Fis_pop <- as_tibble(t(Fis_mean %>% bind_rows(Fis_sd)), rownames="pop") %>%
   rename(Fis_mean=V1, Fis_sd=V2) %>% mutate(Fis_se=Fis_sd/sqrt(21)) %>%
   left_join(metadatapop, by=c("pop"="Population"))
 
-write.csv(Fis_pop, "Fis_all.csv")
+(Fis_region <- Fis_pop %>% group_by(Region2) %>%
+  summarize(meanFis = mean(Fis_mean), sdFis= sd(Fis_mean), minFis=min(Fis_mean), maxFis=max(Fis_mean)))
+t.test(Fis_mean~Region2, data=Fis_pop)
 
-plot_Fis <- ggplot(Fis_pop, aes(x=reorder(pop, Number_pop), y=Fis_mean)) +
+write.csv(Fis_pop, "FIS-values/Fis_full.csv")
+
+plot_Fis <- ggplot(Fis_pop, aes(x=reorder(as.character(Number_pop), Number_pop), y=Fis_mean)) +
   geom_point() + geom_errorbar(aes(ymin=Fis_mean-Fis_se, ymax=Fis_mean+Fis_se)) +
   xlab("Population") + ylab(expression(F["IS"])) +
   theme(axis.text.x  = element_text(angle = 90, vjust=0.5, hjust=1)) +
@@ -259,60 +262,13 @@ summary_pops_stats <- summary_pops %>% full_join(private_alleles, by=c("Populati
 
 ```
 
-
-## Nei's genetic distance
-
-poppr function nei.dist or hierfstat (but is dat Nei's distance?)
-hierfstat::genet.dist: Ds (Nei's standard genetic distance)
-confidence intervals? Toch Genalex or other stand alone program?
-
-
-```{r Neis genetic distance, fig.height=10, fig.width=12}
-nei.dist_m <- as.data.frame(as.matrix(hierfstat::genet.dist(data_genind, method="Ds")))
-colnames(nei.dist_m) <- popNames(data_genind) #add popnames to columns
-rownames(nei.dist_m) <- popNames(data_genind) #add popnames to rows
-
-metadatapop_assign <- metadatapop %>% mutate(pop = gsub('\\ ', "", Population)) #to be able to join data
-
-nei.dist_df <- nei.dist_m %>% rownames_to_column(var="pop1") %>%
-  pivot_longer(cols = Simliduinen:(ncol(nei.dist_m)+1), names_to="pop2", values_to="actual") %>% #put the values from matrix -> long format
-  left_join(metadatapop_assign %>% #adding the number of the pops
-                dplyr::select(Population, Number_pop) %>% rename("X_1"="Number_pop"),
-              by=c("pop1"="Population")) %>%
-    left_join(metadatapop_assign %>%
-                dplyr::select(Population, Number_pop) %>% rename("X_2"="Number_pop"), 
-              by=c("pop2"="Population"))
-
-write.csv(nei.dist_df, "Neisgeneticdistance_hierfstat.csv")
-
-#plot Nei's distance
-
-Ds_tile <-  ggplot(nei.dist_df, aes(x=reorder(as.character(X_1), X_1), y=reorder(as.character(X_2), X_2), fill=actual)) + #x=reorder(pop1, X_1), y=reorder(pop2, X_2)
-  geom_tile() +
-  xlab("Population ID") + ylab("Population ID") +
-  scale_fill_distiller(palette = "RdBu", direction=-1, name=expression(D[S])) +#RdYlBu
-  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
-        text = element_text(size = 17))
-Ds_tile
-
-#average 
-(meanDs_pop <- nei.dist_df %>%
-    dplyr::filter(pop1!=pop2) %>%
-    group_by(pop1) %>% summarise(Ds=mean(actual), sd=sd(actual)) %>% arrange(desc(Ds)) %>%
-    left_join(dplyr::select(metadatapop_assign, Population, Number_pop, Region), by=c("pop1"="Population")) %>%
-    rmarkdown::paged_table())
-
-# write.csv(meanDs_pop, "average Nei's genetic distance per pop.csv")
-```
-
 ## Pairwise Fst values
 
-Calculated with package diveRsity. The first chunk of code has to be run to actually calculate the indices (should be uncommented to run), but takes a lot of time to run (because of the bootstraps).
+Calculated with package diveRsity. Lines are commented when it is run.
 
 ```{r fig.height=10, fig.width=12}
 #to work with package diveRsity: convert genind to genepop-file
 #https://rdrr.io/github/romunov/zvau/man/writeGenPop.html
-
 # genpop <- genind_to_genepop(data_genind, "all_genind_genepop.txt")
 # 
 # # #
@@ -321,14 +277,15 @@ Calculated with package diveRsity. The first chunk of code has to be run to actu
 # # 
 # fst <- diffCalc(infile = "all_genind_genepop.txt", outfile="diffs",
 #                 fst=T, pairwise=T, bs_pairwise=T, boots = 999)
-# write.table(fst$bs_pairwise$Fst, "Outputs/Fst_diveRsity1000boots.txt")
-# write.table(fst$bs_pairwise$D, "Outputs/D_diveRsity1000boots.txt")
-# write.table(fst$bs_pairwise$gst, "Outputs/gst_diveRsity1000boots.txt")
-# write.table(fst$bs_pairwise$Gst, "Outputs/Gst_diveRsity1000boots.txt")
-# write.table(fst$bs_pairwise$GGst, "Outputs/GGst_diveRsity1000boots.txt")
+# write.table(fst$bs_pairwise$Fst, "Fst_diveRsity1000boots.txt")
+# write.table(fst$bs_pairwise$D, "D_diveRsity1000boots.txt")
+# write.table(fst$bs_pairwise$gst, "gst_diveRsity1000boots.txt")
+# write.table(fst$bs_pairwise$Gst, "Gst_diveRsity1000boots.txt")
+# write.table(fst$bs_pairwise$GGst, "GGst_diveRsity1000boots.txt")
 
+metadatapop_assign <- metadatapop %>% mutate(pop = gsub('\\ ', "", Population))
 #define function to read differentation measure from above files
-read_diffmeasure <- function(file = "Outputs/Fst_diveRsity1000boots.txt"){
+read_diffmeasure <- function(file = "Fst_diveRsity1000boots.txt"){
   diff_df <-  read.table(file, head=T) %>%
   separate(populations, c("pop1", "pop2"), sep="\\s*vs\\s*") %>%
   mutate(pop1 = gsub("*_.*", "", pop1)) %>%
@@ -349,7 +306,7 @@ read_diffmeasure <- function(file = "Outputs/Fst_diveRsity1000boots.txt"){
   return(diff_df_all)
 }
 
-fst_df_all <- read_diffmeasure("Outputs/Fst_diveRsity1000boots.txt")
+fst_df_all <- read_diffmeasure("Fst_diveRsity1000boots.txt")
 
 fst_tile <-  ggplot(fst_df_all, aes(x=reorder(pop1, X_1), y=reorder(pop2, X_2), fill=actual)) +
   geom_tile() +
@@ -373,32 +330,35 @@ fst_tile_sign
 (meanfst_pop <- fst_df_all %>% group_by(pop1) %>% summarise(Fstmean=mean(actual), sd=sd(actual)) %>% arrange(desc(Fstmean)) %>%
     left_join(dplyr::select(metadatapop_assign, pop, Number_pop, Region), by=c("pop1"="pop")) %>%
     rmarkdown::paged_table())
-# write.csv(meanfst_pop, "average pairwise Fst per pop.csv")
+write.csv(meanfst_pop, "average pairwise Fst per pop.csv")
 
 ####Add regions as second level of axes: https://stackoverflow.com/questions/20571306/multi-row-x-axis-labels-in-ggplot-line-chart
 ```
 
 
-## Alternatives for Fst: Djost, Gst
+## Alternatives for Fst: Djost, Gst (+corrections)
 
-
-Djost, calculated above (Jost 2008, good for highly polymorphic markers); Gst (+ G'st, G''st are possible but not given)  
+Djost, calculated above (Jost 2008, good for highly polymorphic markers); Gst (+ G'st, G''st)  
 
 Hierfstat is another package which might have other possibilities (but not used here).  
 
 
 ```{r diff correlations, fig.height=10, fig.width=12}
 # read measures
-D_df_all <- read_diffmeasure("Outputs/D_diveRsity1000boots.txt")
-Gst_df_all <- read_diffmeasure("Outputs/gst_diveRsity1000boots.txt")
+D_df_all <- read_diffmeasure("D_diveRsity1000boots.txt")
+Gst_df_all <- read_diffmeasure("gst_diveRsity1000boots.txt")
+Gkst_df_all <- read_diffmeasure("Gst_diveRsity1000boots.txt")
+Gkkst_df_all <- read_diffmeasure("GGst_diveRsity1000boots.txt")
 
 #bind measures into one dataframe
 
 diffmeasures <- rename(fst_df_all, Fst=actual, Fst_lower=lower, Fst_upper=upper) %>%
   left_join(rename(D_df_all, Djost=actual, Djost_lower=lower, Djost_upper=upper), by=c("pop1", "pop2")) %>%
-  left_join(rename(Gst_df_all, Gst=actual, Gst_lower=lower, Gst_upper=upper), by=c("pop1", "pop2"))
+  left_join(rename(Gst_df_all, Gst=actual, Gst_lower=lower, Gst_upper=upper), by=c("pop1", "pop2")) %>%
+  left_join(rename(Gkst_df_all, Gkst=actual,Gkst_lower=lower, Gkst_upper=upper), by=c("pop1", "pop2")) %>%
+  left_join(rename(Gkkst_df_all, Gkkst=actual,Gkkst_lower=lower, Gkkst_upper=upper), by=c("pop1", "pop2"))
 
-ggpairs(dplyr::select(diffmeasures, Fst, Djost, Gst))
+ggpairs(dplyr::select(diffmeasures, Fst, Djost, Gst, Gkst, Gkkst))
 ```
 
 ### Plot Djost
@@ -422,7 +382,7 @@ D_tile_sign
 (meanD_pop <- D_df_all %>% group_by(pop1) %>% summarise(Djost=mean(actual), sd=sd(actual)) %>% arrange(desc(Djost)) %>%
     left_join(dplyr::select(metadatapop_assign, pop, Number_pop, Region), by=c("pop1"="pop")) %>%
     rmarkdown::paged_table())
-# write.csv(meanD_pop, "average pairwise D per pop.csv")
+write.csv(meanD_pop, "average pairwise D per pop.csv")
 
 #tables for average D's etc
 
@@ -438,7 +398,7 @@ Gst_df_sign <- Gst_df_all %>% mutate(Gst = ifelse(lower < 0 & upper > 0, NA, act
 Gst_tile_sign <-  ggplot(Gst_df_sign, aes(x=reorder(pop2, X_2), y=reorder(pop1, X_1), fill=Gst)) +
   geom_tile() +
   xlab("pop2") + ylab("pop1") +
-  scale_fill_distiller(palette = "RdBu") +
+  scale_fill_distiller(palette = "BrBG") +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 Gst_tile_sign
 
@@ -448,4 +408,46 @@ Gst_tile_sign
 ```
 
 
+## Nei's genetic distance
+
+poppr function nei.dist or hierfstat (but is dat Nei's distance?)
+hierfstat::genet.dist: Ds (Nei's standard genetic distance)
+confidence intervals? Toch Genalex or other stand alone program?
+
+
+```{r}
+nei.dist_m <- as.data.frame(as.matrix(hierfstat::genet.dist(data_genind, method="Ds")))
+colnames(nei.dist_m) <- popNames(data_genind) #add popnames to columns
+rownames(nei.dist_m) <- popNames(data_genind) #add popnames to rows
+
+nei.dist_df <- nei.dist_m %>% rownames_to_column(var="pop1") %>%
+  pivot_longer(cols = Simliduinen:(ncol(nei.dist_m)+1), names_to="pop2", values_to="actual") %>% #put the values from matrix -> long format
+  left_join(metadatapop_assign %>% #adding the number of the pops
+                dplyr::select(Population, Number_pop) %>% rename("X_1"="Number_pop"),
+              by=c("pop1"="Population")) %>%
+    left_join(metadatapop_assign %>%
+                dplyr::select(Population, Number_pop) %>% rename("X_2"="Number_pop"), 
+              by=c("pop2"="Population"))
+
+#write.csv(nei.dist_df, "Neisgeneticdistance_hierfstat.csv")
+
+#plot Nei's distance
+
+Ds_tile <-  ggplot(nei.dist_df, aes(x=reorder(as.character(X_1), X_1), y=reorder(as.character(X_2), X_2), fill=actual)) + #x=reorder(pop1, X_1), y=reorder(pop2, X_2)
+  geom_tile() +
+  xlab("Population ID") + ylab("Population ID") +
+  scale_fill_distiller(palette = "RdBu", direction=-1, name=expression(D[S])) +#RdYlBu
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
+        text = element_text(size = 17))
+Ds_tile
+
+#average 
+(meanDs_pop <- nei.dist_df %>%
+    dplyr::filter(pop1!=pop2) %>%
+    group_by(pop1) %>% summarise(Ds=mean(actual), sd=sd(actual)) %>% arrange(desc(Ds)) %>%
+    left_join(dplyr::select(metadatapop_assign, Population, Number_pop, Region), by=c("pop1"="Population")) %>%
+    rmarkdown::paged_table())
+
+write.csv(meanDs_pop, "average Nei's genetic distance per pop.csv")
+```
 
